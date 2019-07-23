@@ -1,0 +1,116 @@
+/*
+|-------------------------------------------------------------------------------
+| Colors                                    https://tailwindcss.com/docs/colors
+|-------------------------------------------------------------------------------
+|
+| Here you can specify the colors used in your project. To get you started,
+| we've provided a generous palette of great looking colors that are perfect
+| for prototyping, but don't hesitate to change them for your project. You
+| own these colors, nothing will break if you change everything about them.
+|
+| We've used literal color names ("red", "blue", etc.) for the default
+| palette, but if you'd rather use functional names like "primary" and
+| "secondary", or even a numeric scale like "100" and "200", go for it.
+|
+*/
+
+export default {
+  transparent: "transparent",
+
+  "black-darkest": "#000000",
+  black: "#22292f",
+  "black-lighter": "#252A2E",
+  blacker: "#313234",
+  blackest: "#111214",
+  "grey-darkest": "#3d4852",
+  "grey-darker": "#666666",
+  "grey-dark": "#8795a1",
+  grey: "#939598",
+  "grey-light": "#dae1e7",
+  "grey-lightly": "#fefefe",
+  "grey-lighter": "#EFEFEF",
+  "grey-lightest": "#dddddd",
+  "grey-lighters": "#dbdbdb",
+  white: "#ffffff",
+
+  "red-darkest": "#3b0d0c",
+  "red-darker": "#621b18",
+  "red-dark": "#cc1f1a",
+  red: "#e3342f",
+  "red-light": "#ef5753",
+  "red-lighter": "#f9acaa",
+  "red-lightest": "#fcebea",
+
+  "orange-darkest": "#462a16",
+  "orange-darker": "#613b1f",
+  "orange-dark": "#de751f",
+  orange: "#f6993f",
+  "orange-light": "#faad63",
+  "orange-lighter": "#fcd9b6",
+  "orange-lightest": "#fff5eb",
+
+  "yellow-darkest": "#453411",
+  "yellow-darker": "#684f1d",
+  "yellow-dark": "#f2d024",
+  yellow: "#ffed4a",
+  "yellow-light": "#fff382",
+  "yellow-lighter": "#fff9c2",
+  "yellow-lightest": "#fcfbeb",
+
+  "green-darkest": "#0f2f21",
+  "green-darker": "#1a4731",
+  "green-dark": "#1f9d55",
+  green: "#38c172",
+  "green-light": "#51d88a",
+  "green-lighter": "#a2f5bf",
+  "green-lightest": "#e3fcec",
+
+  "teal-darkest": "#0d3331",
+  "teal-darker": "#20504f",
+  "teal-dark": "#38a89d",
+  teal: "#4dc0b5",
+  "teal-light": "#64d5ca",
+  "teal-lighter": "#a0f0ed",
+  "teal-lightest": "#e8fffe",
+
+  "blue-darkest": "#003366",
+  "blue-darker": "#1c3d5a",
+  "blue-dark": "#2779bd",
+  blue: "#3490dc",
+  "blue-light": "#4F89BF",
+  "blue-lighter": "#6ba9d7",
+  "blue-lightly": "#7FA2BE",
+  "blue-lightest": "#eff8ff",
+
+  "indigo-darkest": "#191e38",
+  "indigo-darker": "#2f365f",
+  "indigo-dark": "#5661b3",
+  indigo: "#6574cd",
+  "indigo-light": "#7886d7",
+  "indigo-lighter": "#b2b7ff",
+  "indigo-lightest": "#e6e8ff",
+
+  "purple-darkest": "#21183c",
+  "purple-darker": "#382b5f",
+  "purple-dark": "#794acf",
+  purple: "#9561e2",
+  "purple-light": "#a779e9",
+  "purple-lighter": "#d6bbfc",
+  "purple-lightest": "#f3ebff",
+
+  "pink-darkest": "#451225",
+  "pink-darker": "#6f213f",
+  "pink-dark": "#eb5286",
+  pink: "#f66d9b",
+  "pink-light": "#fa7ea8",
+  "pink-lighter": "#ffbbca",
+  "pink-lightest": "#ffebef",
+
+  "smoke-darkest": "rgba(0, 0, 0, 0.9)",
+  "smoke-darker": "rgba(0, 0, 0, 0.75)",
+  "smoke-dark": "rgba(0, 0, 0, 0.6)",
+  smoke: "rgba(0, 0, 0, 0.5)",
+  "smoke-light": "rgba(0, 0, 0, 0.4)",
+  "smoke-lighter": "rgba(0, 0, 0, 0.25)",
+  "smoke-lightest": "rgba(0, 0, 0, 0.1)"
+};

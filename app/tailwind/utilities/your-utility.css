@@ -1,0 +1,390 @@
+/**
+ * You can create new utilities here.
+ *
+ * Feel free to rename this file, define multiple utilities here, or make
+ * any other files in this directory.
+
+ * Here's an example:
+**/
+
+/* .skew-45 {
+  transform: skewY(45deg);
+} */
+
+.vl {
+  border-right: 1px solid #efefef;
+  height: auto;
+}
+
+.vlx {
+  border-right: none;
+  height: auto;
+}
+
+.vlh .vl {
+  border-right: 1px solid #efefef;
+  height: 80px;
+}
+
+.hr {
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+  border-style: inset;
+  border-width: 1px;
+  color: 1px solid #efefef;
+}
+
+.ember-basic-dropdown-trigger,
+.list-item {
+  display: block;
+  background: #333;
+  color: #fff;
+  margin: 0;
+}
+
+.ember-basic-dropdown-trigger > .ember-basic-dropdown-content {
+  width: 100%;
+}
+
+.ember-basic-dropdown-content {
+  position: absolute;
+  height: 37px;
+  width: auto;
+  z-index: 600;
+  min-width: 200px;
+  background: url(https://www.slb.com/images/menu-active-indicator-full.gif);
+  background-image: none;
+  border-top: 1px solid #252a2e;
+  border-bottom: 1px solid #252a2e;
+  font-size: 12px;
+  font-weight: bold;
+  background-color: #313234;
+  margin-top: -1px;
+}
+
+.ember-modal-overlay {
+  display: none;
+}
+
+.ember-modal-overlay.translucent {
+  background-color: rgba(0, 0, 0, 0.4);
+}
+
+.flatmenu {
+  display: none;
+  list-style: none;
+  width: 960px;
+  position: relative;
+  margin: 0;
+  padding: 0;
+  font-weight: bold;
+}
+
+.flatmenu li {
+  display: inline;
+  position: relative;
+  margin: 0;
+  padding: 0px 20px 0px 20px;
+  height: 33px;
+  font-size: 14px;
+  line-height: 33px;
+  white-space: nowrap;
+}
+
+.flatmenu a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+}
+
+.flatmenu ul li a {
+  text-decoration: none;
+  color: #fff;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+/*
+.flatMenuActiveIndicator {
+	position: absolute;
+	z-index: 599;
+	width: 400px;
+	height: 39px;
+	background:url(/images/menu-active-indicator-full.gif) #004483 no-repeat top center;
+	overflow: hidden;
+}
+*/
+
+.flatmenuLevelOne {
+  /*	width: 200px;*/
+  /*display: none;*/
+  position: absolute;
+  z-index: 600;
+  background: url(https://www.slb.com/images/menu-active-indicator-full.gif)
+    #004483 no-repeat top center;
+}
+
+.flatmenuLevelOne ul {
+  display: block;
+  list-style: none;
+  position: relative;
+  margin: 0;
+  padding: 0;
+}
+
+.flatmenuLevelOne li {
+  display: block;
+  position: relative;
+  margin: 0;
+  /*padding: 0;*/
+  font-size: 12px;
+  background: url(https://www.slb.com/images/slb-menu-arrow.png) no-repeat top
+    right;
+  height: 37px;
+  cursor: pointer;
+  border-bottom: 1px solid #003e79;
+  border-top: 2px solid #0a4d8b;
+  font-weight: bold;
+  white-space: nowrap;
+}
+
+.flatmenuLevelOne li.NoChildren {
+  background: none;
+}
+
+.flatmenuLevelOne li:first-child {
+  border-top: none;
+  border-bottom: none;
+  height: 38px;
+}
+
+.flatmenuLevelOne li:first-child a {
+  padding: 12px 40px 11px 20px;
+}
+
+.flatmenuLevelOne li.extended-menu {
+  background: url(https://www.slb.com/images/slb-menu-full-dark-bg-extended.png)
+    #005193 no-repeat top right;
+  border: none;
+  height: 40px;
+}
+
+.flatmenuLevelOne li.extended-menu:hover,
+.flatmenuLevelOne li.extended-menu.flatmenu-selected {
+  background-color: #4f89bf;
+  border-top: none;
+  height: 39px;
+}
+
+.flatmenuLevelOne li.extended-menu.first-extended {
+  border-top: 2px solid #0a599a;
+}
+
+.flatmenuLevelOne li.extended-menu.first-extended:hover,
+.flatmenuLevelOne li.extended-menu.first-extended.flatmenu-selected {
+  background-color: #4f89bf;
+  border-top: 2px solid #4f89bf;
+  height: 39px;
+}
+
+li:hover {
+  /*	background-color:#4f89bf;*/
+}
+
+.flatmenuLevelOne li a {
+  text-decoration: none;
+  color: #fff;
+  display: block;
+  padding: 11px 40px 11px 20px;
+  clear: both;
+  white-space: nowrap;
+}
+
+.flatmenuLevelOne li.flatmenu-selected:first-child,
+.flatmenuLevelOne li:hover:first-child {
+  background-color: #4f89bf;
+  background-image: none;
+  border-top: none;
+  border-bottom: none;
+}
+
+.flatmenuLevelOne li.flatmenu-selected .ArrowBorder,
+.flatmenuLevelOne li:hover .ArrowBorder {
+  display: block;
+}
+
+.flatmenuLevelOne li:first-child .ArrowBorder {
+  top: 0px;
+}
+
+.flatmenuLevelOne li .ArrowBorder {
+  display: none;
+  position: absolute;
+  z-index: 100;
+  top: -2px;
+  height: 40px;
+  width: 20px;
+  overflow: hidden;
+}
+
+.ArrowBorder {
+  display: none;
+}
+
+.flatmenuLevelOneLeft .ArrowBorder {
+  float: right;
+  right: -9px;
+  display: block;
+}
+
+.flatmenuLevelOneRight .ArrowBorder {
+  float: left;
+  left: -17px;
+  display: block;
+}
+
+.flatmenuLevelTwo {
+  /*	width: 200px; */
+  position: absolute;
+  background-color: #252a2e;
+}
+
+.flatmenuLevelTwo ul {
+  display: block;
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.flatmenuLevelTwo li {
+  display: block;
+  position: relative;
+  margin: 0;
+  font-size: 12px;
+  cursor: pointer;
+  height: 37px;
+  font-weight: bold;
+}
+
+.flatmenuLevelTwo li:first-child {
+  height: 35px;
+}
+
+.flatmenuLevelTwo li a {
+  text-decoration: none;
+  color: #fff;
+  padding: 11px 20px 11px 20px;
+  display: block;
+  clear: both;
+}
+
+.flatmenuLevelTwo li.flatmenu-selected {
+  background-image: none;
+}
+
+.flatmenuLevelOne {
+  background-image: none;
+  background-color: #313234;
+  margin-top: -2px;
+}
+
+.flatmenuLevelOne li,
+.flatmenuLevelOne li:first-child {
+  border-top: 2px solid #313234;
+  border-bottom: 1px solid #252a2e;
+  height: 37px;
+}
+
+.flatmenuLevelOne li:hover:first-child {
+  border-top: 2px solid #4f89bf;
+  border-bottom: 1px solid #4f89bf;
+}
+
+.flatmenuLevelOne li.extended-menu.first-extended:hover,
+.flatmenuLevelOne li.extended-menu.first-extended.flatmenu-selected {
+  background-color: #4f89bf;
+  border-top: 2px solid #4f89bf;
+  border-bottom: 1px solid #4f89bf;
+  height: 37px;
+}
+
+.flatmenuLevelOne li.flatmenu-selected:first-child,
+.flatmenuLevelOne li:hover:first-child {
+  background-color: #4f89bf;
+}
+
+.flatmenuLevelOne li.extended-menu {
+  background: url(https://www.slb.com/images/slb-menu-arrow.png) #005193
+    no-repeat top right;
+  height: 37px;
+  background-color: #111214;
+  border-bottom: 1px solid #252a2e;
+  border-top: 2px solid #313234;
+}
+
+.flatmenuLevelOne li.extended-menu.first-extended {
+  border-top: 2px solid #313234;
+  border-bottom: 1px solid #252a2e;
+  height: 37px;
+}
+
+.flatmenuLevelOne li.extended-menu.first-extended:hover {
+  height: 37px;
+}
+
+.flatmenuLevelOne li:first-child .ArrowBorder {
+  top: -2px;
+}
+
+.flatmenuLevelOne li.extended-menu .ArrowBorder {
+  top: 0px;
+}
+
+.flatmenuLevelOne li.extended-menu.first-extended .ArrowBorder {
+  top: -2px;
+}
+
+.flatmenuLevelOneLeft .ArrowBorder {
+  background: url(https://www.slb.com/images/menu-child-indicator.png) no-repeat
+    right center;
+}
+
+.flatmenuLevelOneRight .ArrowBorder {
+  background: url(https://www.slb.com/images/menu-child-indicator-2-flipped.png)
+    no-repeat right center;
+}
+
+.flatmenuLevelOne li.flatmenu-selected,
+.flatmenuLevelOne li.flatmenu-selected:first-child,
+.flatmenuLevelOne li:hover {
+  background-color: #4f89bf;
+  background-image: none;
+  border-top: 2px solid #4f89bf;
+  border-bottom: 1px solid #4f89bf;
+}
+
+.flatmenuLevelTwo li {
+  border-bottom: 1px solid #313234;
+  border-top: 1px solid #252a2e;
+}
+
+.flatmenuLevelTwo li:first-child {
+  height: 37px;
+}
+
+.flatmenuLevelTwo
+  li.flatmenu-selected
+  .flatmenuLevelTwo
+  li.flatmenu-selected:first-child,
+.flatmenuLevelTwo li:hover {
+  background-color: #6ba9d7;
+  border-bottom: 1px solid #6ba9d7;
+  border-top: 2px solid #6ba9d7;
+  background-image: none;
+}
+
+.menu-main {
+  background-image: none;
+  background-color: #313234;
+}

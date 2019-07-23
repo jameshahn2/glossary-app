@@ -1,0 +1,141 @@
+<div class="sm:block xxs:w-320 xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:mx-auto lg:w-240">
+  <div class="xxs:w-95p md:mx-auto lg:w-240">
+    <div class="xxs:vlx xsml:vlx xsm:vlx smm:vlx sm:vlx p-10 vl">
+      <span class="text-base font-bold pb-12">Oilfield Glossary</span>
+      <p class="text-blue-light text-xs leading-normal pt-4">
+        Search for Term:
+      </p>
+    </div>
+    <div class="xxs:w-320 xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:w-240 border-b">
+    </div>
+  </div>
+
+  <div class="flex">
+    <div class="xxs:w-95p md:mx-auto lg:w-240">
+      <div class="xxs:vlx p-10 vl">
+        <p class="text-blue-light text-xs leading-normal pt-4">
+          Search by Discipline
+        </p>
+        <div class="xxs:w-95p w-220">
+          <select onchange={{action "setSelection" value="target.value"}} class="w-136 border border-black pt-2 pb-1 font-normal text-xxs bg-grey-lightly no-underline">
+            <option selected value="all-disciplines">All Disciplines</option>
+            <option value="drilling">Drilling</option>
+            <option value="enhanced-oil-recovery">Enhanced Oil Recovery</option>
+            <option value="formation-evaluation">Formation Evaluation</option>
+            <option value="general-terms">General Terms</option>
+            <option value="geochemistry">Geochemistry</option>
+            <option value="geology">Geology</option>
+            <option value="geophysics">Geophysics</option>
+            <option value="heavy-oil">Heavy Oil</option>
+            <option value="oil-and-gas-business">Oil and Gas Business</option>
+            <option value="perforating">Perforating</option>
+            <option value="production">Production</option>
+            <option value="production-facilities">Production Facilities</option>
+            <option value="production-logging">Production Logging</option>
+            <option value="production-testing">Production Testing</option>
+            <option value="reservoir-characterization">Reservoir Characterization</option>
+            <option value="shale-gas">Shale Gas</option>
+            <option value="well-completions">Well Completions</option>
+            <option value="well-testing">Well Testing</option>
+            <option value="well-workover-and-intervention">Well Workover-and-Intervention</option>
+          </select>
+
+
+          <button class="border border-black rounded-xl text-xs text-black-darkest pt-2 pr-7 pb-1 pl-7" {{action "submit"}}>
+            Go
+          </button>
+        </div>
+      </div>
+      <div class="xxs:w-320 xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:w-240 border-b">
+      </div>
+    </div>
+  </div>
+
+  <div class="flex">
+    <div class="xxs:w-95p md:mx-auto lg:w-240">
+      <div class="xxs:vlx p-10 vl">
+        <p class="text-blue-light text-xs leading-normal pt-4">
+          More search options
+        </p>
+      </div>
+      <div class="xxs:w-320 xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:w-240 border-b">
+      </div>
+    </div>
+
+  </div>
+
+  <div class="flex">
+    <div class="xxs:w-95p md:mx-auto lg:w-240">
+      <div class="xxs:vlx p-10 vl">
+        <p class="text-blue-light text-xs leading-normal pt-4">
+          Terms beginning with:
+          {{ui-sidetable}}
+        </p>
+      </div>
+      <div class="xxs:w-320 xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:w-240 border-b">
+      </div>
+    </div>
+  </div>
+
+  <div class="flex">
+    <div class="xxs:w-95p md:mx-auto lg:w-240">
+      <div class="xxs:vlx p-10 vl">
+        <span class="text-base font-bold pb-3">Resource Links</span>
+        <ul class="list-reset">
+          <li class="mt-6 leading-normal">
+            <a class="text-blue-light text-xs no-underline mt-4 mb-4" href="http://www.slb.com/services.aspx">
+              Schlumberger Oilfield Services
+            </a>
+          </li>
+          <li class="leading-normal">
+            <a class="text-blue-light text-xs no-underline mt-4 mb-4" href="http://www.slb.com/resources/publications/oilfield_review.aspx">
+              Oilfield Review
+            </a>
+          </li>
+          <li class="leading-normal">
+            <a class="text-blue-light text-xs no-underline mt-4 mb-4" href="http://www.apps.slb.com/cmd/">
+              Curve Mnemonic Dictionary
+            </a>
+          </li>
+          <li class="leading-normal">
+            <a class="text-blue-light text-xs no-underline mt-4 mb-4" href="http://www.slb.com/seed/">
+              Schlumberger Excellence in Education Development (SEED)
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="xxs:w-320 xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:w-240 border-b">
+      </div>
+    </div>
+  </div>
+
+  <div class="flex">
+    <div class="xxs:w-95p md:mx-auto lg:w-240">
+      <div class="xxs:vlx p-10 vl">
+        <span class="text-base font-bold pb-3">Credits and Administration</span>
+        <ul class="list-reset">
+          <li class="mt-6 leading-normal">
+            <a class="text-blue-light text-xs leading-normal pt-4 no-underline mt-4 mb-4" href="https://www.glossary.oilfield.slb.com/en/maincredits.aspx">
+              Schlumberger Oilfield Glossary Credits
+            </a>
+          </li>
+          <li class="leading-normal">
+            <a class="text-blue-light text-xs leading-normal pt-4 no-underline mt-4 mb-4" href="https://www.glossary.oilfield.slb.com/en/glossary_administration.aspx">
+              Glossary Administration
+            </a>
+          </li>
+        </ul>
+      </div>
+      <div class="xxs:w-320 xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:w-240 border-b">
+      </div>
+    </div>
+  </div>
+
+  <div class="flex">
+    <div class="xxs:w-95p md:mx-auto lg:w-240">
+      <div class="xxs:vlx p-10 vl">
+        <span class="text-base font-bold pb-12">Tools</span>
+      </div>
+    </div>
+  </div>
+</div>

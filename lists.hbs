@@ -1,0 +1,76 @@
+{{#modal-dialog}}
+  <DropdownList as |List|>
+    <h1>List</h1>
+    <ul>
+      <List.item as |Item|>
+        <li class={{if Item.isActive 'active'}}>
+          Services & Products
+
+          {{#if Item.isActive}}
+            <Item.sublist as |List|>
+              {{#modal-dialog}}
+                <ul style="display:block">
+                  <List.item as |Item|>
+                    <li class={{if Item.isActive 'active'}}>
+                      Seismic
+                    </li>
+
+                    {{#if Item.isActive}}
+                      {{#modal-dialog}}
+                      <Item.sublist as |List|>
+                      <ul>
+                      <List.item as |Item|>
+                              <li class={{if Item.isActive 'active'}}>Seismic Reservoir Characterization
+                              </li>
+                              </List.item>
+                              <List.item as |Item|>
+                              <li class={{if Item.isActive 'active'}}>Geophysical Processing & Imaging
+                              </li>
+                              </List.item>
+                      </ul>
+                      </Item.sublist>
+                      {{/modal-dialog}}
+                    {{/if}}
+
+                  </List.item>
+
+
+          <List.item as |Item|>
+                    <li class={{if Item.isActive 'active'}}>
+                      Drilling Services
+                    </li>
+
+                    {{#if Item.isActive}}
+                      {{#modal-dialog}}
+                        <h1>Sub-sublist</h1>
+                        <Item.sublist as |List|>
+                          <ul>
+                            <List.item as |Item|>
+                              <li class={{if Item.isActive 'active'}}>
+                                Wellhead Systems
+                              </li>
+                            </List.item>
+                            <List.item as |Item|>
+                              <li class={{if Item.isActive 'active'}}>
+                                Engineering & Real-Time Analysis
+                              </li>
+                            </List.item>
+                          </ul>
+                        </Item.sublist>
+                      {{/modal-dialog}}
+                    {{/if}}
+                  </List.item>
+                </ul>
+              {{/modal-dialog}}
+            </Item.sublist>
+          {{/if}}
+        </li>
+      </L zxxxxxx      x                    x     x   x   x         xxX zist.item>
+      <List.item as |Item|>
+        <li class={{if Item.isActive 'active'}}>
+          About Us
+        </li>
+      </List.item>
+    </ul>
+  </DropdownList>
+{{/modal-dialog}}

@@ -1,0 +1,19 @@
+<div class="container mx-auto max-w-xl bg-grey-white xxs:w-95p xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:w-768 lg:w-980 md:shadow">
+
+  {{ui-nav}}
+
+</div>
+
+<div class="container lg:mx-auto sm:flex sm:flex-col-reverse smm:flex smm:flex-col-reverse xsm:flex xsm:flex-col-reverse xsml:flex xsml:flex-col-reverse xxs:flex xxs:flex-col-reverse xxs:ml-15 xsml:mt-10 max-w-xl bg-grey-white md:flex md:flex-col-reverse lg:flex-row lg:w-980 md:shadow">
+
+  <div>
+    {{ui-sidebar}}
+  </div>
+
+  <div class="xxs:w-95p mx-auto xxs:mr md:w-700 md:ml-20 md:mt-10">
+    {{outlet}}
+    {{glossaryData.data.url}}
+  </div>
+</div>
+
+{{ui-footer}}

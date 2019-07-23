@@ -1,0 +1,32 @@
+/*
+|-----------------------------------------------------------------------------
+| Screens                      https://tailwindcss.com/docs/responsive-design
+|-----------------------------------------------------------------------------
+|
+| Screens in Tailwind are translated to CSS media queries. They define the
+| responsive breakpoints for your project. By default Tailwind takes a
+| "mobile first" approach, where each screen size represents a minimum
+| viewport width. Feel free to have as few or as many screens as you
+| want, naming them in whatever way you'd prefer for your project.
+|
+| Tailwind also allows for more complex screen definitions, which can be
+| useful in certain situations. Be sure to see the full responsive
+| documentation for a complete list of options.
+|
+| Class name: .{screen}:{utility}
+|
+*/
+
+export default {
+  xxs: "320px",
+  xsml: "375px",
+  xsm: "425px",
+  smm: "480px",
+  sm: "600px",
+  md: "765px",
+  lg: "1022px",
+  xl: "1280px",
+  xxl: "1440px",
+  txl: "1920px",
+  fxl: "2560px"
+};

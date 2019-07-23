@@ -1,0 +1,9 @@
+{{yield
+  (hash
+  isActive=isActive
+  sublist=(component "dropdown-list"
+    setActiveItems=(action setActiveItems this)
+    clearActiveItems=clearActiveItems
+    activeItems=(drop 1 activeItems)
+  ))
+}}

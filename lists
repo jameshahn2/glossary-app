@@ -1,0 +1,63 @@
+{{#modal-dialog}}
+  <DropdownList as |List|>
+    <h1>List</h1>
+    <ul>
+      <List.item as |Item|>
+        <li class={{if Item.isActive 'active'}}>
+          Item 1
+
+          {{#if Item.isActive}}
+            <Item.sublist as |List|>
+              {{#modal-dialog}}
+                <h1>Sublist</h1>
+                <ul>
+                  <List.item as |Item|>
+                    <li class={{if Item.isActive 'active'}}>
+                      Subitem 1
+                    </li>
+                  </List.item>
+
+                  <List.item as |Item|>
+                    <li class={{if Item.isActive 'active'}}>
+                      Subitem 2
+                    </li>
+
+                    {{#if Item.isActive}}
+                      {{#modal-dialog}}
+                        <h1>Sub-sublist</h1>
+                        <Item.sublist as |List|>
+                          <ul>
+                            <List.item as |Item|>
+                              <li class={{if Item.isActive 'active'}}>
+                                Sub-subitem 1
+                              </li>
+                            </List.item>
+                            <List.item as |Item|>
+                              <li class={{if Item.isActive 'active'}}>
+                                Sub-subitem 2
+                              </li>
+                            </List.item>
+                          </ul>
+                        </Item.sublist>
+                      {{/modal-dialog}}
+                    {{/if}}
+                  </List.item>
+                </ul>
+              {{/modal-dialog}}
+            </Item.sublist>
+          {{/if}}
+        </li>
+      </List.item>
+      <List.item as |Item|>
+        <li class={{if Item.isActive 'active'}}>
+          Item 2
+        </li>
+      </List.item>
+      <List.item as |Item|>
+        <li class={{if Item.isActive 'active'}}>
+          Item 3
+        </li>
+      </List.item>
+    </ul>
+  </DropdownList>
+{{/modal-dialog}}
