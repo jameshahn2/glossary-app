@@ -1,7 +1,9 @@
 import Route from '@ember/routing/route';
 
 export default Route.extend({
-  model(params) {
-    return this.store.findRecord("words", params.word_id);
-  }
-})
+  model() {
+    this.get('/words/:word', function ({ words }, request) {
+      return words.findBy({ word: request.params.word });
+    });
+}
+});
