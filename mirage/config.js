@@ -1,10 +1,10 @@
 export default function() {
 
+  this.passthrough('https://api.mapbox.com/**');
   this.namespace = "/api";
-
       let words = [
         {
-          "octahedral layer": {
+            "id": "1",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/octahedral_layer.aspx",
             "word": "octahedral layer",
             "letter": "o",
@@ -39,7 +39,8 @@ export default function() {
               }
             ]
           },
-          "sodium chromate": {
+          {
+            "id": "2",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/sodium_chromate.aspx",
             "word": "sodium chromate",
             "letter": "s",
@@ -102,7 +103,8 @@ export default function() {
               }
             ]
           },
-          "water-in-oil emulsion": {
+          {
+            "id": "3",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/w/water-in-oil_emulsion.aspx",
             "word": "water-in-oil emulsion",
             "letter": "w",
@@ -156,7 +158,8 @@ export default function() {
               }
             ]
           },
-          "gas separator": {
+          {
+            "id": "4",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/g/gas_separator.aspx",
             "word": "gas separator",
             "letter": "g",
@@ -191,7 +194,8 @@ export default function() {
               }
             ]
           },
-          "bean": {
+          {
+            "id": "5",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/b/bean.aspx",
             "word": "bean",
             "letter": "b",
@@ -216,7 +220,8 @@ export default function() {
               }
             ]
           },
-          "realtime data": {
+          {
+            "id": "6",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/r/real_time_data.aspx",
             "word": "realtime data",
             "letter": "r",
@@ -243,7 +248,8 @@ export default function() {
               }
             ]
           },
-          "multiple-rate tests": {
+          {
+            "id": "7",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/m/multiple-rate_tests.aspx",
             "word": "multiple-rate tests",
             "letter": "m",
@@ -278,7 +284,8 @@ export default function() {
               }
             ]
           },
-          "snubbing force": {
+          {
+            "id": "8",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/snubbing_force.aspx",
             "word": "snubbing force",
             "letter": "s",
@@ -302,7 +309,8 @@ export default function() {
               }
             ]
           },
-          "seep": {
+          {
+            "id": "9",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/seep.aspx",
             "word": "seep",
             "letter": "s",
@@ -336,7 +344,8 @@ export default function() {
               }
             ]
           },
-          "moment": {
+          {
+            "id": "10",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/m/moment.aspx",
             "word": "moment",
             "letter": "m",
@@ -377,7 +386,8 @@ export default function() {
               }
             ]
           },
-          "soda ash": {
+          {
+            "id": "11",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/soda_ash.aspx",
             "word": "soda ash",
             "letter": "s",
@@ -451,7 +461,8 @@ export default function() {
               }
             ]
           },
-          "OCMA": {
+          {
+            "id": "12",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/ocma.aspx",
             "word": "OCMA",
             "letter": "o",
@@ -499,7 +510,8 @@ export default function() {
               }
             ]
           },
-          "mobile offshore drilling unit": {
+          {
+            "id": "13",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/m/mobile_offshore_drilling_unit.aspx",
             "word": "mobile offshore drilling unit",
             "letter": "m",
@@ -535,7 +547,8 @@ export default function() {
               }
             ]
           },
-          "pinion shaft": {
+          {
+            "id": "14",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/p/pinion-shaft.aspx",
             "word": "pinion shaft",
             "letter": "p",
@@ -559,7 +572,8 @@ export default function() {
               }
             ]
           },
-          "gas-cap drive": {
+          {
+            "id": "15",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/g/gas-cap_drive.aspx",
             "word": "gas-cap drive",
             "letter": "g",
@@ -594,7 +608,8 @@ export default function() {
               }
             ]
           },
-          "evaporite": {
+          {
+            "id": "16",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/e/evaporite.aspx",
             "word": "evaporite",
             "letter": "e",
@@ -645,7 +660,8 @@ export default function() {
               }
             ]
           },
-          "salt proximity VSP": {
+          {
+            "id": "17",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/salt_proximity_vsp.aspx",
             "word": "salt proximity VSP",
             "letter": "s",
@@ -681,7 +697,8 @@ export default function() {
               }
             ]
           },
-          "in-situ fluid analysis": {
+          {
+            "id": "18",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/i/in-situ_fluid_analysis.aspx",
             "word": "in-situ fluid analysis",
             "letter": "i",
@@ -705,7 +722,8 @@ export default function() {
               }
             ]
           },
-          "normal-moveout correction": {
+          {
+            "id": "19",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/n/normal-moveout_correction.aspx",
             "word": "normal-moveout correction",
             "letter": "n",
@@ -740,7 +758,8 @@ export default function() {
               }
             ]
           },
-          "oil water contact": {
+          {
+            "id": "20",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/oil_water_contact.aspx",
             "word": "oil water contact",
             "letter": "o",
@@ -800,7 +819,8 @@ export default function() {
               }
             ]
           },
-          "oil wet": {
+          {
+            "id": "21",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/oil_wet.aspx",
             "word": "oil wet",
             "letter": "o",
@@ -839,7 +859,8 @@ export default function() {
               }
             ]
           },
-          "API unit": {
+          {
+            "id": "22",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/a/api_unit.aspx",
             "word": "API unit",
             "letter": "a",
@@ -866,7 +887,8 @@ export default function() {
               }
             ]
           },
-          "oxygen scavenger": {
+          {
+            "id": "23",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/oxygen_scavenger.aspx",
             "word": "oxygen scavenger",
             "letter": "o",
@@ -929,7 +951,8 @@ export default function() {
               }
             ]
           },
-          "hydrocyclone": {
+          {
+            "id": "24",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/h/hydrocyclone.aspx",
             "word": "hydrocyclone",
             "letter": "h",
@@ -968,7 +991,8 @@ export default function() {
               }
             ]
           },
-          "magnetometer": {
+          {
+            "id": "25",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/m/magnetometer.aspx",
             "word": "magnetometer",
             "letter": "m",
@@ -1003,7 +1027,8 @@ export default function() {
               }
             ]
           },
-          "compaction": {
+          {
+            "id": "26",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/c/compaction.aspx",
             "word": "compaction",
             "letter": "c",
@@ -1073,7 +1098,8 @@ export default function() {
               }
             ]
           },
-          "cellulosic polymer": {
+          {
+            "id": "27",
             "url": "https://www.glossary.oilfield.slb.com/en/Terms/c/cellulosic_polymer.aspx",
             "word": "cellulosic polymer",
             "letter": "c",
@@ -1136,7 +1162,8 @@ export default function() {
               }
             ]
           }
-      }]
+    ];
+
       this.get('/words', function(db, request) {
   if(request.queryParams.word !== undefined) {
     let filteredWords = words.filter(function(i) {
