@@ -1,21 +1,13 @@
 export default function() {
-
   this.namespace = "/api";
-      let words = [
-    ];
 
-      this.get('/words', function(db, request) {
-  if(request.queryParams.word !== undefined) {
-    let filteredWords = words.filter(function(i) {
-      return i.letter.word.toLowerCase().indexOf(request.queryParams.word.toLowerCase()) !== -1;
-    });
-    return { data: filteredWords };
+this.get('/words', function({ words }, { queryParams }) {
+  let { word } = queryParams;
+  if (!word) {
+    return words.all();
   } else {
-    return { data: words };
+    word = word.toLowerCase();
+    return words.findBy({ word });
   }
-});
-  // Find and return the provided rental from our rental list above
-  this.get('/words/:word', function (db, request) {
-  return { data: words.find((words) => request.params.word === words.word) };
 });
 }

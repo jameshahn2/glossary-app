@@ -198,8 +198,8 @@ export default [
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Production Testing",
-          "definition": "<div class=\"definition-text\">\n A\n <a href=\"/en/Terms/f/fixed_choke.aspx\">\n  fixed choke\n </a>\n or a choke with an adjustable needle, sleeve or plate that can be changed to adjust the flow rate.\n</div>\n",
+          "category": "[Production Testing]",
+          "definition": "A <a href='https://www.glossary.oilfield.slb.com/Terms/f/fixed_choke.aspx'>fixed choke</a> or a choke with an adjustable needle, sleeve or plate that can be changed to adjust the flow rate.",
           "see": [
 
           ],
@@ -282,7 +282,7 @@ export default [
     },
     {
       "id": "8",
-      "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/snubbing_force.aspx",
+      "url": "snubbing-force",
       "word": "snubbing force",
       "letter": "s",
       "definitions": [
