@@ -1,13 +1,13 @@
 export default function() {
   this.namespace = "/api";
 
-this.get('/words', function({ words }, { queryParams }) {
-  let { word } = queryParams;
-  if (!word) {
-    return words.all();
+this.get("/terms", function({ terms }, { queryParams }) {
+  let { term } = queryParams;
+  if (!term) {
+    return terms.all();
   } else {
-    word = word.toLowerCase();
-    return words.findBy({ word });
+    term = term.toLowerCase();
+    return terms.findBy({ term });
   }
 });
 }

@@ -1,4 +1,4 @@
 export default function(server) {
-server.loadFixtures("words");
+server.loadFixtures("terms");
 server.logging = true
 }

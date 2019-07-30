@@ -2,7 +2,7 @@ export default [
   {
       "id": "1",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/octahedral_layer.aspx",
-      "word": "octahedral layer",
+      "term": "octahedral layer",
       "letter": "o",
       "definitions": [
         {
@@ -38,7 +38,7 @@ export default [
     {
       "id": "2",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/sodium_chromate.aspx",
-      "word": "sodium chromate",
+      "term": "sodium chromate",
       "letter": "s",
       "definitions": [
         {
@@ -102,7 +102,7 @@ export default [
     {
       "id": "3",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/w/water-in-oil_emulsion.aspx",
-      "word": "water-in-oil emulsion",
+      "term": "water-in-oil emulsion",
       "letter": "w",
       "definitions": [
         {
@@ -157,7 +157,7 @@ export default [
     {
       "id": "4",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/g/gas_separator.aspx",
-      "word": "gas separator",
+      "term": "gas separator",
       "letter": "g",
       "definitions": [
         {
@@ -193,7 +193,7 @@ export default [
     {
       "id": "5",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/b/bean.aspx",
-      "word": "bean",
+      "term": "bean",
       "letter": "b",
       "definitions": [
         {
@@ -219,7 +219,7 @@ export default [
     {
       "id": "6",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/r/real_time_data.aspx",
-      "word": "realtime data",
+      "term": "realtime data",
       "letter": "r",
       "definitions": [
         {
@@ -247,7 +247,7 @@ export default [
     {
       "id": "7",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/m/multiple-rate_tests.aspx",
-      "word": "multiple-rate tests",
+      "term": "multiple-rate tests",
       "letter": "m",
       "definitions": [
         {
@@ -283,7 +283,7 @@ export default [
     {
       "id": "8",
       "url": "snubbing-force",
-      "word": "snubbing force",
+      "term": "snubbing force",
       "letter": "s",
       "definitions": [
         {
@@ -308,7 +308,7 @@ export default [
     {
       "id": "9",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/seep.aspx",
-      "word": "seep",
+      "term": "seep",
       "letter": "s",
       "definitions": [
         {
@@ -343,7 +343,7 @@ export default [
     {
       "id": "10",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/m/moment.aspx",
-      "word": "moment",
+      "term": "moment",
       "letter": "m",
       "definitions": [
         {
@@ -385,7 +385,7 @@ export default [
     {
       "id": "11",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/soda_ash.aspx",
-      "word": "soda ash",
+      "term": "soda ash",
       "letter": "s",
       "definitions": [
         {
@@ -460,7 +460,7 @@ export default [
     {
       "id": "12",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/ocma.aspx",
-      "word": "OCMA",
+      "term": "OCMA",
       "letter": "o",
       "definitions": [
         {
@@ -509,7 +509,7 @@ export default [
     {
       "id": "13",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/m/mobile_offshore_drilling_unit.aspx",
-      "word": "mobile offshore drilling unit",
+      "term": "mobile offshore drilling unit",
       "letter": "m",
       "definitions": [
         {
@@ -546,7 +546,7 @@ export default [
     {
       "id": "14",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/p/pinion-shaft.aspx",
-      "word": "pinion shaft",
+      "term": "pinion shaft",
       "letter": "p",
       "definitions": [
         {
@@ -571,7 +571,7 @@ export default [
     {
       "id": "15",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/g/gas-cap_drive.aspx",
-      "word": "gas-cap drive",
+      "term": "gas-cap drive",
       "letter": "g",
       "definitions": [
         {
@@ -607,7 +607,7 @@ export default [
     {
       "id": "16",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/e/evaporite.aspx",
-      "word": "evaporite",
+      "term": "evaporite",
       "letter": "e",
       "definitions": [
         {
@@ -659,7 +659,7 @@ export default [
     {
       "id": "17",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/salt_proximity_vsp.aspx",
-      "word": "salt proximity VSP",
+      "term": "salt proximity VSP",
       "letter": "s",
       "definitions": [
         {
@@ -696,7 +696,7 @@ export default [
     {
       "id": "18",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/i/in-situ_fluid_analysis.aspx",
-      "word": "in-situ fluid analysis",
+      "term": "in-situ fluid analysis",
       "letter": "i",
       "definitions": [
         {
@@ -721,7 +721,7 @@ export default [
     {
       "id": "19",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/n/normal-moveout_correction.aspx",
-      "word": "normal-moveout correction",
+      "term": "normal-moveout correction",
       "letter": "n",
       "definitions": [
         {
@@ -757,7 +757,7 @@ export default [
     {
       "id": "20",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/oil_water_contact.aspx",
-      "word": "oil water contact",
+      "term": "oil water contact",
       "letter": "o",
       "definitions": [
         {
@@ -818,7 +818,7 @@ export default [
     {
       "id": "21",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/oil_wet.aspx",
-      "word": "oil wet",
+      "term": "oil wet",
       "letter": "o",
       "definitions": [
         {
@@ -858,7 +858,7 @@ export default [
     {
       "id": "22",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/a/api_unit.aspx",
-      "word": "API unit",
+      "term": "API unit",
       "letter": "a",
       "definitions": [
         {
@@ -886,7 +886,7 @@ export default [
     {
       "id": "23",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/oxygen_scavenger.aspx",
-      "word": "oxygen scavenger",
+      "term": "oxygen scavenger",
       "letter": "o",
       "definitions": [
         {
@@ -950,7 +950,7 @@ export default [
     {
       "id": "24",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/h/hydrocyclone.aspx",
-      "word": "hydrocyclone",
+      "term": "hydrocyclone",
       "letter": "h",
       "definitions": [
         {
@@ -990,7 +990,7 @@ export default [
     {
       "id": "25",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/m/magnetometer.aspx",
-      "word": "magnetometer",
+      "term": "magnetometer",
       "letter": "m",
       "definitions": [
         {
@@ -1026,7 +1026,7 @@ export default [
     {
       "id": "26",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/c/compaction.aspx",
-      "word": "compaction",
+      "term": "compaction",
       "letter": "c",
       "definitions": [
         {
@@ -1097,7 +1097,7 @@ export default [
     {
       "id": "27",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/c/cellulosic_polymer.aspx",
-      "word": "cellulosic polymer",
+      "term": "cellulosic polymer",
       "letter": "c",
       "definitions": [
         {
