@@ -1,13 +1,13 @@
 export default [
   {
-      "id": "1",
+      "id": "octahedral-layer",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/octahedral_layer.aspx",
       "term": "octahedral layer",
       "letter": "o",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Drilling Fluids",
+          "category": "[Drilling Fluids]",
           "definition": "<div class=\"definition-text\">\n One of the layers that constitute the atomic\n <a href=\"/en/Terms/s/structure.aspx\">\n  structure\n </a>\n of the\n <a href=\"/en/Terms/c/clay.aspx\">\n  clay\n </a>\n <a href=\"/en/Terms/g/group.aspx\">\n  group\n </a>\n of layered\n <a href=\"/en/Terms/s/silicate.aspx\">\n  silicate\n </a>\n minerals. The structure of these minerals can consist of two, three or four layers. The octahedral\n <a href=\"/en/Terms/l/layer.aspx\">\n  layer\n </a>\n is a plane of aluminum hydroxide octahedra (aluminum at the center and hydroxides at all six corners). Another\n <a href=\"/en/Terms/s/structural.aspx\">\n  structural\n </a>\n layer is a plane of silicon dioxide tetrahedra (silicon at the center and oxygen at all four corners of the tetrahedron). The tetrahedral and octahedral layers fit one on top of the other, with oxygen atoms being shared as oxide and hydroxide groups.\n</div>\n",
           "see": [
             {
@@ -36,14 +36,14 @@ export default [
       ]
     },
     {
-      "id": "2",
+      "id": "sodium-chromate",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/sodium_chromate.aspx",
       "term": "sodium chromate",
       "letter": "s",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Drilling Fluids",
+          "category": "[Drilling Fluids]",
           "definition": "<div class=\"definition-text\">\n A sodium\n <a href=\"/en/Terms/s/salt.aspx\">\n  salt\n </a>\n , Na\n <sub>\n  2\n </sub>\n CrO\n <sub>\n  4\n </sub>\n , in which chromium atoms are in the plus-6 valence state. Chromium compounds of various types have been used in\n <a href=\"/en/Terms/l/lignite.aspx\">\n  lignite\n </a>\n and\n <a href=\"/en/Terms/l/lignosulfonate.aspx\">\n  lignosulfonate\n </a>\n and other\n <a href=\"/en/Terms/m/mud.aspx\">\n  mud\n </a>\n additives to enhance thermal stability. Since the late 1970s, they are prohibited in muds to be discarded offshore and in other environmentally sensitive areas of the US.\n</div>\n",
           "see": [
             {
@@ -100,14 +100,14 @@ export default [
       ]
     },
     {
-      "id": "3",
+      "id": "water-in-oil-emulsion",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/w/water-in-oil_emulsion.aspx",
       "term": "water-in-oil emulsion",
       "letter": "w",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Drilling Fluids",
+          "category": "[Drilling Fluids]",
           "definition": "<div class=\"definition-text\">\n A fluid with water or\n <a href=\"/en/Terms/b/brine.aspx\">\n  brine\n </a>\n as droplets dispersed into an\n <a href=\"/en/Terms/e/external_phase.aspx\">\n  external phase\n </a>\n of oil.\n</div>\n",
           "see": [
             {
@@ -155,14 +155,14 @@ export default [
       ]
     },
     {
-      "id": "4",
+      "id": "gas-separator",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/g/gas_separator.aspx",
       "term": "gas separator",
       "letter": "g",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Well Completions",
+          "category": "[Well Completions]",
           "definition": "<div class=\"definition-text\">\n A device used to separate entrained gas from\n <a href=\"/en/Terms/p/production.aspx\">\n  production\n </a>\n liquids. Surface processing facilities generally use gas separators to render the liquids safe for further processing or disposal. Gas-separation equipment is also used in downhole applications, such as the protection of pumping equipment against gas lock by separating and redirecting free gas at the pump suction or inlet.\n</div>\n",
           "see": [
             {
@@ -191,7 +191,7 @@ export default [
       ]
     },
     {
-      "id": "5",
+      "id": "bean",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/b/bean.aspx",
       "term": "bean",
       "letter": "b",
@@ -217,14 +217,14 @@ export default [
       ]
     },
     {
-      "id": "6",
+      "id": "realtime-data",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/r/real_time_data.aspx",
       "term": "realtime data",
       "letter": "r",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Formation Evaluation",
+          "category": "[Formation Evaluation]",
           "definition": "<div class=\"definition-text\">\n With reference to\n <a href=\"/en/Terms/m/measurements-while-drilling.aspx\">\n  measurements-while-drilling\n </a>\n (\n <a href=\"/en/Terms/m/mwd.aspx\">\n  MWD\n </a>\n ) and\n <a href=\"/en/Terms/l/logging_while_drilling.aspx\">\n  logging while drilling\n </a>\n , the data transmitted to surface shortly after being recorded. These are distinct from the data recorded into memory. Only a subset of the\n <a href=\"/en/Terms/r/recorded_data.aspx\">\n  recorded data\n </a>\n can be transmitted as\n <a href=\"/en/Terms/r/real-time_data.aspx\">\n  real-time data\n </a>\n because of the limited\n <a href=\"/en/Terms/d/data_rate.aspx\">\n  data rate\n </a>\n of MWD\n <a href=\"/en/Terms/t/telemetry.aspx\">\n  telemetry\n </a>\n systems. This reduces the number of channels, the\n <a href=\"/en/Terms/s/sample_interval.aspx\">\n  sample interval\n </a>\n , or both, in the real-time data.\n</div>\n",
           "see": [
 
@@ -245,14 +245,14 @@ export default [
       ]
     },
     {
-      "id": "7",
+      "id": "multiple-rate-tests",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/m/multiple-rate_tests.aspx",
       "term": "multiple-rate tests",
       "letter": "m",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Well Testing",
+          "category": "[Well Testing]",
           "definition": "<div class=\"definition-text\">\n Tests conducted at a series of different flow rates for the purpose of determining well deliverability, typically in gas wells where non-\n <a href=\"/en/Terms/d/darcy.aspx\">\n  Darcy\n </a>\n flow near the well results in a\n <a href=\"/en/Terms/r/rate-dependent_skin_effect.aspx\">\n  rate-dependent skin effect\n </a>\n . Multiple-rate tests are sometimes required by regulatory bodies.\n</div>\n",
           "see": [
             {
@@ -281,14 +281,14 @@ export default [
       ]
     },
     {
-      "id": "8",
-      "url": "snubbing-force",
+      "id": "snubbing-force",
+      "url": "https://www.glossary.oilfield.slb.com/Terms/s/snubbing_force.aspx",
       "term": "snubbing force",
       "letter": "s",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Well Workover and Intervention",
+          "category": "[Well Workover and Intervention]",
           "definition": "<div class=\"definition-text\">\n The force required to insert a tool or tubing string into a live wellbore. Two main components act to determine the\n <a href=\"/en/Terms/s/snubbing.aspx\">\n  snubbing\n </a>\n force: the force resulting from the\n <a href=\"/en/Terms/w/wellhead.aspx\">\n  wellhead\n </a>\n <a href=\"/en/Terms/p/pressure.aspx\">\n  pressure\n </a>\n acting on the\n <a href=\"/en/Terms/c/cross-sectional.aspx\">\n  cross-sectional\n </a>\n area of the tubing, or the\n <a href=\"/en/Terms/o/outside_diameter.aspx\">\n  outside diameter\n </a>\n of the tool and the force required to overcome the friction resulting from the stripper or similar sealing device containing the wellbore pressure and fluids.\n</div>\n",
           "see": [
 
@@ -306,14 +306,14 @@ export default [
       ]
     },
     {
-      "id": "9",
+      "id": "seep",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/seep.aspx",
       "term": "seep",
       "letter": "s",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Geology",
+          "category": "[Geology]",
           "definition": "<div class=\"definition-text\">\n <p>\n  A naturally occurring, typically slow leakage of fluid—water, oil or gas—at the Earth’s surface. A seep results from\n  <a href=\"/en/Terms/m/migration.aspx\" shape=\"rect\">\n   migration\n  </a>\n  of the fluid from its source or\n  <a href=\"/en/Terms/r/reservoir.aspx\" shape=\"rect\">\n   reservoir\n  </a>\n  formation because the\n  <a href=\"/en/Terms/f/formation_pressure.aspx\" shape=\"rect\">\n   formation pressure\n  </a>\n  exceeds the formation’s\n  <a href=\"/en/Terms/s/seal.aspx\" shape=\"rect\">\n   seal\n  </a>\n  capacity such as during rapid loading of the\n  <a href=\"/en/Terms/o/overburden.aspx\" shape=\"rect\">\n   overburden\n  </a>\n  by\n  <a href=\"/en/Terms/s/sedimentation.aspx\" shape=\"rect\">\n   sedimentation\n  </a>\n  or during fluid expansion or from damage to the seal such as by\n  <a href=\"/en/Terms/f/fault.aspx\" shape=\"rect\">\n   faulting\n  </a>\n  or\n  <a href=\"/en/Terms/t/tectonism.aspx\" shape=\"rect\">\n   tectonism\n  </a>\n  .\n </p>\n</div>\n",
           "see": [
             {
@@ -341,14 +341,14 @@ export default [
       ]
     },
     {
-      "id": "10",
+      "id": "moment",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/m/moment.aspx",
       "term": "moment",
       "letter": "m",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "General Terms",
+          "category": "[General Terms]",
           "definition": "<div class=\"definition-text\">\n The product of a physical quantity and its distance from an axis or a tendency to cause motion around an axis.\n</div>\n",
           "see": [
 
@@ -365,7 +365,7 @@ export default [
         },
         {
           "speech_type": "2. n.",
-          "category": "Reservoir Characterization",
+          "category": "[Reservoir Characterization]",
           "definition": "<div class=\"definition-text\">\n The\n <a href=\"/en/Terms/m/mean.aspx\">\n  mean\n </a>\n or expected value of the product formed by multiplying together a set of one or more variates or variables, each to a specified power.\n</div>\n",
           "see": [
 
@@ -383,14 +383,14 @@ export default [
       ]
     },
     {
-      "id": "11",
+      "id": "soda-ash",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/soda_ash.aspx",
       "term": "soda ash",
       "letter": "s",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Drilling Fluids",
+          "category": "[Drilling Fluids]",
           "definition": "<div class=\"definition-text\">\n Another term for sodium\n <a href=\"/en/Terms/c/carbonate.aspx\">\n  carbonate\n </a>\n , a chemical with the formula Na\n <sub>\n  2\n </sub>\n CO\n <sub>\n  3\n </sub>\n . It is called soda ash at the\n <a href=\"/en/Terms/d/drilling_rig.aspx\">\n  drilling rig\n </a>\n and is used to treat most types of calcium ion contamination in freshwater and seawater muds. For\n <a href=\"/en/Terms/c/cement.aspx\">\n  cement\n </a>\n contamination, sodium\n <a href=\"/en/Terms/b/bicarbonate.aspx\">\n  bicarbonate\n </a>\n is used. Calcium ions from drilling\n <a href=\"/en/Terms/g/gypsum.aspx\">\n  gypsum\n </a>\n or\n <a href=\"/en/Terms/a/anhydrite.aspx\">\n  anhydrite\n </a>\n , CaSO\n <sub>\n  4\n </sub>\n , cause\n <a href=\"/en/Terms/c/clay.aspx\">\n  clay\n </a>\n <a href=\"/en/Terms/f/flocculation.aspx\">\n  flocculation\n </a>\n and\n <a href=\"/en/Terms/p/polymer.aspx\">\n  polymer\n </a>\n <a href=\"/en/Terms/p/precipitation.aspx\">\n  precipitation\n </a>\n and lower\n <a href=\"/en/Terms/p/ph.aspx\">\n  pH\n </a>\n . A soda-ash treatment is appropriate for gypsum contamination because\n <a href=\"/en/Terms/c/caustic_soda.aspx\">\n  caustic soda\n </a>\n , NaOH, is not needed to raise pH. This is also generally the case with\n <a href=\"/en/Terms/h/hard_water.aspx\">\n  hard water\n </a>\n influxes into water muds.\n</div>\n",
           "see": [
             {
@@ -458,14 +458,14 @@ export default [
       ]
     },
     {
-      "id": "12",
+      "id": "ocma",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/ocma.aspx",
       "term": "OCMA",
       "letter": "o",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Drilling Fluids",
+          "category": "[Drilling Fluids]",
           "definition": "<div class=\"definition-text\">\n Abbreviation for the now-defunct \"Oil Company Materials Association,\" an organization that for years set standards based primarily on what oil companies operating in the Middle East wanted in\n <a href=\"/en/Terms/m/mud.aspx\">\n  mud\n </a>\n materials. Suppliers had little voice in OCMA. OCMA's specifications for\n <a href=\"/en/Terms/b/bentonite.aspx\">\n  bentonite\n </a>\n <a href=\"/en/Terms/c/clay.aspx\">\n  clay\n </a>\n were modified and taken over by\n <a href=\"/en/Terms/a/api.aspx\">\n  API\n </a>\n /\n <a href=\"/en/Terms/i/iso.aspx\">\n  ISO\n </a>\n .\n</div>\n",
           "see": [
             {
@@ -489,7 +489,7 @@ export default [
         },
         {
           "speech_type": "2. adj.",
-          "category": "Drilling Fluids",
+          "category": "[Drilling Fluids]",
           "definition": "<div class=\"definition-text\">\n Pertaining to a drilling-grade\n <a href=\"/en/Terms/b/bentonite.aspx\">\n  bentonite\n </a>\n <a href=\"/en/Terms/c/clay.aspx\">\n  clay\n </a>\n with\n <a href=\"/en/Terms/a/api.aspx\">\n  API\n </a>\n /\n <a href=\"/en/Terms/i/iso.aspx\">\n  ISO\n </a>\n specifications. API specifications for this clay are similar to those of OCMA.\n</div>\n",
           "see": [
 
@@ -507,14 +507,14 @@ export default [
       ]
     },
     {
-      "id": "13",
+      "id": "mobile-offshore-drilling-unit",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/m/mobile_offshore_drilling_unit.aspx",
       "term": "mobile offshore drilling unit",
       "letter": "m",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Drilling",
+          "category": "[Drilling]",
           "definition": "<div class=\"definition-text\">\n A generic term for several classes of self-contained floatable or floating drilling machines such as jackups, semisubmersibles, and submersibles.\n</div>\n",
           "see": [
             {
@@ -544,14 +544,14 @@ export default [
       ]
     },
     {
-      "id": "14",
+      "id": "pinion-shaft",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/p/pinion-shaft.aspx",
       "term": "pinion shaft",
       "letter": "p",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Production",
+          "category": "[Production]",
           "definition": "<div class=\"definition-text\">\n <p>\n  The external input shaft of certain gear operators, which drives the internal reduction gearing. The pinion shaft can accept a hand wheel or power operator.\n </p>\n</div>\n",
           "see": [
 
@@ -569,14 +569,14 @@ export default [
       ]
     },
     {
-      "id": "15",
+      "id": "gas-cap-drive",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/g/gas-cap_drive.aspx",
       "term": "gas-cap drive",
       "letter": "g",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Enhanced Oil Recovery",
+          "category": "[Enhanced Oil Recovery]",
           "definition": "<div class=\"definition-text\">\n A type of\n <a href=\"/en/Terms/r/reservoir.aspx\">\n  reservoir\n </a>\n -drive mechanism in which the energy for the transport and\n <a href=\"/en/Terms/p/production.aspx\">\n  production\n </a>\n of reservoir fluids is provided by the expansion of gas either in the gas cap or inside the oil phase.\n</div>\n",
           "see": [
             {
@@ -605,14 +605,14 @@ export default [
       ]
     },
     {
-      "id": "16",
+      "id": "evaporite",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/e/evaporite.aspx",
       "term": "evaporite",
       "letter": "e",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Geology",
+          "category": "[Geology]",
           "definition": "<div class=\"definition-text\">\n A class of\n <a href=\"/en/Terms/s/sedimentary.aspx\">\n  sedimentary\n </a>\n minerals and sedimentary rocks that form by\n <a href=\"/en/Terms/p/precipitation.aspx\">\n  precipitation\n </a>\n from evaporating aqueous fluid. Common evaporite minerals are\n <a href=\"/en/Terms/h/halite.aspx\">\n  halite\n </a>\n ,\n <a href=\"/en/Terms/g/gypsum.aspx\">\n  gypsum\n </a>\n and\n <a href=\"/en/Terms/a/anhydrite.aspx\">\n  anhydrite\n </a>\n , which can form as seawater evaporates, and the rocks\n <a href=\"/en/Terms/l/limestone.aspx\">\n  limestone\n </a>\n and\n <a href=\"/en/Terms/d/dolostone.aspx\">\n  dolostone\n </a>\n . Certain evaporite minerals, particularly halite, can form excellent cap rocks or\n <a href=\"/en/Terms/s/seals.aspx\">\n  seals\n </a>\n for\n <a href=\"/en/Terms/h/hydrocarbon.aspx\">\n  hydrocarbon\n </a>\n traps because they have minimal\n <a href=\"/en/Terms/p/porosity.aspx\">\n  porosity\n </a>\n and they tend to deform plastically (as opposed to brittle fracturing that would facilitate leakage).\n</div>\n",
           "see": [
             {
@@ -657,14 +657,14 @@ export default [
       ]
     },
     {
-      "id": "17",
+      "id": "salt-proximity-vsp",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/s/salt_proximity_vsp.aspx",
       "term": "salt proximity VSP",
       "letter": "s",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Geophysics",
+          "category": "[Geophysics]",
           "definition": "<div class=\"definition-text\">\n A type of\n <a href=\"/en/Terms/r/reflection.aspx\">\n  reflection\n </a>\n <a href=\"/en/Terms/s/survey.aspx\">\n  survey\n </a>\n to help define a\n <a href=\"/en/Terms/s/salt.aspx\">\n  salt\n </a>\n -\n <a href=\"/en/Terms/s/sediment.aspx\">\n  sediment\n </a>\n interface near a wellbore.\n</div>\n",
           "see": [
             {
@@ -694,14 +694,14 @@ export default [
       ]
     },
     {
-      "id": "18",
+      "id": "in-situ-fluid-analysis",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/i/in-situ_fluid_analysis.aspx",
       "term": "in-situ fluid analysis",
       "letter": "i",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Formation Evaluation",
+          "category": "[Formation Evaluation]",
           "definition": "<div class=\"definition-text\">\n Analysis performed by downhole tools to determine physical and chemical properties of fluids. Typical analyses that can be performed downhole include basic density and\n <a href=\"/en/Terms/v/viscosity.aspx\">\n  viscosity\n </a>\n measurements at sampling\n <a href=\"/en/Terms/p/pressure.aspx\">\n  pressure\n </a>\n and temperature.\n</div>\n",
           "see": [
 
@@ -719,14 +719,14 @@ export default [
       ]
     },
     {
-      "id": "19",
+      "id": "normal-moveout-correction",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/n/normal-moveout_correction.aspx",
       "term": "normal-moveout correction",
       "letter": "n",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Geophysics",
+          "category": "[Geophysics]",
           "definition": "<div class=\"definition-text\">\n A function of time and\n <a href=\"/en/Terms/o/offset.aspx\">\n  offset\n </a>\n that can be used in\n <a href=\"/en/Terms/s/seismic_processing.aspx\">\n  seismic processing\n </a>\n to compensate for the effects of normal moveout, or the delay in\n <a href=\"/en/Terms/r/reflection.aspx\">\n  reflection\n </a>\n <a href=\"/en/Terms/a/arrival.aspx\">\n  arrival\n </a>\n times when geophones and shotpoints are offset from each other.\n</div>\n",
           "see": [
             {
@@ -755,14 +755,14 @@ export default [
       ]
     },
     {
-      "id": "20",
+      "id": "oil-water-contact",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/oil_water_contact.aspx",
       "term": "oil water contact",
       "letter": "o",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Geology",
+          "category": "[Geology]",
           "definition": "<div class=\"definition-text\">\n A bounding surface in a reservoir above which predominantly oil occurs and below which predominantly water occurs. Although oil and water are immiscible, the\n <a href=\"/en/Terms/c/contact.aspx\">\n  contact\n </a>\n between oil and water is commonly a\n <a href=\"/en/Terms/t/transition_zone.aspx\">\n  transition zone\n </a>\n and there is usually\n <a href=\"/en/Terms/i/irreducible_water.aspx\">\n  irreducible water\n </a>\n adsorbed by the grains in the\n <a href=\"/en/Terms/r/rock.aspx\">\n  rock\n </a>\n and immovable oil that cannot be produced. The\n <a href=\"/en/Terms/o/oil-water_contact.aspx\">\n  oil-water contact\n </a>\n is not always a flat horizontal surface, but instead might be tilted or irregular.\n</div>\n",
           "see": [
             {
@@ -816,14 +816,14 @@ export default [
       ]
     },
     {
-      "id": "21",
+      "id": "oil-wet",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/oil_wet.aspx",
       "term": "oil wet",
       "letter": "o",
       "definitions": [
         {
           "speech_type": "1. adj.",
-          "category": "Formation Evaluation, Enhanced Oil Recovery",
+          "category": "[Formation Evaluation, Enhanced Oil Recovery]",
           "definition": "<div class=\"definition-text\">\n Pertaining to the preference of a solid to be in\n <a href=\"/en/Terms/c/contact.aspx\">\n  contact\n </a>\n with an oil phase rather than a water or gas phase.\n <a href=\"/en/Terms/o/oil-wet.aspx\">\n  Oil-wet\n </a>\n rocks preferentially imbibe oil. Generally,\n <a href=\"/en/Terms/p/polar.aspx\">\n  polar\n </a>\n compounds or\n <a href=\"/en/Terms/a/asphaltenes.aspx\">\n  asphaltenes\n </a>\n deposited from the\n <a href=\"/en/Terms/c/crude_oil.aspx\">\n  crude oil\n </a>\n onto\n <a href=\"/en/Terms/m/mineral.aspx\">\n  mineral\n </a>\n surfaces cause the oil-wet condition. Similar compounds in\n <a href=\"/en/Terms/o/oil-base_mud.aspx\">\n  oil-base mud\n </a>\n also can cause a previously water-wet\n <a href=\"/en/Terms/r/rock.aspx\">\n  rock\n </a>\n to become partially or totally oil-wet.\n</div>\n",
           "see": [
             {
@@ -856,14 +856,14 @@ export default [
       ]
     },
     {
-      "id": "22",
+      "id": "api-unit",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/a/api_unit.aspx",
       "term": "API unit",
       "letter": "a",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Formation Evaluation",
+          "category": "[Formation Evaluation]",
           "definition": "<div class=\"definition-text\">\n The unit of radioactivity used for natural gamma ray logs. This unit is based on an artificially radioactive concrete block at the University of Houston, Texas, USA, that is defined to have a radioactivity of 200 American Petroleum Institute (\n <a href=\"/en/Terms/a/api.aspx\">\n  API\n </a>\n ) units. This was chosen because it was considered to be twice the radioactivity of a typical\n <a href=\"/en/Terms/s/shale.aspx\">\n  shale\n </a>\n . The formation is the primary standard for calibrating gamma ray logs. However, even when properly calibrated, different gamma ray tools will not necessarily have identical readings downhole because their detectors can have different\n <a href=\"/en/Terms/s/spectral.aspx\">\n  spectral\n </a>\n sensitivities. They will read the same only if the downhole formation contains the same proportions of\n <a href=\"/en/Terms/t/thorium.aspx\">\n  thorium\n </a>\n ,\n <a href=\"/en/Terms/p/potassium.aspx\">\n  potassium\n </a>\n and\n <a href=\"/en/Terms/u/uranium.aspx\">\n  uranium\n </a>\n as the Houston standard. For example,\n <a href=\"/en/Terms/l/logging_while_drilling.aspx\">\n  logging while drilling\n </a>\n (LWD) tools have thicker housings than\n <a href=\"/en/Terms/w/wireline.aspx\">\n  wireline\n </a>\n tools, causing a different spectral response to the three sources of radioactivity, and therefore a different total gamma ray reading in some formations.\n\nThe nuclear\n <a href=\"/en/Terms/w/well_log.aspx\">\n  well log\n </a>\n <a href=\"/en/Terms/c/calibration.aspx\">\n  calibration\n </a>\n facility at the University of Houston, known as the API pits, was opened in 1959 for the calibration of natural gamma ray and neutron logs. A facility for calibrating\n <a href=\"/en/Terms/n/natural_gamma_ray_spectroscopy.aspx\">\n  natural gamma ray spectroscopy\n </a>\n logs was added later.\n</div>\n",
           "see": [
             {
@@ -884,14 +884,14 @@ export default [
       ]
     },
     {
-      "id": "23",
+      "id": "oxygen-scavenger",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/o/oxygen_scavenger.aspx",
       "term": "oxygen scavenger",
       "letter": "o",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Drilling Fluids",
+          "category": "[Drilling Fluids]",
           "definition": "<div class=\"definition-text\">\n A chemical that reacts with dissolved oxygen (O\n <sub>\n  2\n </sub>\n ) to reduce\n <a href=\"/en/Terms/c/corrosion.aspx\">\n  corrosion\n </a>\n , such as sulfite (SO\n <sub>\n  3\n </sub>\n <sup>\n  -2\n </sup>\n ) and bisulfite (HSO\n <sub>\n  3\n </sub>\n <sup>\n  -\n </sup>\n ) ions that combine with oxygen to form sulfate (SO\n <sub>\n  4\n </sub>\n <sup>\n  -2\n </sup>\n ). This is a redox reaction and requires a nickel or cobalt catalyst. Removal of air from a\n <a href=\"/en/Terms/m/mud.aspx\">\n  mud\n </a>\n by defoaming and mechanical degassing is an essential first step before a scavenger can lower the dissolved oxygen content.\n</div>\n",
           "see": [
             {
@@ -927,7 +927,7 @@ export default [
         },
         {
           "speech_type": "2. n.",
-          "category": "Well Completions",
+          "category": "[Well Completions]",
           "definition": "<div class=\"definition-text\">\n A chemical agent used in some brines and\n <a href=\"/en/Terms/c/completion.aspx\">\n  completion\n </a>\n fluids to reduce\n <a href=\"/en/Terms/c/corrosion.aspx\">\n  corrosion\n </a>\n resulting from, or exacerbated by, dissolved oxygen. Oxygen scavengers capture the dissolved oxygen in a harmless chemical reaction that renders the oxygen unavailable for corrosive reactions. The use of oxygen scavengers is more critical in applications in which fluids are to be circulated in the wellbore. Additional oxygen may be dissolved during agitation at surface.\n</div>\n",
           "see": [
 
@@ -948,14 +948,14 @@ export default [
       ]
     },
     {
-      "id": "24",
+      "id": "hydrocyclone",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/h/hydrocyclone.aspx",
       "term": "hydrocyclone",
       "letter": "h",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Drilling Fluids",
+          "category": "[Drilling Fluids]",
           "definition": "<div class=\"definition-text\">\n An item of solids-control equipment consisting of an inverted cone, the\n <a href=\"/en/Terms/m/mud.aspx\">\n  mud\n </a>\n being fed tangentially into the upper (larger diameter) part. The resulting spinning effect forces solids to the wall of the device and they exit from the bottom (apex) of the cone, while the cleaned liquid exits at the top. Hydrocyclones are classified by the size of the cone as either desanders (typically 12 inches in diameter) or desilters (4 to 6 inches in diameter) and will separate particles in the\n <a href=\"/en/Terms/m/medium.aspx\">\n  medium\n </a>\n -,\n <a href=\"/en/Terms/f/fine.aspx\">\n  fine\n </a>\n - and\n <a href=\"/en/Terms/u/ultrafine.aspx\">\n  ultrafine\n </a>\n -size ranges. The efficiency of hydrocyclones is poor in viscous weighted muds and many units are being replaced by more efficient, high-speed shakers.\n</div>\n",
           "see": [
             {
@@ -988,14 +988,14 @@ export default [
       ]
     },
     {
-      "id": "25",
+      "id": "magnetometer",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/m/magnetometer.aspx",
       "term": "magnetometer",
       "letter": "m",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Geophysics",
+          "category": "[Geophysics]",
           "definition": "<div class=\"definition-text\">\n An instrument used to measure the strength or direction of the Earth's magnetic field.\n</div>\n",
           "see": [
             {
@@ -1024,14 +1024,14 @@ export default [
       ]
     },
     {
-      "id": "26",
+      "id": "compaction",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/c/compaction.aspx",
       "term": "compaction",
       "letter": "c",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Geology",
+          "category": "[Geology]",
           "definition": "<div class=\"definition-text\">\n The physical process by which sediments are\n <a href=\"/en/Terms/c/consolidated.aspx\">\n  consolidated\n </a>\n , resulting in the reduction of\n <a href=\"/en/Terms/p/pore.aspx\">\n  pore\n </a>\n space as grains are packed closer together. As layers of\n <a href=\"/en/Terms/s/sediment.aspx\">\n  sediment\n </a>\n accumulate, the ever increasing\n <a href=\"/en/Terms/o/overburden.aspx\">\n  overburden\n </a>\n <a href=\"/en/Terms/p/pressure.aspx\">\n  pressure\n </a>\n during burial causes compaction of the sediments, loss of pore fluids and formation of\n <a href=\"/en/Terms/r/rock.aspx\">\n  rock\n </a>\n as grains are welded or cemented together.\n</div>\n",
           "see": [
             {
@@ -1095,14 +1095,14 @@ export default [
       ]
     },
     {
-      "id": "27",
+      "id": "cellulosic-polymer",
       "url": "https://www.glossary.oilfield.slb.com/en/Terms/c/cellulosic_polymer.aspx",
       "term": "cellulosic polymer",
       "letter": "c",
       "definitions": [
         {
           "speech_type": "1. n.",
-          "category": "Drilling Fluids",
+          "category": "[Drilling Fluids]",
           "definition": "<div class=\"definition-text\">\n A drilling-fluid additive used primarily for\n <a href=\"/en/Terms/f/fluid-loss_control.aspx\">\n  fluid-loss control\n </a>\n , manufactured by reacting natural cellulose with monochloroacetic\n <a href=\"/en/Terms/a/acid.aspx\">\n  acid\n </a>\n and\n <a href=\"/en/Terms/s/sodium_hydroxide.aspx\">\n  sodium hydroxide\n </a>\n [NaOH] to form\n <a href=\"/en/Terms/c/cmc.aspx\">\n  CMC\n </a>\n sodium\n <a href=\"/en/Terms/s/salt.aspx\">\n  salt\n </a>\n . Up to 20 wt % of CMC may be NaCl, a by-product of manufacture, but purified grades of CMC contain only small amounts of NaCl. To make CMC, OH groups on the glucose rings of cellulose are ether-linked to carboxymethyl (-OCH2-COO-) groups. (Note the negative charge.) Each glucose ring has three OH groups capable of reaction, degree-of-substitution = 3. Degree of substitution determines water\n <a href=\"/en/Terms/s/solubility.aspx\">\n  solubility\n </a>\n and negativity of the\n <a href=\"/en/Terms/p/polymer.aspx\">\n  polymer\n </a>\n , which influences a CMC's effectiveness as a\n <a href=\"/en/Terms/m/mud_additive.aspx\">\n  mud additive\n </a>\n . Drilling grade CMCs used in muds typically have degree-of-substitution around 0.80 to 0.96. Carboxymethylcellulose is commonly supplied either as low-viscosity (\"\n <a href=\"/en/Terms/c/cmc-lo_vis.aspx\">\n  CMC-Lo Vis\n </a>\n \") or high-viscosity (\"\n <a href=\"/en/Terms/c/cmc-hi_vis.aspx\">\n  CMC-Hi Vis\n </a>\n \") grades, both of which have\n <a href=\"/en/Terms/a/api.aspx\">\n  API\n </a>\n specifications. The viscosity depends largely on the molecular weight of the starting cellulose material.\nReference:\nHughes TL, Jones TG and Houwen OW: \"The Chemical Characterization of CMC and Its Relationship to Drilling-Mud Rheology and Fluid Loss,\" SPE Drilling &amp; Completion 8, no. 3 (September 1993): 157-164.\n</div>\n",
           "see": [
             {

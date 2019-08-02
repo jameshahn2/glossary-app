@@ -10,4 +10,5 @@ this.get("/terms", function({ terms }, { queryParams }) {
     return terms.findBy({ term });
   }
 });
+  this.get("/terms/:id");
 }

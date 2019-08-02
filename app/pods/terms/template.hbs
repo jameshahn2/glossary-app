@@ -1,12 +1,40 @@
 <div class="w-700 ml-5 mr-20">
-  <p class="text-blue-darkest text-xxl mb-21">{{model.word}}</p>
+  <p class="text-blue-darkest text-xxl mb-21">{{model.term}}</p>
   <div class="flex">
-    {{#each model.definitions as |definition|}}
-      <div class="inline-flex bg-grey-lighter pt-10 pr-0 pb-8 pl-8">
+    {{#each (take 1 model.definitions) as |definition|}}
+      <div class="w-full bg-grey-lighter pt-10 pr-0 pb-8 pl-8">
         <div class="w-61.2 md:w-full">
           <p class="text-xs font-bold">{{definition.speech_type}} {{definition.category}}</p>
           <p class="text-xs leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
           {{#if definition.alternate_forms}}<span class="text-xs font-bold">Alternate Form:</span> <span class="text-xs">{{definition.alternate_forms}}</span>{{/if}}
+          {{#if definition.see.length}}
+            <span class="text-xs font-bold">See:</span>
+          {{/if}}
+          {{#each definition.see as |see|}}
+            {{#if see.title}}
+              <a class="text-xs text-blue-light leading-normal" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}
+            {{/if}}
+          {{/each}}
+        </div>
+      </div>
+    {{/each}}
+  </div>
+
+  <div class="flex">
+    {{#each (drop 1 model.definitions) as |definition|}}
+      <div class="w-full pt-10 pr-0 pb-8 pl-8">
+        <div class="w-61.2 md:w-full">
+          <p class="text-xs font-bold">{{definition.speech_type}} {{definition.category}}</p>
+          <p class="text-xs leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
+          {{#if definition.alternate_forms}}<span class="text-xs font-bold">Alternate Form:</span> <span class="text-xs">{{definition.alternate_forms}}</span>{{/if}}
+          {{#if definition.see.length}}
+            <span class="text-xs font-bold">See:</span>
+          {{/if}}
+          {{#each definition.see as |see|}}
+            {{#if see.title}}
+              <a class="text-xs text-blue-light leading-normal" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}
+            {{/if}}
+          {{/each}}
         </div>
       </div>
     {{/each}}
