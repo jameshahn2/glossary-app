@@ -1,14 +1,12 @@
 export default function() {
-  this.namespace = "/api";
-
+  this.namespace = "api";
 this.get("/terms", function({ terms }, { queryParams }) {
+
   let { term } = queryParams;
-  if (!term) {
-    return terms.all();
-  } else {
-    term = term.toLowerCase();
-    return terms.findBy({ term });
+  if (term) {
+    const match = term.toLowerCase();
+    terms = terms.filter(t => t.term.toLowerCase().includes( match ));
   }
+  return terms;
 });
-  this.get("/terms/:id");
 }

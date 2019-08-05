@@ -1,6 +1,7 @@
 import Controller from "@ember/controller";
-import { task, isBlank, timeout } from "ember-concurrency";
+import { task, timeout } from "ember-concurrency";
 import $ from "jquery";
+import { isBlank } from "@ember/utils";
 
 const DEBOUNCE_MS = 250;
 
@@ -10,10 +11,7 @@ export default Controller.extend({
 
   yield timeout(DEBOUNCE_MS);
 
-  let url = `/api?q=${term}`;
-
-  let json = yield this.get("getJSON").perform(url);
-  return json.items.slice(0, 10);
+  return yield this.store.query("term", { term });
 }).restartable(),
 
 getJSON: task(function * (url) {
