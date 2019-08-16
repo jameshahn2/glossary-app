@@ -6,10 +6,7 @@ module.exports = {
   parser: "babel-eslint",
   parserOptions: {
     ecmaVersion: 2017,
-    sourceType: "module",
-    ecmaFeatures: {
-      jsx: true
-    }
+    sourceType: 'module'
   },
   plugins: ["babel", "ember", "react"],
   extends: ["eslint:recommended", "plugin:ember/recommended"],
@@ -24,15 +21,16 @@ module.exports = {
     // node files
     {
       files: [
-        ".template-lintrc.js",
-        "ember-cli-build.js",
-        "testem.js",
-        "blueprints/*/index.js",
-        "config/**/*.js",
-        "lib/*/index.js"
+        '.eslintrc.js',
+        '.template-lintrc.js',
+        'ember-cli-build.js',
+        'testem.js',
+        'blueprints/*/index.js',
+        'config/**/*.js',
+        'lib/*/index.js'
       ],
       parserOptions: {
-        sourceType: "script",
+        sourceType: 'script',
         ecmaVersion: 2015
       },
       env: {
