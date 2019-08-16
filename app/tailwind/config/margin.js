@@ -16,6 +16,7 @@
 export default {
   auto: "auto",
   px: "1px",
+  "30m": "-30px",
   "36m": "-36px",
   "6m": "-6px",
   "11m": "-11px",

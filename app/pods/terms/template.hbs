@@ -1,43 +1,133 @@
 <div class="w-700 ml-5 mr-20">
   <p class="text-blue-darkest text-xxl mb-21">{{model.term}}</p>
+  {{!-- definition flex --}}
   <div class="flex">
+
+    {{!-- definition --}}
     {{#each (take 1 model.definitions) as |definition|}}
-      <div class="w-full bg-grey-lighter pt-10 pr-0 pb-8 pl-8">
+
+      {{!-- definition div: includes image --}}
+      <div class="inline-flex bg-grey-lighter pt-10 pr-0 pb-8 pl-8">
+
+        {{!-- definition flex-1 --}}
         <div class="w-61.2 md:w-full">
           <p class="text-xs font-bold">{{definition.speech_type}} {{definition.category}}</p>
-          <p class="text-xs leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
-          {{#if definition.alternate_forms}}<span class="text-xs font-bold">Alternate Form:</span> <span class="text-xs">{{definition.alternate_forms}}</span>{{/if}}
-          {{#if definition.see.length}}
-            <span class="text-xs font-bold">See:</span>
+          <p class="text-xs leading-normal pt-24 pr-6 pb-10">
+            {{definition.definition}}
+          </p>
+
+          {{#if definition.synonyms}}
+            <div class="pb-10">
+              <span class="text-xs font-bold leading-normal">Synonyms:</span>
+              {{#each definition.synonyms as |syn|}}
+                <a class="text-xs text-blue-light" href={{syn.link}}>{{syn.title}}</a>{{#unless (eq syn definition.synonyms.lastObject)}},{{/unless}}
+              {{/each}}
+            </div>
           {{/if}}
-          {{#each definition.see as |see|}}
-            {{#if see.title}}
-              <a class="text-xs text-blue-light leading-normal" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}
-            {{/if}}
-          {{/each}}
+
+
+          {{#if definition.alternate_forms}}
+            <div class="pb-10">
+              <span class="text-xs font-bold">Alternate Form:</span> <span class="text-xs">{{definition.alternate_forms}}</span>
+            </div>
+          {{/if}}
+
+          {{#if definition.see.length}}
+            <div class="pb-10">
+              <span class="text-xs font-bold">See:</span>
+              {{#each definition.see as |see|}}
+                {{#if see.title}}
+                  <a class="text-xs text-blue-light leading-normal" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}
+                {{/if}}
+              {{/each}}
+            </div>
+          {{/if}}
+
+          {{#if definition.more_details}}
+            <div class="pb-10">
+              <span class="text-xs font-bold">More Details:</span>
+              <ul class="text-xs">
+                {{#each definition.more_details as |more_details|}}
+                  <li>
+                    <a class="text-xs text-blue-light leading-normal" href={{more_details.link}}>
+                      {{more_details.title}}
+                    </a>
+                  </li>
+                {{/each}}
+              </ul>
+            </div>
+          {{/if}}
         </div>
+
+        {{!-- definition image: part of defintion div --}}
+        {{!-- image flex-1 --}}
+        {{#if definition.image}}
+          <div class="w-38.8 md:w-full">
+            <div class="bg-white border p-10 mt--1 mr-8 ml-2">
+              <img class="p-10" src={{definition.image.src}} alt="">
+              <a {{action (mut showImage) true}} href="" class="no-underline mx-auto">
+                <p class="pl-10 bg-grey-light text-center rounded text-sm">
+                  {{svg-jar "search-plus" class="w-10 h-10"}} view full-size
+                </p>
+              </a>
+              <figcaption class="p-15">
+                <span class="text-xs leading-normal">{{definition.image.caption}}</span>
+              </figcaption>
+            </div>
+          </div>
+        {{/if}}
       </div>
+
+      {{#if showImage}}
+        {{#modal-dialog
+          onClose=(action (mut showImage) false)
+          clickOutsideToClose=true
+          target=targetElement
+          animatable=true
+          translucentOverlay=true
+          attachment="middle center"
+          targetAttachment="middle center"
+          constraints=constraints
+          }}
+          <div class="p-8 bg-white w-full max-w-md m-auto flex-col flex">
+            <img class="p-10" src={{definition.image.src}} alt="">
+            <figcaption class="p-15">
+              <span class="text-xs leading-normal">{{definitnion.image.caption}}</span>
+            </figcaption>
+            <a {{action (mut showImage) false}} href="">
+              <span class="absolute pin-t pin-b pin-r p-4">
+                <svg class="h-28 w-28 text-grey hover:text-grey-darkest" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
+                  <title>Close</title>
+                  <path d="M14.348 14.849a1.2 1.2 0 0 1-1.697 0L10 11.819l-2.651 3.029a1.2 1.2 0 1 1-1.697-1.697l2.758-3.15-2.759-3.152a1.2 1.2 0 1 1 1.697-1.697L10 8.183l2.651-3.031a1.2 1.2 0 1 1 1.697 1.697l-2.758 3.152 2.758 3.15a1.2 1.2 0 0 1 0 1.698z" />
+                </svg>
+              </span>
+            </a>
+          </div>
+        {{/modal-dialog}}
+      {{/if}}
     {{/each}}
   </div>
+</div>
 
-  <div class="flex">
-    {{#each (drop 1 model.definitions) as |definition|}}
-      <div class="w-full pt-10 pr-0 pb-8 pl-8">
-        <div class="w-61.2 md:w-full">
-          <p class="text-xs font-bold">{{definition.speech_type}} {{definition.category}}</p>
-          <p class="text-xs leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
-          {{#if definition.alternate_forms}}<span class="text-xs font-bold">Alternate Form:</span> <span class="text-xs">{{definition.alternate_forms}}</span>{{/if}}
-          {{#if definition.see.length}}
-            <span class="text-xs font-bold">See:</span>
-          {{/if}}
-          {{#each definition.see as |see|}}
-            {{#if see.title}}
-              <a class="text-xs text-blue-light leading-normal" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}
-            {{/if}}
-          {{/each}}
-        </div>
+<div class="flex">
+  {{#each (drop 1 model.definitions) as |definition|}}
+    <div class="w-full pt-10 pr-0 pb-8 pl-8">
+      <div class="w-61.2 md:w-full">
+        <p class="text-xs font-bold">{{definition.speech_type}} {{definition.category}}</p>
+        <p class="text-xs leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
+
+        {{#if definition.alternate_forms}}
+          <div class="pb-10">
+            <span class="text-xs font-bold">Alternate Form:</span> <span class="text-xs">{{definition.alternate_forms}}</span>
+          </div>
+        {{/if}}
+
+        {{#if definition.see.length}}
+          <div class="pb-10">
+            <span class="text-xs font-bold">See:</span> {{#each definition.see as |see|}} {{#if see.title}} <a class="text-xs text-blue-light leading-normal" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}{{/if}}{{/each}}
+          </div>
+        {{/if}}
       </div>
-    {{/each}}
-  </div>
-
+    </div>
+  {{/each}}
 </div>

@@ -18,7 +18,7 @@ getJSON: task(function * (url) {
   let xhr;
   try {
     xhr = $.getJSON(url);
-    let result = yield xhr.promise();
+    let result = yield xhr.promise;
     return result;
 
   } finally {

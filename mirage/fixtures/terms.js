@@ -8,7 +8,7 @@ export default [
         {
           "speech_type": "1. n.",
           "category": "[Drilling Fluids]",
-          "definition": "<div class=\"definition-text\">\n One of the layers that constitute the atomic\n <a href=\"/en/Terms/s/structure.aspx\">\n  structure\n </a>\n of the\n <a href=\"/en/Terms/c/clay.aspx\">\n  clay\n </a>\n <a href=\"/en/Terms/g/group.aspx\">\n  group\n </a>\n of layered\n <a href=\"/en/Terms/s/silicate.aspx\">\n  silicate\n </a>\n minerals. The structure of these minerals can consist of two, three or four layers. The octahedral\n <a href=\"/en/Terms/l/layer.aspx\">\n  layer\n </a>\n is a plane of aluminum hydroxide octahedra (aluminum at the center and hydroxides at all six corners). Another\n <a href=\"/en/Terms/s/structural.aspx\">\n  structural\n </a>\n layer is a plane of silicon dioxide tetrahedra (silicon at the center and oxygen at all four corners of the tetrahedron). The tetrahedral and octahedral layers fit one on top of the other, with oxygen atoms being shared as oxide and hydroxide groups.\n</div>\n",
+          "definition": "One of the layers that constitute the atomic <a href=\"/en/Terms/s/structure.aspx\">structure</a>\n of the\n <a href=\"/en/Terms/c/clay.aspx\">\n  clay\n </a>\n <a href=\"/en/Terms/g/group.aspx\">\n  group\n </a>\n of layered\n <a href=\"/en/Terms/s/silicate.aspx\">\n  silicate\n </a>\n minerals. The structure of these minerals can consist of two, three or four layers. The octahedral\n <a href=\"/en/Terms/l/layer.aspx\">\n  layer\n </a>\n is a plane of aluminum hydroxide octahedra (aluminum at the center and hydroxides at all six corners). Another\n <a href=\"/en/Terms/s/structural.aspx\">\n  structural\n </a>\n layer is a plane of silicon dioxide tetrahedra (silicon at the center and oxygen at all four corners of the tetrahedron). The tetrahedral and octahedral layers fit one on top of the other, with oxygen atoms being shared as oxide and hydroxide groups.\n</div>\n",
           "see": [
             {
               "title": "bentonite",
@@ -34,6 +34,82 @@ export default [
           ]
         }
       ]
+    },
+    {
+      "id": "csg",
+      "url": "https://www.glossary.oilfield.slb.com/en/Terms/c/csg.aspx",
+      "term": "CSG",
+      "letter": "c",
+      "definitions": [
+          {
+              "speech_type": "1. n.",
+              "category": "[Geology]",
+              "definition": "Abbreviation for coal seam gas. Natural gas, predominantly methane [CH\u2084], generated during coal formation and adsorbed in coal. Natural gas adsorbs to the surfaces of matrix pores within the coal and natural fractures, or cleats, as reservoir pressure increases.\n Production of natural gas from coal requires decreasing the pore pressure below the coal's desorption pressure so that methane will desorb from surfaces, diffuse through the coal matrix and become free gas. Because the diffusivity and permeability of the coal matrix are ultralow, coal must have an extensive cleat system to ensure adequate permeability and flow of methane to wellbores at economic production rates.\n  Coal seams are typically saturated with water. Consequently, the coal must be dewatered for efficient gas production. Dewatering reduces the hydrostatic pressure and promotes gas desorption from coal. As dewatering progresses, gas production often increases at a rate governed by how quickly gas desorbs from coal, the permeability of the cleat and the relative permeability of the gas-water system in the cleat. Eventually, the rate and amount of gas desorption decreases as the coal seam is depleted of its gas, and production declines.\n Coal seams with no water (dry coal) have been discovered and commercially exploited. In these reservoirs, the adsorbed gas is held in place by free gas in the cleats. Consequently, gas production consists of both free gas from the cleat system and desorbed gas from the matrix.",
+              "see": [
+                  {
+                      "title": "unconventional resource",
+                      "link": "https://www.glossary.oilfield.slb.com/en/Terms/u/unconventional_resource.aspx"
+                  }
+              ],
+              "more_details": [
+                  {
+                      "title": "Learning to Produce Coalbed Methane",
+                      "link": "http://www.slb.com/resources/publications/industry_articles/oilfield_review/1991/or1991jan04_methane.aspx"
+                  },
+                  {
+                      "title": "Producing Natural Gas from Coal",
+                      "link": "http://www.slb.com/resources/publications/industry_articles/oilfield_review/2003/or2003aut02_gas_from_coal.aspx"
+                  },
+                  {
+                      "title": "Coalbed Methane: Clean Energy for the World",
+                      "link": "http://www.slb.com/resources/publications/industry_articles/oilfield_review/2009/or2009sum01_coalbed_methane.aspx"
+                  }
+              ],
+              "synonyms": [
+                  {
+                      "title": "coalbed methane",
+                      "link": "https://www.glossary.oilfield.slb.com/en/Terms/c/coalbed_methane.aspx"
+                  },
+                  {
+                      "title": "coal bed methane",
+                      "link": "https://www.glossary.oilfield.slb.com/en/Terms/c/coal_bed_methane.aspx"
+                  },
+                  {
+                      "title": "coal-bed methane",
+                      "link": "https://www.glossary.oilfield.slb.com/en/Terms/c/coal-bed_methane.aspx"
+                  },
+                  {
+                      "title": "CBM",
+                      "link": "https://www.glossary.oilfield.slb.com/en/Terms/c/cbm.aspx"
+                  }
+              ],
+              "antonyms": [],
+              "alternate_forms": "coal seam gas, coal-seam gas",
+              "image": {
+                  "src": "https://www.glossary.oilfield.slb.com/en/Terms/c/en/~/media/PublicMedia/geology/coalbedMethane01.ashx",
+                  "caption": "Gas adsorption and desorption in coal. During coalification, the matrix shrinks, creating orthogonal fractures called cleats. Face cleats tend to be continuous; butt cleats are at right angles to face cleats. Typically, water fills the void spaces of the coal matrix. As the water is produced and the formation pressure decreases, methane\u2014adsorbed on the surfaces of the coal matrix and stored in the micropores\u2014is liberated. The gas then diffuses through the matrix (red arrows), migrates into the cleats and fractures and eventually reaches the wellbore."
+              }
+            },
+            {
+                "speech_type": "2. n.",
+                "category": "Geophysics",
+                "definition": "Abbreviation for common source gather. A display of <a href=\"/en/Terms/s/seismic.aspx\" shape=\"rect\">\n  seismic\n </a>\n <a href=\"/en/Terms/t/trace.aspx\" shape=\"rect\">\n  traces\n </a>\n that share a\n <a href=\"/en/Terms/s/source.aspx\" shape=\"rect\">\nsource\n</a>.\n</div>\n",
+                "see": [
+                    {
+                        "title": "seismic trace",
+                        "link": "https://www.glossary.oilfield.slb.com/en/Terms/s/seismic_trace.aspx"
+                    },
+                    {
+                        "title": "trace",
+                        "link": "https://www.glossary.oilfield.slb.com/en/Terms/t/trace.aspx"
+                    }
+                ],
+                "more_details": [],
+                "synonyms": [],
+                "antonyms": [],
+                "alternate_forms": "common source gather"
+            }
+        ]
     },
     {
       "id": "sodium-chromate",
@@ -1103,7 +1179,7 @@ export default [
         {
           "speech_type": "1. n.",
           "category": "[Drilling Fluids]",
-          "definition": "<div class=\"definition-text\">\n A drilling-fluid additive used primarily for\n <a href=\"/en/Terms/f/fluid-loss_control.aspx\">\n  fluid-loss control\n </a>\n , manufactured by reacting natural cellulose with monochloroacetic\n <a href=\"/en/Terms/a/acid.aspx\">\n  acid\n </a>\n and\n <a href=\"/en/Terms/s/sodium_hydroxide.aspx\">\n  sodium hydroxide\n </a>\n [NaOH] to form\n <a href=\"/en/Terms/c/cmc.aspx\">\n  CMC\n </a>\n sodium\n <a href=\"/en/Terms/s/salt.aspx\">\n  salt\n </a>\n . Up to 20 wt % of CMC may be NaCl, a by-product of manufacture, but purified grades of CMC contain only small amounts of NaCl. To make CMC, OH groups on the glucose rings of cellulose are ether-linked to carboxymethyl (-OCH2-COO-) groups. (Note the negative charge.) Each glucose ring has three OH groups capable of reaction, degree-of-substitution = 3. Degree of substitution determines water\n <a href=\"/en/Terms/s/solubility.aspx\">\n  solubility\n </a>\n and negativity of the\n <a href=\"/en/Terms/p/polymer.aspx\">\n  polymer\n </a>\n , which influences a CMC's effectiveness as a\n <a href=\"/en/Terms/m/mud_additive.aspx\">\n  mud additive\n </a>\n . Drilling grade CMCs used in muds typically have degree-of-substitution around 0.80 to 0.96. Carboxymethylcellulose is commonly supplied either as low-viscosity (\"\n <a href=\"/en/Terms/c/cmc-lo_vis.aspx\">\n  CMC-Lo Vis\n </a>\n \") or high-viscosity (\"\n <a href=\"/en/Terms/c/cmc-hi_vis.aspx\">\n  CMC-Hi Vis\n </a>\n \") grades, both of which have\n <a href=\"/en/Terms/a/api.aspx\">\n  API\n </a>\n specifications. The viscosity depends largely on the molecular weight of the starting cellulose material.\nReference:\nHughes TL, Jones TG and Houwen OW: \"The Chemical Characterization of CMC and Its Relationship to Drilling-Mud Rheology and Fluid Loss,\" SPE Drilling &amp; Completion 8, no. 3 (September 1993): 157-164.\n</div>\n",
+          "definition": "<div class=\"definition-text\">\n A drilling-fluid additive used primarily for\n <a href=\"/fluid-loss_control\">\n  fluid-loss control\n </a >\n , manufactured by reacting natural cellulose with monochloroacetic\n <a href=\"/en/Terms/a/acid.aspx\">\n  acid\n </a>\n and\n <a href=\"/en/Terms/s/sodium_hydroxide.aspx\">\n  sodium hydroxide\n </a>\n [NaOH] to form\n <a href=\"/en/Terms/c/cmc.aspx\">\n  CMC\n </a>\n sodium\n <a href=\"/en/Terms/s/salt.aspx\">\n  salt\n </a>\n . Up to 20 wt % of CMC may be NaCl, a by-product of manufacture, but purified grades of CMC contain only small amounts of NaCl. To make CMC, OH groups on the glucose rings of cellulose are ether-linked to carboxymethyl (-OCH2-COO-) groups. (Note the negative charge.) Each glucose ring has three OH groups capable of reaction, degree-of-substitution = 3. Degree of substitution determines water\n <a href=\"/en/Terms/s/solubility.aspx\">\n  solubility\n </a>\n and negativity of the\n <a href=\"/en/Terms/p/polymer.aspx\">\n  polymer\n </a>\n , which influences a CMC's effectiveness as a\n <a href=\"/en/Terms/m/mud_additive.aspx\">\n  mud additive\n </a>\n . Drilling grade CMCs used in muds typically have degree-of-substitution around 0.80 to 0.96. Carboxymethylcellulose is commonly supplied either as low-viscosity (\"\n <a href=\"/en/Terms/c/cmc-lo_vis.aspx\">\n  CMC-Lo Vis\n </a>\n \") or high-viscosity (\"\n <a href=\"/en/Terms/c/cmc-hi_vis.aspx\">\n  CMC-Hi Vis\n </a>\n \") grades, both of which have\n <a href=\"/en/Terms/a/api.aspx\">\n  API\n </a>\n specifications. The viscosity depends largely on the molecular weight of the starting cellulose material.\nReference:\nHughes TL, Jones TG and Houwen OW: \"The Chemical Characterization of CMC and Its Relationship to Drilling-Mud Rheology and Fluid Loss,\" SPE Drilling &amp; Completion 8, no. 3 (September 1993): 157-164.\n</div>\n",
           "see": [
             {
               "title": "carboxymethyl starch",
