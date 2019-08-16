@@ -44,7 +44,7 @@
     "ember-cli-qunit": "^4.3.2",
     "ember-cli-sass": "^10.0.1",
     "ember-cli-sri": "^2.1.1",
-    "ember-cli-tailwind": "^0.6.2",
+    "ember-cli-tailwind": "^0.7.0",
     "ember-cli-template-lint": "^1.0.0-beta.1",
     "ember-cli-uglify": "^2.1.0",
     "ember-composable-helpers": "^2.3.1",
