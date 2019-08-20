@@ -12,8 +12,8 @@
         {{!-- definition flex-1 --}}
         <div class="w-61.2 md:w-full">
           <p class="text-xs font-bold">{{definition.speech_type}} {{definition.category}}</p>
-          <p class="text-xs leading-normal pt-24 pr-6 pb-10">
-            {{definition.definition}}
+          <p class="text-xs leading-normal pt-24 pr-6 pb-10" {{tooltip "Increase speed (o)"}}>
+            {{{definition.definition}}}
           </p>
 
           {{#if definition.synonyms}}

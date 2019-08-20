@@ -5377,7 +5377,7 @@ ember-cli-babel@^7.1.0, ember-cli-babel@^7.1.2, ember-cli-babel@^7.1.3, ember-cl
     ensure-posix-path "^1.0.2"
     semver "^5.5.0"
 
-ember-cli-babel@^7.10.0, ember-cli-babel@^7.7.0, ember-cli-babel@^7.7.3:
+ember-cli-babel@^7.10.0, ember-cli-babel@^7.4.2, ember-cli-babel@^7.7.0, ember-cli-babel@^7.7.3:
   version "7.10.0"
   resolved "https://registry.yarnpkg.com/ember-cli-babel/-/ember-cli-babel-7.10.0.tgz#5505254b21f3c98400c91bf565dc1c0cf408b6b4"
   integrity sha512-eNgPXobC+Pke5L3XzoJ0BXbb2+eYzZI+LljqbwXNuG4q63pF000aARFpTQ0p/NWkfGQxKi2L6tVIa1ZOYdQS+A==
@@ -5928,6 +5928,14 @@ ember-font-awesome@^4.0.0-rc.4:
     postcss "^6.0.14"
     sync-disk-cache "^1.3.2"
 
+ember-functional-modifiers@^0.4.0:
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/ember-functional-modifiers/-/ember-functional-modifiers-0.4.0.tgz#2591c462e758e69dc2e5d0b30a9409388a5106d8"
+  integrity sha512-LSvSIb7SJExPZOl30/C9tj2eZrpvtMBZAdMSHFmy0ya3mNl5SMPSgEqhT2umdjH+ufMqs99AaZNsma/UXywc4A==
+  dependencies:
+    ember-cli-babel "^7.1.2"
+    ember-modifier-manager-polyfill "^1.0.3"
+
 ember-get-config@^0.2.2, ember-get-config@^0.2.3, ember-get-config@^0.2.4:
   version "0.2.4"
   resolved "https://registry.yarnpkg.com/ember-get-config/-/ember-get-config-0.2.4.tgz#118492a2a03d73e46004ed777928942021fe1ecd"
@@ -5943,6 +5951,13 @@ ember-getowner-polyfill@^2.0.1:
   dependencies:
     ember-cli-version-checker "^2.1.0"
     ember-factory-for-polyfill "^1.3.1"
+
+ember-href-to@^3.1.0:
+  version "3.1.0"
+  resolved "https://registry.yarnpkg.com/ember-href-to/-/ember-href-to-3.1.0.tgz#704f66c2b555a2685fac9ddc74eb9c95abaf5b8f"
+  integrity sha512-rV9KWDMHgkQsEXuPQekxZ9BbJ75jJqkErWHzWscjmmYwbrMAFxjAt7/oeuiaDxMqHlatNXA0lTkPDZKEBTxoFQ==
+  dependencies:
+    ember-cli-babel "^7.1.2"
 
 ember-ignore-children-helper@^1.0.1:
   version "1.0.1"
@@ -6015,6 +6030,15 @@ ember-modal-dialog@^3.0.0-beta.0:
     ember-cli-version-checker "^2.1.0"
     ember-ignore-children-helper "^1.0.1"
     ember-wormhole "^0.5.5"
+
+ember-modifier-manager-polyfill@^1.0.3:
+  version "1.0.3"
+  resolved "https://registry.yarnpkg.com/ember-modifier-manager-polyfill/-/ember-modifier-manager-polyfill-1.0.3.tgz#6554b70d09a7d3b80d366b72ed482fb9a3e813c0"
+  integrity sha512-d8Uz0BhAZaqzttF4NXTwJ/A8uPrgd7fMho5jh89BfzJAHu5WZfGewX9cbjh3m6f512ZyxkIeeolw3Z5/Jyaujg==
+  dependencies:
+    ember-cli-babel "^7.4.2"
+    ember-cli-version-checker "^2.1.2"
+    ember-compatibility-helpers "^1.2.0"
 
 ember-qunit@^3.5.0:
   version "3.5.3"
