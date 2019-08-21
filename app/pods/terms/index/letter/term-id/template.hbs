@@ -1,5 +1,8 @@
 <div class="w-700 ml-5 mr-20">
+  {{log "hello!"}}
   <p class="text-blue-darkest text-xxl mb-21">{{model.term}}</p>
+  {{debugger}}
+  {{log "hello!"}}
   {{!-- definition flex --}}
   <div class="flex">
 
@@ -12,7 +15,7 @@
         {{!-- definition flex-1 --}}
         <div class="w-61.2 md:w-full">
           <p class="text-xs font-bold">{{definition.speech_type}} {{definition.category}}</p>
-          <p class="text-xs leading-normal pt-24 pr-6 pb-10" {{tooltip "Increase speed (o)"}}>
+          <p class="text-xs leading-normal pt-24 pr-6 pb-10">
             {{{definition.definition}}}
           </p>
 

@@ -9,5 +9,5 @@ this.get("/terms", function({ terms }, { queryParams }) {
   }
   return results;
 });
-this.get("terms/:id");
+this.get("/terms/:id");
 }
