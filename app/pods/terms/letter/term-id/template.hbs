@@ -1,8 +1,5 @@
 <div class="w-700 ml-5 mr-20">
-  {{log "hello!"}}
   <p class="text-blue-darkest text-xxl mb-21">{{model.term}}</p>
-  {{debugger}}
-  {{log "hello!"}}
   {{!-- definition flex --}}
   <div class="flex">
 
@@ -10,7 +7,7 @@
     {{#each (take 1 model.definitions) as |definition|}}
 
       {{!-- definition div: includes image --}}
-      <div class="inline-flex bg-grey-lighter pt-10 pr-0 pb-8 pl-8">
+      <div class="inline-flex bg-grey-lighter w-full pt-10 pr-0 pb-8 pl-8">
 
         {{!-- definition flex-1 --}}
         <div class="w-61.2 md:w-full">
@@ -23,7 +20,7 @@
             <div class="pb-10">
               <span class="text-xs font-bold leading-normal">Synonyms:</span>
               {{#each definition.synonyms as |syn|}}
-                <a class="text-xs text-blue-light" href={{syn.link}}>{{syn.title}}</a>{{#unless (eq syn definition.synonyms.lastObject)}},{{/unless}}
+                <a class="text-xs text-blue-light no-underline" href={{syn.link}}>{{syn.title}}</a>{{#unless (eq syn definition.synonyms.lastObject)}},{{/unless}}
               {{/each}}
             </div>
           {{/if}}
@@ -40,7 +37,7 @@
               <span class="text-xs font-bold">See:</span>
               {{#each definition.see as |see|}}
                 {{#if see.title}}
-                  <a class="text-xs text-blue-light leading-normal" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}
+                  <a class="text-xs text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}
                 {{/if}}
               {{/each}}
             </div>
@@ -52,7 +49,7 @@
               <ul class="text-xs">
                 {{#each definition.more_details as |more_details|}}
                   <li>
-                    <a class="text-xs text-blue-light leading-normal" href={{more_details.link}}>
+                    <a class="text-xs text-blue-light leading-normal no-underline" href={{more_details.link}}>
                       {{more_details.title}}
                     </a>
                   </li>
@@ -95,7 +92,7 @@
           <div class="p-8 bg-white w-full max-w-md m-auto flex-col flex">
             <img class="p-10" src={{definition.image.src}} alt="">
             <figcaption class="p-15">
-              <span class="text-xs leading-normal">{{definitnion.image.caption}}</span>
+              <span class="text-xs leading-normal">{{definition.image.caption}}</span>
             </figcaption>
             <a {{action (mut showImage) false}} href="">
               <span class="absolute pin-t pin-b pin-r p-4">
@@ -127,7 +124,7 @@
 
         {{#if definition.see.length}}
           <div class="pb-10">
-            <span class="text-xs font-bold">See:</span> {{#each definition.see as |see|}} {{#if see.title}} <a class="text-xs text-blue-light leading-normal" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}{{/if}}{{/each}}
+            <span class="text-xs font-bold">See:</span> {{#each definition.see as |see|}} {{#if see.title}} <a class="text-xs text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}{{/if}}{{/each}}
           </div>
         {{/if}}
       </div>

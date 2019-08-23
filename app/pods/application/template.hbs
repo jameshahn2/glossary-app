@@ -21,7 +21,7 @@
 
     <ul class="md:ml-30m my-5">
       {{#each (sort-by "term" searchRepo.lastSuccessful.value) as |term|}}
-        {{#link-to "terms" term.letter.id}}{{term.term}}{{/link-to}}<br>
+        {{#link-to "terms.letter.term_id" term.letter term.id class="text-blue-light text-xs no-underline"}}{{term.term}}{{/link-to}}<br>
       {{/each}}
     </ul>
     {{ui-sidebar}}

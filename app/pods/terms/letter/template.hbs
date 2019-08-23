@@ -1,0 +1,7 @@
+{{model.letter}}
+{{get model "term"}}
+
+{{#each model.terms as |term|}}
+  {{term.term}}
+{{/each}}
+{{outlet}}
