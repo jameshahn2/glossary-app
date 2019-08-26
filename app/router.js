@@ -8,16 +8,16 @@ const Router = EmberRouter.extend({
 
 Router.map(function() {
   this.route("home", { path: "/" });
-  this.route("term", function() {
-    this.route("letter", { path: "/:letter" })
-  });
   this.route("terms", function() {
     this.route("letter", { path: "/:letter" }, function() {
       this.route("term_id", { path: "/:term_id" });
     });
   });
+  this.route("term", function() {
+    this.route("letter", { path: "/:letter" });
+  });
   this.route("disciplines", function() {
-    this.route("groups", { path: "/:groups" });
+    this.route("group", { path: "/:group" });
   });
 });
 
