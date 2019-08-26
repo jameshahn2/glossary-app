@@ -1,7 +1,5 @@
-<h3>{{model.groups.title}}</h3>
+<h3>{{title.title}}</h3>
 
-{{#each model.groups as |term|}}
-  {{#link-to "terms.letter.term_id" term.letter term.id}}
-    <li class="text-blue-light text-sm pt-8 pr-8 pb-8 list-reset">{{term.term}}</li>
-  {{/link-to}}
+{{#each groups as |title|}}
+  {{title.title}}
 {{/each}}
