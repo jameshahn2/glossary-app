@@ -11,16 +11,16 @@
 
         {{!-- definition flex-1 --}}
         <div class="w-61.2 md:w-full">
-          <p class="text-xs font-bold">{{definition.speech_type}} {{definition.category}}</p>
-          <p class="text-xs leading-normal pt-24 pr-6 pb-10">
+          <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
+          <p class="text-sm leading-normal pt-24 pr-6 pb-10">
             {{{definition.definition}}}
           </p>
 
           {{#if definition.synonyms}}
             <div class="pb-10">
-              <span class="text-xs font-bold leading-normal">Synonyms:</span>
+              <span class="text-sm font-bold leading-normal">Synonyms:</span>
               {{#each definition.synonyms as |syn|}}
-                <a class="text-xs text-blue-light no-underline" href={{syn.link}}>{{syn.title}}</a>{{#unless (eq syn definition.synonyms.lastObject)}},{{/unless}}
+                <a class="text-sm text-blue-light no-underline" href={{syn.link}}>{{syn.title}}</a>{{#unless (eq syn definition.synonyms.lastObject)}},{{/unless}}
               {{/each}}
             </div>
           {{/if}}
@@ -28,16 +28,16 @@
 
           {{#if definition.alternate_forms}}
             <div class="pb-10">
-              <span class="text-xs font-bold">Alternate Form:</span> <span class="text-xs">{{definition.alternate_forms}}</span>
+              <span class="text-sm font-bold">Alternate Form:</span> <span class="text-sm">{{definition.alternate_forms}}</span>
             </div>
           {{/if}}
 
           {{#if definition.see.length}}
             <div class="pb-10">
-              <span class="text-xs font-bold">See:</span>
+              <span class="text-sm font-bold">See:</span>
               {{#each definition.see as |see|}}
                 {{#if see.title}}
-                  <a class="text-xs text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}
+                  <a class="text-sm text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}
                 {{/if}}
               {{/each}}
             </div>
@@ -45,11 +45,11 @@
 
           {{#if definition.more_details}}
             <div class="pb-10">
-              <span class="text-xs font-bold">More Details:</span>
-              <ul class="text-xs">
+              <span class="text-sm font-bold">More Details:</span>
+              <ul class="text-sm">
                 {{#each definition.more_details as |more_details|}}
                   <li>
-                    <a class="text-xs text-blue-light leading-normal no-underline" href={{more_details.link}}>
+                    <a class="text-sm text-blue-light leading-normal no-underline" href={{more_details.link}}>
                       {{more_details.title}}
                     </a>
                   </li>
@@ -71,7 +71,7 @@
                 </p>
               </a>
               <figcaption class="p-15">
-                <span class="text-xs leading-normal">{{definition.image.caption}}</span>
+                <span class="text-sm leading-normal">{{definition.image.caption}}</span>
               </figcaption>
             </div>
           </div>
@@ -92,7 +92,7 @@
           <div class="p-8 bg-white w-full max-w-md m-auto flex-col flex">
             <img class="p-10" src={{definition.image.src}} alt="">
             <figcaption class="p-15">
-              <span class="text-xs leading-normal">{{definition.image.caption}}</span>
+              <span class="text-sm leading-normal">{{definition.image.caption}}</span>
             </figcaption>
             <a {{action (mut showImage) false}} href="">
               <span class="absolute pin-t pin-b pin-r p-4">
@@ -113,18 +113,18 @@
   {{#each (drop 1 model.definitions) as |definition|}}
     <div class="w-full pt-10 pr-0 pb-8 pl-8">
       <div class="w-61.2 md:w-full">
-        <p class="text-xs font-bold">{{definition.speech_type}} {{definition.category}}</p>
-        <p class="text-xs leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
+        <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
+        <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
 
         {{#if definition.alternate_forms}}
           <div class="pb-10">
-            <span class="text-xs font-bold">Alternate Form:</span> <span class="text-xs">{{definition.alternate_forms}}</span>
+            <span class="text-sm font-bold">Alternate Form:</span> <span class="text-sm">{{definition.alternate_forms}}</span>
           </div>
         {{/if}}
 
         {{#if definition.see.length}}
           <div class="pb-10">
-            <span class="text-xs font-bold">See:</span> {{#each definition.see as |see|}} {{#if see.title}} <a class="text-xs text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}{{/if}}{{/each}}
+            <span class="text-sm font-bold">See:</span> {{#each definition.see as |see|}} {{#if see.title}} <a class="text-sm text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}{{/if}}{{/each}}
           </div>
         {{/if}}
       </div>
