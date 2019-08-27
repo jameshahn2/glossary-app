@@ -3,10 +3,10 @@ export default [
     "id": "survey",
     "term": "survey",
     "letter": "s",
-    "groups": [
-      { "title": "geophysics" },
-      { "title": "drilling" },
-      { "title": "formation evaluation" },
+    "group": [
+      { "title": "geophysics", "id": "1" },
+      { "title": "drilling", "id": "2" },
+      { "title": "formation evaluation", "id": "3" },
     ],
     "definitions": [
         {
@@ -324,7 +324,7 @@ export default [
     "id": "make_hole",
     "term": "make hole",
     "letter": "m",
-    "group": [
+    "disciplines": [
       { "title": "drilling" }
     ],
     "definitions": [
@@ -600,7 +600,7 @@ export default [
     "id": "morning_tour",
     "term": "morning tour",
     "letter": "m",
-    "group": [
+    "groups": [
       { "title": "drilling" }
     ],
     "definitions": [
@@ -760,7 +760,7 @@ export default [
     "id": "makeup_cathead",
     "term": "makeup cathead",
     "letter": "m",
-    "group": [
+    "groups": [
       { "title": "drilling" }
     ],
     "definitions": [
@@ -1104,7 +1104,7 @@ export default [
     "id": "magnetic_toolface",
     "term": "magnetic toolface",
     "letter": "m",
-    "group": [
+    "groups": [
       { "title": "drilling" }
     ],
     "definitions": [
@@ -1733,7 +1733,8 @@ export default [
     "id": "multilateral",
     "term": "multilateral",
     "letter": "m",
-    "group": [
+    "disciplines": "drilling",
+    "groups": [
       { "title": "drilling" }
     ],
     "definitions": [
@@ -2612,6 +2613,7 @@ export default [
       "definitions": [
         {
           "speech_type": "1. n.",
+          "category": "Drilling",
           "definition": "A generic term for several classes of self-contained floatable or floating drilling machines such as jackups, semisubmersibles, and submersibles.",
           "see": [
             {

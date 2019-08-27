@@ -1,7 +1,10 @@
-{{#each rows as |row|}}
-	<div style="display: flex">
-		{{#each row as |item|}}
-			<div style="min-width: 100px">{{item}}</div>
-		{{/each}}
-	</div>
-{{/each}}
+<div class="flex flex-wrap">
+	{{#each rows as |row|}}
+		<div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 xxl:w-1/4 txl:w-1/4 txl:w-1/4 fxl:w-1/4">
+			{{#each row as |item|}}
+				<a class="text-blue-light text-sm no-underline" href="{{href-to "terms.letter.term_id" item.id}}">
+					{{item.term}}</a><br>
+			{{/each}}
+		</div>
+	{{/each}}
+</div>

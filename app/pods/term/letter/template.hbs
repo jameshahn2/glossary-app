@@ -1,4 +1,9 @@
-{{alpha-grid terms=model}}
+<h3 class="capitalize pt-20 pb-5">
+  {{#each (take 1 model) as |letter|}}
+    {{letter.letter}}
+  {{/each}}
+</h3>
 
+{{alpha-grid terms=model}}
 
 {{outlet}}
