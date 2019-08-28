@@ -4,9 +4,9 @@ export default [
     "term": "survey",
     "letter": "s",
     "group": [
-      { "title": "geophysics", "id": "1" },
-      { "title": "drilling", "id": "2" },
-      { "title": "formation evaluation", "id": "3" },
+      { "title": "geophysics" },
+      { "title": "drilling" },
+      { "title": "formation evaluation" },
     ],
     "definitions": [
         {
@@ -1733,13 +1733,10 @@ export default [
     "id": "multilateral",
     "term": "multilateral",
     "letter": "m",
-    "disciplines": "drilling",
-    "groups": [
-      { "title": "drilling" }
-    ],
     "definitions": [
         {
             "speech_type": "1. adj.",
+            "category": "Drilling",
             "definition": "Pertaining to a well that has more than one branch radiating from the main <a class=\"text-blue-light no-underline\" href=\"/terms/b/borehole\">borehole</a>. The term is also used to refer to the multilateral well itself.",
             "see": [
                 {

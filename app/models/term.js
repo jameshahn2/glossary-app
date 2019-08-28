@@ -5,6 +5,5 @@ export default DS.Model.extend({
   letter: DS.attr("string"),
   group: DS.hasMany("term", { inverse: "title"}),
   title: DS.belongsTo("term", { inverse: "group" }),
-  disciplines: DS.attr(),
   definitions: DS.attr()
 });
