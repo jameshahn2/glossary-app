@@ -1,3 +1,5 @@
+{{!-- The look ahead search begins at line 18 and ends at line 28 --}}
+
 <div class="container mx-auto max-w-xl bg-grey-white xxs:w-95p xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:w-768 lg:w-980 md:shadow">
 
   {{ui-nav}}
@@ -13,14 +15,14 @@
         Search for Term:
       </p>
     </div>
-    <input type="text" oninput={{perform searchRepo value="target.value"}} class="border ml-10">
+    <input type="text" oninput={{perform searchGlossary value="target.value"}} class="border ml-10">
 
-    {{#if searchRepo.isRunning}}
+    {{#if searchGlossary.isRunning}}
       {{loading-spinner}}
     {{/if}}
 
     <ul class="md:ml-30m my-5">
-      {{#each (take 10 (sort-by "term" searchRepo.lastSuccessful.value)) as |term|}}
+      {{#each (take 10 (sort-by "term" searchGlossary.lastSuccessful.value)) as |term|}}
         {{#link-to "terms.letter.term_id" term.letter term.id class="text-blue-light text-sm no-underline"}}{{term.term}}{{/link-to}}<br>
       {{/each}}
     </ul>

@@ -1,3 +1,5 @@
+/* Controls the look ahead search visible in application routes. */
+
 import Controller from "@ember/controller";
 import { task, timeout } from "ember-concurrency";
 import $ from "jquery";
@@ -6,7 +8,7 @@ import { isBlank } from "@ember/utils";
 const DEBOUNCE_MS = 250;
 
 export default Controller.extend({
-  searchRepo: task(function * (term) {
+  searchGlossary: task(function * (term) {
   if (isBlank(term)) { return []; }
 
   yield timeout(DEBOUNCE_MS);

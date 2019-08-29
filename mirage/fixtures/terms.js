@@ -6,7 +6,7 @@ export default [
     "group": [
       { "title": "geophysics" },
       { "title": "drilling" },
-      { "title": "formation evaluation" },
+      { "title": "formation_evaluation" }
     ],
     "definitions": [
         {
@@ -95,9 +95,15 @@ export default [
                     "link": "https://www.glossary.oilfield.slb.com/en/Terms/t/telluric-current_method.aspx"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": [],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "image": {
                 "src": "https://www.glossary.oilfield.slb.com/en/Terms/s/en/~/media/PublicMedia/OGL98173.ashx",
                 "caption": "A large survey might encompass deep marine, shallow marine, very shallow water and land areas, each of which requires a different acquisition technique."
@@ -113,9 +119,15 @@ export default [
                     "link": "https://www.glossary.oilfield.slb.com/en/Terms/a/acquisition.aspx"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         },
         {
             "speech_type": "3. n.",
@@ -155,56 +167,90 @@ export default [
                     "link": "https://www.glossary.oilfield.slb.com/en/Terms/t/tripping_pipe.aspx"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         },
         {
             "speech_type": "4. n.",
             "category": "Drilling",
             "definition": "<div class=\"definition-text\">\n A precise and legally binding measurement of surface locations, referenced to known\n <a href=\"/en/Terms/b/benchmark.aspx\">\n  benchmark\n </a>\n locations.\n</div>\n",
-            "see": [],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "see": [
+
+            ],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         },
         {
             "speech_type": "5. vb.",
             "category": "Drilling",
             "definition": "<div class=\"definition-text\">\n To make the measurements as in definitions 1 or 2.\n</div>\n",
-            "see": [],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "see": [
+
+            ],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         },
         {
             "speech_type": "6. n.",
             "category": "Formation Evaluation",
             "definition": "<div class=\"definition-text\">\n The measurement versus depth or time, or both, of one or more physical quantities in or around a well. In early years, the term was used more often than log.\n</div>\n",
-            "see": [],
-            "more_details": [],
+            "see": [
+
+            ],
+            "more_details": [
+
+            ],
             "synonyms": [
                 {
                     "title": "log",
                     "link": "https://www.glossary.oilfield.slb.com/en/Terms/l/log.aspx"
                 }
             ],
-            "antonyms": [],
+            "antonyms": [
+
+            ],
             "alternate_forms": "electrical survey"
         },
         {
             "speech_type": "7. vb.",
             "category": "Formation Evaluation",
             "definition": "<div class=\"definition-text\">\n To record a measurement versus depth or time, or both, of one or more physical quantities in or around a well. In early years, the term was used more often than log.\n</div>\n",
-            "see": [],
-            "more_details": [],
+            "see": [
+
+            ],
+            "more_details": [
+
+            ],
             "synonyms": [
                 {
                     "title": "log",
                     "link": "https://www.glossary.oilfield.slb.com/en/Terms/l/log.aspx"
                 }
             ],
-            "antonyms": []
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -234,9 +280,15 @@ export default [
                     "link": "/terms/o/orogeny"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -244,6 +296,10 @@ export default [
     "id": "mechanical_skin",
     "term": "mechanical skin",
     "letter": "m",
+    "group": [
+      { "title": "perforating" },
+      { "title": "well_completions" }
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -255,9 +311,15 @@ export default [
                     "link": "/terms/s/skin"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -265,6 +327,9 @@ export default [
     "id": "medium_induction",
     "term": "medium induction",
     "letter": "m",
+    "group": [
+      { "title": "formation_evaluation" }
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -276,9 +341,15 @@ export default [
                     "link": "/terms/r/resistivity_log"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": [],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "alternate_forms": "IM"
         }
     ]
@@ -287,6 +358,9 @@ export default [
     "id": "multiple_salinity",
     "term": "multiple salinity",
     "letter": "m",
+    "group": [
+      { "title": "formation_evaluation" }
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -314,9 +388,15 @@ export default [
                     "link": "/terms/p/porosity_exponent"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -324,12 +404,13 @@ export default [
     "id": "make_hole",
     "term": "make hole",
     "letter": "m",
-    "disciplines": [
+    "group": [
       { "title": "drilling" }
     ],
     "definitions": [
         {
             "speech_type": "1. vb.",
+            "category": "Drilling",
             "definition": "To deepen a wellbore with the <a class=\"text-blue-light no-underline\" href=\"/terms/d/drill_bit\">drill bit</a>. To drill ahead.",
             "see": [
                 {
@@ -337,9 +418,15 @@ export default [
                     "link": "/terms/b/bit"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -347,6 +434,9 @@ export default [
     "id": "matrix",
     "term": "matrix",
     "letter": "m",
+    "group": [
+      { "title": "geology" }
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -370,9 +460,15 @@ export default [
                     "link": "/terms/s/sedimentary"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": [],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "image": {
                 "src": "https://www.glossary.oilfield.slb.com/Terms/m/en/~/media/PublicMedia/OGL98088.ashx",
                 "caption": "Matrix. This SEM (scanning electron microscope) photograph shows clay coating larger mineral grains as well as forming a matrix."
@@ -384,6 +480,11 @@ export default [
     "id": "mud_cleaner",
     "term": "mud cleaner",
     "letter": "m",
+    "group": [
+      { "title": "drilling_fluids",
+        "link": "/disciplines/drilling_fluids",
+    },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -407,9 +508,15 @@ export default [
                     "link": "/terms/w/weighting_material"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -417,9 +524,9 @@ export default [
     "id": "migrate",
     "term": "migrate",
     "letter": "m",
-    "groups": [
+    "group": [
       { "title": "geology" },
-      { "title": "geophysics"},
+      { "title": "geophysics" }
     ],
     "definitions": [
         {
@@ -492,9 +599,15 @@ export default [
                     "link": "/terms/t/trap"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
           },
           {
               "speech_type": "2. vb.",
@@ -570,9 +683,15 @@ export default [
                       "link": "/terms/v/velocity_analysis"
                   }
               ],
-              "more_details": [],
-              "synonyms": [],
-              "antonyms": [],
+              "more_details": [
+
+              ],
+              "synonyms": [
+
+              ],
+              "antonyms": [
+
+              ],
               "image": {
                   "src": "https://www.glossary.oilfield.slb.com/Terms/m/en/~/media/PublicMedia/OGL98149.ashx",
                   "caption": "Sea level is typically the datum or reference plane for marine seismic measurements."
@@ -584,15 +703,26 @@ export default [
     "id": "meter_calibration",
     "term": "meter calibration",
     "letter": "m",
+    "group": [
+      { "title": "production_testing" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
             "category": "Production Testing",
             "definition": "The operation to adjust the <a class=\"text-blue-light no-underline\" href=\"/terms/m/meter\">meter</a> to a specific standard.",
-            "see": [],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "see": [
+
+            ],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -600,12 +730,13 @@ export default [
     "id": "morning_tour",
     "term": "morning tour",
     "letter": "m",
-    "groups": [
+    "group": [
       { "title": "drilling" }
     ],
     "definitions": [
         {
             "speech_type": "1. n.",
+            "category": "Drilling",
             "definition": "The work shift of a drilling crew that starts in the morning. Drilling operations usually occur around the clock because of the cost to rent a <a class=\"text-blue-light no-underline\" href=\"/terms/r/rig\">rig</a>. As a result, there are usually two separate crews working twelve-hour tours to keep the operation going. \nSome companies prefer three eight-hour tours: the <a class=\"text-blue-light no-underline\" href=\"/terms/d/daylight_tour\">daylight tour</a> starts at daylight or 8 AM; the graveyard tour is the overnight shift or the shift that begins at midnight. (Pronounced \"tower\" in many areas.)",
             "see": [
                 {
@@ -625,9 +756,15 @@ export default [
                     "link": "/terms/t/tour"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -635,6 +772,9 @@ export default [
     "id": "marine",
     "term": "marine",
     "letter": "m",
+    "group": [
+      { "title": "geology" },
+    ],
     "definitions": [
         {
             "speech_type": "1. adj.",
@@ -662,9 +802,15 @@ export default [
                     "link": "/terms/s/source_rock"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": [],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "image": {
                 "src": "https://www.glossary.oilfield.slb.com/Terms/m/en/~/media/PublicMedia/OGL98125.ashx",
                 "caption": "Delta. Deltaic deposits can be affected by rivers, tides and waves as currents enter standing or open bodies of water."
@@ -676,6 +822,9 @@ export default [
     "id": "mixed-metal_hydroxide",
     "term": "mixed-metal hydroxide",
     "letter": "m",
+    "group": [
+      { "title": "drilling_fluids" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -707,9 +856,15 @@ export default [
                     "link": "/terms/t/thixotropy"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": [],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "alternate_forms": "MMH"
         }
     ]
@@ -718,6 +873,9 @@ export default [
     "id": "magnetic_field",
     "term": "magnetic field",
     "letter": "m",
+    "group": [
+      { "title": "geophysics" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -747,8 +905,12 @@ export default [
                     "link": "http://www.slb.com/resources/publications/industry_articles/oilfield_review/2013/or2013aut03_geomagnetic"
                 }
             ],
-            "synonyms": [],
-            "antonyms": [],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "image": {
                 "src": "https://www.glossary.oilfield.slb.com/Terms/m/en/~/media/PublicMedia/geophysics/magFieldOrientation.ashx",
                 "caption": "Magnetic field orientation. At any point P, the magnetic field vector (red) is commonly described in terms of its direction, its total magnitude, F, in that direction and H and Z, the local horizontal and vertical components of F. The angles D and I describe the orientation of the magnetic field vector. The declination, D, is the angle in the horizontal plane between H and geographic north. The dip or inclination, I, is the angle between the magnetic field vector and the horizontal plane containing H. Of these measurements, only D is required to convert the compass orientation of a wellbore to its geographic orientation. The dip angle I and the absolute magnitudes F, Z and H are used for quality control and calibration."
@@ -760,12 +922,13 @@ export default [
     "id": "makeup_cathead",
     "term": "makeup cathead",
     "letter": "m",
-    "groups": [
+    "group": [
       { "title": "drilling" }
     ],
     "definitions": [
         {
             "speech_type": "1. n.",
+            "category": "drilling",
             "definition": "A clutched, rotating spool that enables the <a class=\"text-blue-light no-underline\" href=\"/terms/d/driller\">driller</a> to use the drawworks motor to apply tension to a chain connected to the <a class=\"text-blue-light no-underline\" href=\"/terms/m/makeup_tongs\">makeup tongs</a>. This tensioned chain, acting at right angles to the tong handle, imparts torque to the <a class=\"text-blue-light no-underline\" href=\"/terms/c/connection\">connection</a> being tightened.",
             "see": [
                 {
@@ -777,9 +940,15 @@ export default [
                     "link": "/terms/t/tongs"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -787,15 +956,26 @@ export default [
     "id": "minute_mark",
     "term": "minute mark",
     "letter": "m",
+    "group": [
+      { "title": "formation_evaluation" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
             "category": "Formation Evaluation",
             "definition": "An annotation made on a log print once every minute. By reading the depth interval between each minute mark, it is possible to check the <a class=\"text-blue-light no-underline\" href=\"/terms/l/logging\">logging</a> speed. Minute marks are typically made by blanking out the vertical <a class=\"text-blue-light no-underline\" href=\"/terms/g/grid\">grid</a> line on the far left of the print for a short interval every minute.",
-            "see": [],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "see": [
+
+            ],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -803,6 +983,9 @@ export default [
     "id": "multicomponent_seismic_data",
     "term": "multicomponent seismic data",
     "letter": "m",
+    "group": [
+      { "title": "geophysics" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -826,9 +1009,15 @@ export default [
                     "link": "/terms/t/three-component_seismic_data"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": [],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "image": {
                 "src": "https://www.glossary.oilfield.slb.com/Terms/m/en/~/media/PublicMedia/OGL05005.ashx",
                 "caption": "Obtaining four-component seismic data using a multiwave array system. Each sensor station within the cable comprises one hydrophone and three orthogonally oriented geophones to record both pressure and particle velocity."
@@ -840,15 +1029,26 @@ export default [
     "id": "marker_joint",
     "term": "marker joint",
     "letter": "m",
+    "group": [
+      { "title": "well_workover_and_intervention" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
             "category": "Well Workover and Intervention",
             "definition": "A <a class=\"text-blue-light no-underline\" href=\"/terms/j/joint\">joint</a> of tubing used in a <a class=\"text-blue-light no-underline\" href=\"/terms/w/workover\">workover</a> or <a class=\"text-blue-light no-underline\" href=\"/terms/c/completion\">completion</a> tubing string that serves as a position or depth <a class=\"text-blue-light no-underline\" href=\"/terms/i/indicator\">indicator</a>. In most cases, a marker joint is significantly shorter than other joints in the string so that it is easily noticeable on <a class=\"text-blue-light no-underline\" href=\"/terms/c/correlation\">correlation</a> logs or when retrieving a <a class=\"text-blue-light no-underline\" href=\"/terms/w/work_string\">work string</a>, such as on a <a class=\"text-blue-light no-underline\" href=\"/terms/s/snubbing\">snubbing</a> or hydraulic workover unit.",
-            "see": [],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "see": [
+
+            ],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -856,15 +1056,26 @@ export default [
     "id": "mudrock",
     "term": "mudrock",
     "letter": "m",
+    "group": [
+      { "title": "shale_gas" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
             "category": "Shale Gas",
             "definition": "A <a class=\"text-blue-light no-underline\" href=\"/terms/f/fine\">fine</a>-grained <a class=\"text-blue-light no-underline\" href=\"/terms/d/detrital\">detrital</a> <a class=\"text-blue-light no-underline\" href=\"/terms/s/sedimentary\">sedimentary</a> <a class=\"text-blue-light no-underline\" href=\"/terms/r/rock\">rock</a> formed by <a class=\"text-blue-light no-underline\" href=\"/terms/c/consolidation\">consolidation</a> of <a class=\"text-blue-light no-underline\" href=\"/terms/c/clay\">clay</a>- and <a class=\"text-blue-light no-underline\" href=\"/terms/s/silt\">silt</a>-sized particles. Mudrocks are highly variable in their clay content and are often rich in <a class=\"text-blue-light no-underline\" href=\"/terms/c/carbonate\">carbonate</a> material. As a consequence, they are less fissile, or susceptible to splitting along planes, than shales. Mudrocks may include relatively large amounts of organic material compared with other <a class=\"text-blue-light no-underline\" href=\"/terms/r/rock_types\">rock types</a> and thus have potential to become rich <a class=\"text-blue-light no-underline\" href=\"/terms/h/hydrocarbon\">hydrocarbon</a> <a class=\"text-blue-light no-underline\" href=\"/terms/s/source\">source</a> rocks. The typical fine grain size and low <a class=\"text-blue-light no-underline\" href=\"/terms/p/permeability\">permeability</a>, a consequence of the alignment of their platy or flaky grains, allow mudrocks to form good <a class=\"text-blue-light no-underline\" href=\"/terms/c/cap\">cap</a> rocks for hydrocarbon traps. However, mudrocks are also capable of being <a class=\"text-blue-light no-underline\" href=\"/terms/r/reservoir\">reservoir</a> rocks, as evidenced by the many wells drilled into them to produce gas.",
-            "see": [],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "see": [
+
+            ],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -872,6 +1083,9 @@ export default [
     "id": "mud_scale",
     "term": "mud scale",
     "letter": "m",
+    "group": [
+      { "title": "drilling_fluids" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -891,9 +1105,15 @@ export default [
                     "link": "/terms/p/pressurized_mud_balance"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": [],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "alternate_forms": "mud balance"
         }
     ]
@@ -902,6 +1122,9 @@ export default [
     "id": "methyl_orange_alkalinity",
     "term": "methyl orange alkalinity",
     "letter": "m",
+    "group": [
+      { "title": "drilling_fluids" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -945,9 +1168,15 @@ export default [
                     "link": "/terms/s/salt"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -955,15 +1184,26 @@ export default [
     "id": "makeup_gas",
     "term": "makeup gas",
     "letter": "m",
+    "group": [
+      { "title": "production_testing" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
             "category": "Production Testing",
             "definition": "Gas injected into a gas- <a class=\"text-blue-light no-underline\" href=\"/terms/c/condensate\">condensate</a> <a class=\"text-blue-light no-underline\" href=\"/terms/r/reservoir\">reservoir</a> to maintain the <a class=\"text-blue-light no-underline\" href=\"/terms/p/pressure\">pressure</a> level, thus preventing further condensate dropout.",
-            "see": [],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "see": [
+
+            ],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -971,6 +1211,9 @@ export default [
     "id": "mud_out_sample",
     "term": "mud out sample",
     "letter": "m",
+    "group": [
+      { "title": "drilling_fluids" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -998,9 +1241,15 @@ export default [
                     "link": "/terms/p/pilot_test"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": [],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "alternate_forms": "flowline mud sample, flowline sample"
         }
     ]
@@ -1009,6 +1258,9 @@ export default [
     "id": "maturity",
     "term": "maturity",
     "letter": "m",
+    "group": [
+      { "title": "geology" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1068,9 +1320,15 @@ export default [
                     "link": "/terms/v/vitrinite_reflectance"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1078,6 +1336,9 @@ export default [
     "id": "monument",
     "term": "monument",
     "letter": "m",
+    "group": [
+      { "title": "geophysics" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1089,14 +1350,18 @@ export default [
                     "link": "/terms/s/survey"
                 }
             ],
-            "more_details": [],
+            "more_details": [
+
+            ],
             "synonyms": [
                 {
                     "title": "benchmark",
                     "link": "/terms/b/benchmark"
                 }
             ],
-            "antonyms": []
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1104,12 +1369,13 @@ export default [
     "id": "magnetic_toolface",
     "term": "magnetic toolface",
     "letter": "m",
-    "groups": [
+    "group": [
       { "title": "drilling" }
     ],
     "definitions": [
         {
             "speech_type": "1. n.",
+            "category": "Drilling",
             "definition": "Toolface angle used for near-vertical wells. Magnetic toolface is the angle, or azimuth, of the borehole survey instrument within the wellbore measured clockwise relative to magnetic north and in the plane perpendicular to the wellbore axis; the north, east, south and west directions have magnetic toolface angles of 0\u00b0, 90\u00b0, 180\u00b0 and 270\u00b0, respectively. Magnetic toolface may be corrected to reference either grid north or true north.",
             "see": [
                 {
@@ -1121,9 +1387,15 @@ export default [
                     "link": "/terms/t/toolface"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1131,6 +1403,10 @@ export default [
     "id": "matrix_acidizing",
     "term": "matrix acidizing",
     "letter": "m",
+    "group": [
+      { "title": "well_workover_and_intervention" },
+      { "title": "well_completions" }
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1146,7 +1422,9 @@ export default [
                     "link": "/terms/s/stimulation_fluid"
                 }
             ],
-            "more_details": [],
+            "more_details": [
+
+            ],
             "synonyms": [
                 {
                     "title": "acid job",
@@ -1169,7 +1447,9 @@ export default [
                     "link": "/terms/m/matrix_stimulation"
                 }
             ],
-            "antonyms": []
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1177,6 +1457,9 @@ export default [
     "id": "moldic_porosity",
     "term": "moldic porosity",
     "letter": "m",
+    "group": [
+      { "title": "geology" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1196,9 +1479,15 @@ export default [
                     "link": "/terms/s/secondary_porosity"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": [],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "image": {
                 "src": "https://www.glossary.oilfield.slb.com/Terms/m/en/~/media/PublicMedia/OGL98092.ashx",
                 "caption": "Moldic porosity. Moldic porosity is a type of secondary porosity that preserves the shape of the precursor grain, such as this fragment of a fossil in a sample of the San Andres formation of west Texas (USA). The pore was filled with blue epoxy during sample preparation. The width of the view is approximately 2 mm.Credits: Photo courtesy of T.N. Diggs."
@@ -1210,6 +1499,9 @@ export default [
     "id": "magnetic_permeability",
     "term": "magnetic permeability",
     "letter": "m",
+    "group": [
+      { "title": "geophysics" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1225,9 +1517,15 @@ export default [
                     "link": "/terms/s/skin_depth"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1235,15 +1533,26 @@ export default [
     "id": "meter_factor",
     "term": "meter factor",
     "letter": "m",
+    "group": [
+      { "title": "production_testing" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
             "category": "Production Testing",
             "definition": "A correction number for the <a class=\"text-blue-light no-underline\" href=\"/terms/m/meter\">meter</a>. It is determined by calibrating the meter using an incompressible fluid (liquid).",
-            "see": [],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "see": [
+
+            ],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1251,6 +1560,9 @@ export default [
     "id": "minimum_miscibility_pressure",
     "term": "minimum miscibility pressure",
     "letter": "m",
+    "group": [
+      { "title": "enhanced_oil_recovery" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1262,9 +1574,15 @@ export default [
                     "link": "/terms/m/miscible"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1272,15 +1590,26 @@ export default [
     "id": "mechanical_jar",
     "term": "mechanical jar",
     "letter": "m",
+    "group": [
+      { "title": "well_workover_and_intervention" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
             "category": "Well Workover and Intervention",
             "definition": "A type of <a class=\"text-blue-light no-underline\" href=\"/terms/j/jar\">jar</a> that incorporates a mechanical <a class=\"text-blue-light no-underline\" href=\"/terms/t/trip\">trip</a> or firing mechanism that activates only when the necessary tension or compression has been applied to the running string. In <a class=\"text-blue-light no-underline\" href=\"/terms/s/slickline\">slickline</a> operations, the term is often used to describe any jar that does not contain a hydraulic trip mechanism, such as link and tubular jars that do not incorporate a firing mechanism.",
-            "see": [],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "see": [
+
+            ],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1288,20 +1617,30 @@ export default [
     "id": "microseismic_monitoring",
     "term": "microseismic monitoring",
     "letter": "m",
+    "group": [
+      { "title": "well_completions" },
+      { "title": "shale_gas" }
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
             "category": "Well Completions, Shale Gas",
             "definition": "A technique to <a class=\"text-blue-light no-underline\" href=\"/terms/t/track\">track</a> the propagation of a hydraulic <a class=\"text-blue-light no-underline\" href=\"/terms/f/fracture\">fracture</a> as it advances through a <a class=\"text-blue-light no-underline\" href=\"/terms/f/formation\">formation</a>. Microseisms are detected, located, and displayed in time for scientists and engineers to approximate the location and propagation of the hydraulic fracture. Software provides <a class=\"text-blue-light no-underline\" href=\"/terms/m/modeling\">modeling</a>, <a class=\"text-blue-light no-underline\" href=\"/terms/s/survey\">survey</a> design, microseismic detection and location, <a class=\"text-blue-light no-underline\" href=\"/terms/u/uncertainty\">uncertainty</a> analysis, data integration, and visualization for <a class=\"text-blue-light no-underline\" href=\"/terms/i/interpretation\">interpretation</a>. Computer imagery is used to monitor the activity in 3D space relative to the location of the fracturing treatment. The monitored activities are animated to <a class=\"text-blue-light no-underline\" href=\"/terms/s/show\">show</a> progressive fracture growth and the subsurface response to pumping variations. When displayed in real time, the microseismic activity allows one to make changes to the <a class=\"text-blue-light no-underline\" href=\"/terms/s/stimulation\">stimulation</a> design to ensure optimal <a class=\"text-blue-light no-underline\" href=\"/terms/r/reservoir\">reservoir</a> <a class=\"text-blue-light no-underline\" href=\"/terms/c/contact\">contact</a>. Also known as <a class=\"text-blue-light no-underline\" href=\"/terms/h/hydraulic_fracture_monitoring\">hydraulic fracture monitoring</a>, this technique delivers information about the effectiveness of the stimulation of a reservoir that can be used to enhance reservoir <a class=\"text-blue-light no-underline\" href=\"/terms/d/development\">development</a> in <a class=\"text-blue-light no-underline\" href=\"/terms/s/shale\">shale</a> gas completions.",
-            "see": [],
+            "see": [
+
+            ],
             "more_details": [
                 {
                     "title": "Live Hydraulic Fracture Monitoring and Diversion",
                     "link": "http://www.slb.com/resources/publications/industry_articles/oilfield_review/2009/or2009aut02_live_hydraulic_frac"
                 }
             ],
-            "synonyms": [],
-            "antonyms": []
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1309,6 +1648,9 @@ export default [
     "id": "multiphase_flow",
     "term": "multiphase flow",
     "letter": "m",
+    "group": [
+      { "title": "well_testing" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1326,8 +1668,12 @@ export default [
                     "link": "http://www.slb.com/resources/publications/industry_articles/oilfield_review/2004/or2004aut01_complex_multiphase_flow"
                 }
             ],
-            "synonyms": [],
-            "antonyms": []
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1335,6 +1681,9 @@ export default [
     "id": "mute",
     "term": "mute",
     "letter": "m",
+    "group": [
+      { "title": "geophysics" },
+    ],
     "definitions": [
         {
             "speech_type": "1. vb.",
@@ -1370,9 +1719,15 @@ export default [
                     "link": "/terms/t/trace"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1380,6 +1735,10 @@ export default [
     "id": "mist_flow",
     "term": "mist flow",
     "letter": "m",
+    "group": [
+      { "title": "well_completions" },
+      { "title": "production_logging" }
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1395,9 +1754,15 @@ export default [
                     "link": "/terms/s/slip"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": [],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "image": {
                 "src": "https://www.glossary.oilfield.slb.com/Terms/m/en/~/media/PublicMedia/OGL00026.ashx",
                 "caption": "Multiphase fluid flow. Bubble flow is characterized by the even distribution of the gas phase in the liquid phase. Due to changing conditions throughout the wellbore or production system, there may be gradual transitions between the phases identified in this illustration."
@@ -1429,9 +1794,15 @@ export default [
                     "link": "/terms/m/mist"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1439,6 +1810,9 @@ export default [
     "id": "moveable_hydrocarbons",
     "term": "moveable hydrocarbons",
     "letter": "m",
+    "group": [
+      { "title": "formation_evaluation" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1462,9 +1836,15 @@ export default [
                     "link": "/terms/w/water_saturation"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1472,6 +1852,9 @@ export default [
     "id": "multifinger_caliper",
     "term": "multifinger caliper",
     "letter": "m",
+    "group": [
+      { "title": "production_logging" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1491,9 +1874,15 @@ export default [
                     "link": "/terms/u/ultrasonic_caliper"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1501,6 +1890,9 @@ export default [
     "id": "micropaleontology",
     "term": "micropaleontology",
     "letter": "m",
+    "group": [
+      { "title": "geology" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1520,9 +1912,15 @@ export default [
                     "link": "/terms/p/palynology"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1530,6 +1928,9 @@ export default [
     "id": "monomer",
     "term": "monomer",
     "letter": "m",
+    "group": [
+      { "title": "drilling_fluids" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1541,9 +1942,15 @@ export default [
                     "link": "/terms/p/polymer"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1551,6 +1958,10 @@ export default [
     "id": "mobility",
     "term": "mobility",
     "letter": "m",
+    "group": [
+      { "title": "well_testing" },
+      { "title": "enhanced_oil_recovery" }
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1566,9 +1977,15 @@ export default [
                     "link": "/terms/v/viscosity"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1576,6 +1993,9 @@ export default [
     "id": "mud-in_sample",
     "term": "mud-in sample",
     "letter": "m",
+    "group": [
+      { "title": "drilling_fluids" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1607,9 +2027,15 @@ export default [
                     "link": "/terms/p/pilot_test"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": [],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "image": {
                 "src": "https://www.glossary.oilfield.slb.com/Terms/m/en/~/media/PublicMedia/OGL99096.ashx",
                 "caption": "Example of a drilling fluid report. The drilling fluids engineer tests a sample of the drilling fluid before the fluid circulates into the wellbore. A sample of drilling fluid that has circulated through the wellbore is tested later for comparison. Test results are recorded on a report sheet similar to the example shown here."
@@ -1621,6 +2047,9 @@ export default [
     "id": "minimum-time_path",
     "term": "minimum-time path",
     "letter": "m",
+    "group": [
+      { "title": "geophysics" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1636,9 +2065,15 @@ export default [
                     "link": "/terms/s/snells_law"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1646,6 +2081,9 @@ export default [
     "id": "methylene_blue_test",
     "term": "methylene blue test",
     "letter": "m",
+    "group": [
+      { "title": "drilling_fluids" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1681,7 +2119,9 @@ export default [
                     "link": "/terms/w/water-base_mud"
                 }
             ],
-            "more_details": [],
+            "more_details": [
+
+            ],
             "synonyms": [
                 {
                     "title": "bentonite equivalent",
@@ -1692,7 +2132,9 @@ export default [
                     "link": "/terms/m/mbt_test"
                 }
             ],
-            "antonyms": []
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1700,6 +2142,10 @@ export default [
     "id": "milling",
     "term": "milling",
     "letter": "m",
+    "group": [
+      { "title": "well_workover_and_intervention" },
+      { "title": "drilling" }
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1723,9 +2169,15 @@ export default [
                     "link": "/terms/p/packer"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1733,6 +2185,9 @@ export default [
     "id": "multilateral",
     "term": "multilateral",
     "letter": "m",
+    "group": [
+      { "title": "drilling" }
+    ],
     "definitions": [
         {
             "speech_type": "1. adj.",
@@ -1750,8 +2205,12 @@ export default [
                     "link": "http://www.slb.com/resources/publications/industry_articles/oilfield_review/1998/or1998win02_multilateral_technology"
                 }
             ],
-            "synonyms": [],
-            "antonyms": [],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ],
             "image": {
                 "src": "https://www.glossary.oilfield.slb.com/Terms/m/en/~/media/PublicMedia/OGL99047.ashx",
                 "caption": "Multilateral.  A well that has more than one branch radiating from the main borehole is called a multilateral well. Multilaterals can be relatively simple dual-opposing laterals or complex multibranched wells, as shown in these diagrams."
@@ -1763,6 +2222,9 @@ export default [
     "id": "maximum_flooding_surface",
     "term": "maximum flooding surface",
     "letter": "m",
+    "group": [
+      { "title": "reservoir_characterization" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1786,9 +2248,15 @@ export default [
                     "link": "/terms/t/transgressive_surface"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1796,6 +2264,9 @@ export default [
     "id": "marketing_agreement",
     "term": "marketing agreement",
     "letter": "m",
+    "group": [
+      { "title": "oil_and_gas_business" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1807,9 +2278,15 @@ export default [
                     "link": "/terms/c/concession"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1817,6 +2294,9 @@ export default [
     "id": "mosquito_bill",
     "term": "mosquito bill",
     "letter": "m",
+    "group": [
+      { "title": "production_testing" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1828,9 +2308,15 @@ export default [
                     "link": "/terms/g/gas_anchor"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1838,15 +2324,26 @@ export default [
     "id": "multiple_completion",
     "term": "multiple completion",
     "letter": "m",
+    "group": [
+      { "title": "well_completions" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
             "category": "Well Completions",
             "definition": "A single wellbore having <a class=\"text-blue-light no-underline\" href=\"/terms/t/tubulars\">tubulars</a> and equipment that enable <a class=\"text-blue-light no-underline\" href=\"/terms/p/production\">production</a> from two or more <a class=\"text-blue-light no-underline\" href=\"/terms/r/reservoir\">reservoir</a> zones. In most cases, at least two tubing strings will be used to provide the necessary level of control and safety for production fluids. However, in some simple dual completions, the second or upper zone is produced up the tubing- <a class=\"text-blue-light no-underline\" href=\"/terms/c/casing\">casing</a> <a class=\"text-blue-light no-underline\" href=\"/terms/a/annulus\">annulus</a>. The <a class=\"text-blue-light no-underline\" href=\"/terms/w/wellhead\">wellhead</a> and surface flow-control facilities required for multiple completions can be complex and costly; hence, multiple completions are relatively uncommon.",
-            "see": [],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "see": [
+
+            ],
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1854,6 +2351,9 @@ export default [
     "id": "microlaterolog",
     "term": "microlaterolog",
     "letter": "m",
+    "group": [
+      { "title": "formation_evaluation" },
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
@@ -1873,9 +2373,15 @@ export default [
                     "link": "/terms/m/microresistivity"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1883,10 +2389,13 @@ export default [
     "id": "mud_motor",
     "term": "mud motor",
     "letter": "m",
-    "group": "drilling",
+    "group": [
+      { "title": "drilling" }
+    ],
     "definitions": [
         {
             "speech_type": "1. n.",
+            "category": "drilling",
             "definition": "A positive <a class=\"text-blue-light no-underline\" href=\"/terms/d/displacement\">displacement</a> drilling motor that uses hydraulic horsepower of the <a class=\"text-blue-light no-underline\" href=\"/terms/d/drilling_fluid\">drilling fluid</a> to drive the <a class=\"text-blue-light no-underline\" href=\"/terms/d/drill_bit\">drill bit</a>. <a class=\"text-blue-light no-underline\" href=\"/terms/m/mud\">Mud</a> motors are used extensively in directional drilling operations.",
             "see": [
                 {
@@ -1906,9 +2415,15 @@ export default [
                     "link": "/terms/h/hydraulic_horsepower"
                 }
             ],
-            "more_details": [],
-            "synonyms": [],
-            "antonyms": []
+            "more_details": [
+
+            ],
+            "synonyms": [
+
+            ],
+            "antonyms": [
+
+            ]
         }
     ]
   },
@@ -1916,6 +2431,9 @@ export default [
       "id": "octahedral_layer",
       "term": "octahedral layer",
       "letter": "o",
+      "group": [
+        { "title": "drilling_fluids" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -1951,6 +2469,9 @@ export default [
       "id": "structure",
       "term": "structure",
       "letter": "s",
+      "group": [
+        { "title": "geology" },
+      ],
       "definitions": [
           {
               "speech_type": "1. n.",
@@ -2058,9 +2579,15 @@ export default [
                       "link": "/terms/t/trap"
                   }
               ],
-              "more_details": [],
-              "synonyms": [],
-              "antonyms": [],
+              "more_details": [
+
+              ],
+              "synonyms": [
+
+              ],
+              "antonyms": [
+
+              ],
               "alternate_forms": "structural"
           }
       ]
@@ -2069,6 +2596,10 @@ export default [
       "id": "csg",
       "term": "CSG",
       "letter": "c",
+      "group": [
+        { "title": "geology" },
+        { "title": "geophysics" }
+      ],
       "definitions": [
           {
               "speech_type": "1. n.",
@@ -2112,7 +2643,9 @@ export default [
                       "link": "/terms/c/cbm"
                   }
               ],
-              "antonyms": [],
+              "antonyms": [
+
+              ],
               "alternate_forms": "coal seam gas, coal-seam gas",
               "image": {
                   "src": "https://www.glossary.oilfield.slb.com/terms/c/en/~/media/PublicMedia/geology/coalbedMethane01.ashx",
@@ -2133,9 +2666,15 @@ export default [
                         "link": "/terms/t/trace"
                     }
                 ],
-                "more_details": [],
-                "synonyms": [],
-                "antonyms": [],
+                "more_details": [
+
+                ],
+                "synonyms": [
+
+                ],
+                "antonyms": [
+
+                ],
                 "alternate_forms": "common source gather"
             }
         ]
@@ -2144,6 +2683,9 @@ export default [
       "id": "sodium-chromate",
       "term": "sodium chromate",
       "letter": "s",
+      "group": [
+        { "title": "drilling_fluids" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2207,6 +2749,11 @@ export default [
       "id": "water-in-oil_emulsion",
       "term": "water-in-oil emulsion",
       "letter": "w",
+      "group": [
+        { "title": "geophysics" },
+        { "title": "drilling_fluids" },
+        { "title": "formation evaluation" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2261,6 +2808,9 @@ export default [
       "id": "gas_separator",
       "term": "gas separator",
       "letter": "g",
+      "group": [
+        { "title": "well_completions" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2296,6 +2846,9 @@ export default [
       "id": "bean",
       "term": "bean",
       "letter": "b",
+      "group": [
+        { "title": "production_testing" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2321,6 +2874,9 @@ export default [
       "id": "real_time_data",
       "term": "real time data",
       "letter": "r",
+      "group": [
+        { "title": "formation_evaluation" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2348,6 +2904,9 @@ export default [
       "id": "multiple-rate_tests",
       "term": "multiple-rate tests",
       "letter": "m",
+      "group": [
+        { "title": "well_testing" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2383,6 +2942,9 @@ export default [
       "id": "snubbing_force",
       "term": "snubbing force",
       "letter": "s",
+      "group": [
+        { "title": "well_workover_and_intervention" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2407,6 +2969,9 @@ export default [
       "id": "seep",
       "term": "seep",
       "letter": "s",
+      "group": [
+        { "title": "geology" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2441,6 +3006,10 @@ export default [
       "id": "moment",
       "term": "moment",
       "letter": "m",
+      "group": [
+        { "title": "general_terms" },
+        { "title": "reservoir_characterization" }
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2482,6 +3051,9 @@ export default [
       "id": "soda_ash",
       "term": "soda ash",
       "letter": "s",
+      "group": [
+        { "title": "drilling_fluids" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2556,6 +3128,9 @@ export default [
       "id": "ocma",
       "term": "OCMA",
       "letter": "o",
+      "group": [
+        { "title": "drilling_fluids" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2605,7 +3180,8 @@ export default [
       "term": "mobile offshore drilling unit",
       "letter": "m",
       "group": [
-        { "title": "drilling" }
+        { "title": "drilling" },
+        { "title": "geology" }
       ],
       "definitions": [
         {
@@ -2643,6 +3219,9 @@ export default [
       "id": "pinion_shaft",
       "term": "pinion shaft",
       "letter": "p",
+      "group": [
+        { "title": "production" }
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2667,6 +3246,9 @@ export default [
       "id": "gas-cap_drive",
       "term": "gas-cap drive",
       "letter": "g",
+      "group": [
+        { "title": "enhanced_oil_recovery" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2702,6 +3284,9 @@ export default [
       "id": "evaporite",
       "term": "evaporite",
       "letter": "e",
+      "group": [
+        { "title": "geology" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2753,6 +3338,9 @@ export default [
       "id": "salt_proximity_vsp",
       "term": "salt proximity VSP",
       "letter": "s",
+      "group": [
+        { "title": "geophysics" }
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2789,6 +3377,9 @@ export default [
       "id": "in-situ_fluid_analysis",
       "term": "in-situ fluid analysis",
       "letter": "i",
+      "group": [
+        { "title": "formation_evaluation" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2813,6 +3404,9 @@ export default [
       "id": "normal-moveout_correction",
       "term": "normal-moveout correction",
       "letter": "n",
+      "group": [
+        { "title": "geophysics" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2848,6 +3442,9 @@ export default [
       "id": "oil_water_contact",
       "term": "oil water contact",
       "letter": "o",
+      "group": [
+        { "title": "geology" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2908,6 +3505,10 @@ export default [
       "id": "oil_wet",
       "term": "oil wet",
       "letter": "o",
+      "group": [
+        { "title": "formation_evaluation" },
+        { "title": "enhanced_oil_recovery" }
+      ],
       "definitions": [
         {
           "speech_type": "1. adj.",
@@ -2947,6 +3548,9 @@ export default [
       "id": "api_unit",
       "term": "API unit",
       "letter": "a",
+      "group": [
+        { "title": "formation_evaluation" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -2974,6 +3578,10 @@ export default [
       "id": "oxygen_scavenger",
       "term": "oxygen scavenger",
       "letter": "o",
+      "group": [
+        { "title": "drilling_fluids" },
+        { "title": "well_completions" }
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -3037,6 +3645,9 @@ export default [
       "id": "hydrocyclone",
       "term": "hydrocyclone",
       "letter": "h",
+      "group": [
+        { "title": "drilling_fluids" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -3076,6 +3687,9 @@ export default [
       "id": "magnetometer",
       "term": "magnetometer",
       "letter": "m",
+      "group": [
+        { "title": "geophysics" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -3111,6 +3725,9 @@ export default [
       "id": "compaction",
       "term": "compaction",
       "letter": "c",
+      "group": [
+        { "title": "geology" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -3181,6 +3798,9 @@ export default [
       "id": "cellulosic_polymer",
       "term": "cellulosic polymer",
       "letter": "c",
+      "group": [
+        { "title": "drilling_fluids" },
+      ],
       "definitions": [
         {
           "speech_type": "1. n.",
@@ -3235,7 +3855,7 @@ export default [
 
           ],
           "antonyms": [
-
+            
           ]
         }
       ]

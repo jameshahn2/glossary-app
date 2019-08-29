@@ -1,3 +1,5 @@
+// Creates the alphabetic table grid found in the "term" and "disciplines" routes.
+
 import Component from '@ember/component';
 import { computed } from '@ember/object';
 

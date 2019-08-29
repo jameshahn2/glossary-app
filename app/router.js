@@ -18,7 +18,7 @@ Router.map(function() {
   });
   this.route("disciplines", function() {
     this.route("group", { path: "/:group" });
-  });
+    })
 });
 
 export default Router;
