@@ -16,9 +16,7 @@ Router.map(function() {
   this.route("term", function() {
     this.route("letter", { path: "/:letter" });
   });
-  this.route("disciplines", function() {
-    this.route("group", { path: "/:group" });
-    })
+  this.route("disciplines", { path: "disciplines/:disciplines" });
 });
 
 export default Router;

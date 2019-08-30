@@ -1,10 +1,10 @@
 // Creates the alphabetic table grid found in the "term" and "disciplines" routes.
 
-import Component from '@ember/component';
-import { computed } from '@ember/object';
+import Component from "@ember/component";
+import { computed } from "@ember/object";
 
 export default Component.extend({
-  rows: computed('terms.[]', function() {
+  rows: computed("terms.[]", function() {
     let terms = this.terms;
     let columns = Math.floor(window.innerWidth / 100);
     let itemsPerColumn = Math.ceil(terms.length / columns);
@@ -19,13 +19,13 @@ export default Component.extend({
     return rows;
   }),
   handleResize() {
-    this.notifyPropertyChange('rows');
+    this.notifyPropertyChange("rows");
   },
   didInsertElement() {
     this.handleResize = this.handleResize.bind(this);
-    window.addEventListener('resize', this.handleResize);
+    window.addEventListener("resize", this.handleResize);
   },
   willDestroyElement() {
-    window.removeEventListener('resize', this.handleResize);
+    window.removeEventListener("resize", this.handleResize);
   }
 });

@@ -7,7 +7,6 @@ export default Component.extend({
   actions: {
     setSelection: function(selected) {
       this.set("selectedOption", selected);
-      console.log(this.get("selectedOption"));
     },
     submit: function() {
       // code to save or sendAction
