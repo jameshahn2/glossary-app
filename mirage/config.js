@@ -1,7 +1,7 @@
 export default function() {
   this.namespace = "api";
   this.get("/terms", function({ terms }, { queryParams }) {
-    let { term, letter, disciplines, group } = queryParams;
+    let { term, letter, disciplines } = queryParams;
     let results = terms.all();
     if (term) {
       const match = term.toLowerCase();
@@ -15,10 +15,6 @@ export default function() {
       results = results.filter(term => {
       return term.disciplines.some(discipline => discipline.group === disciplines);
       });
-    }
-    if (group) {
-      const match = group.toLowerCase();
-      results = results.filter(t => t.term.toLowerCase().includes(match));
     }
     return results;
   });
