@@ -7,7 +7,7 @@ export default Route.extend({
   model(params) {
     console.log(params)
     return RSVP.hash({
-       terms: this.store.query("term", { disciplines: params.disciplines }),
+       terms: this.store.query("term", { disciplines: params.disciplines, sort: "id" }),
        disciplines: params.disciplines
     });
   }

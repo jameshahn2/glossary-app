@@ -392,3 +392,10 @@ li:hover {
 a, a:link, a:visited, a:focus, a:hover, a:active {
   text-decoration:none;
 }
+
+.letter {
+  width: -webkit-fill-available;
+  text-transform: uppercase;
+  margin-top: 10px;
+  margin-bottom: 5px;
+}

@@ -13,34 +13,31 @@
     <div class="xxs:w-95p md:mx-auto lg:w-240">
       <div class="xxs:vlx p-10 vl">
         <p class="text-blue-light text-sm leading-normal pt-4">
-          Search by Discipline
+          Browse by Discipline
         </p>
-
         <div class="xxs:w-95p w-220">
-
-          {{#each model.terms as |terms|}}
-            {{term.term}}
-          {{/each}}
-          <option selected value="all-disciplines">All Disciplines</option>
-          <option value="http://localhost:4200/disciplines/drilling">Drilling</option>
-          <option value="enhanced-oil-recovery">Enhanced Oil Recovery</option>
-          <option value="formation-evaluation">Formation Evaluation</option>
-          <option value="general-terms">General Terms</option>
-          <option value="geochemistry">Geochemistry</option>
-          <option value="geology">Geology</option>
-          <option value="geophysics">Geophysics</option>
-          <option value="heavy-oil">Heavy Oil</option>
-          <option value="oil-and-gas-business">Oil and Gas Business</option>
-          <option value="perforating">Perforating</option>
-          <option value="production">Production</option>
-          <option value="production-facilities">Production Facilities</option>
-          <option value="production-logging">Production Logging</option>
-          <option value="production-testing">Production Testing</option>
-          <option value="reservoir-characterization">Reservoir Characterization</option>
-          <option value="shale-gas">Shale Gas</option>
-          <option value="well-completions">Well Completions</option>
-          <option value="well-testing">Well Testing</option>
-          <option value="well-workover-and-intervention">Well Workover-and-Intervention</option>
+          <select onchange={{action "setSelection" value="target.value"}} class="w-136 border border-black pt-2 pb-1 font-normal text-sm bg-grey-lightly no-underline">
+            <option selected value="all-disciplines">All Disciplines</option>
+            <option value="drilling">Drilling</option>
+            <option value="enhanced-oil-recovery">Enhanced Oil Recovery</option>
+            <option value="formation-evaluation">Formation Evaluation</option>
+            <option value="general-terms">General Terms</option>
+            <option value="geochemistry">Geochemistry</option>
+            <option value="geology">Geology</option>
+            <option value="geophysics">Geophysics</option>
+            <option value="heavy-oil">Heavy Oil</option>
+            <option value="oil-and-gas-business">Oil and Gas Business</option>
+            <option value="perforating">Perforating</option>
+            <option value="production">Production</option>
+            <option value="production-facilities">Production Facilities</option>
+            <option value="production-logging">Production Logging</option>
+            <option value="production-testing">Production Testing</option>
+            <option value="reservoir-characterization">Reservoir Characterization</option>
+            <option value="shale-gas">Shale Gas</option>
+            <option value="well-completions">Well Completions</option>
+            <option value="well-testing">Well Testing</option>
+            <option value="well-workover-and-intervention">Well Workover-and-Intervention</option>
+          </select>
 
 
           <button {{action "submit"}} class="border border-black rounded-xl text-sm text-black-darkest pt-2 pr-7 pb-1 pl-7">

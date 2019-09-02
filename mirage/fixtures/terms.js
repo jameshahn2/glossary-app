@@ -298,7 +298,8 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "perforating" },
-      { "group": "well_completions" }
+      { "group": "well_completions" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -328,7 +329,8 @@ export default [
     "term": "medium induction",
     "letter": "m",
     "disciplines": [
-      { "group": "formation_evaluation" }
+      { "group": "formation_evaluation" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -359,7 +361,8 @@ export default [
     "term": "multiple salinity",
     "letter": "m",
     "disciplines": [
-      { "group": "formation_evaluation" }
+      { "group": "formation_evaluation" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -405,7 +408,8 @@ export default [
     "term": "make hole",
     "letter": "m",
     "disciplines": [
-      { "group": "drilling" }
+      { "group": "drilling" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -705,6 +709,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "production_testing" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -731,7 +736,8 @@ export default [
     "term": "morning tour",
     "letter": "m",
     "disciplines": [
-      { "group": "drilling" }
+      { "group": "drilling" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -824,6 +830,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "drilling_fluids" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -875,6 +882,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "geophysics" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -923,7 +931,8 @@ export default [
     "term": "makeup cathead",
     "letter": "m",
     "disciplines": [
-      { "group": "drilling" }
+      { "group": "drilling" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -958,6 +967,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "formation_evaluation" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -985,6 +995,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "geophysics" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1031,6 +1042,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "well_workover_and_intervention" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1058,6 +1070,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "shale_gas" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1085,6 +1098,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "drilling_fluids" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1124,6 +1138,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "drilling_fluids" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1186,6 +1201,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "production_testing" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1213,6 +1229,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "drilling_fluids" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1338,6 +1355,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "geophysics" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1370,7 +1388,8 @@ export default [
     "term": "magnetic toolface",
     "letter": "m",
     "disciplines": [
-      { "group": "drilling" }
+      { "group": "drilling" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1405,7 +1424,8 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "well_workover_and_intervention" },
-      { "group": "well_completions" }
+      { "group": "well_completions" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1501,6 +1521,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "geophysics" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1535,6 +1556,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "production_testing" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1562,6 +1584,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "enhanced_oil_recovery" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1592,6 +1615,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "well_workover_and_intervention" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1619,7 +1643,8 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "well_completions" },
-      { "group": "shale_gas" }
+      { "group": "shale_gas" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1650,6 +1675,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "well_testing" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1683,6 +1709,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "geophysics" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1737,7 +1764,8 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "well_completions" },
-      { "group": "production_logging" }
+      { "group": "production_logging" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1812,6 +1840,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "formation_evaluation" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1854,6 +1883,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "production_logging" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1930,6 +1960,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "drilling_fluids" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1960,7 +1991,8 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "well_testing" },
-      { "group": "enhanced_oil_recovery" }
+      { "group": "enhanced_oil_recovery" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -1995,6 +2027,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "drilling_fluids" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -2049,6 +2082,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "geophysics" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -2083,6 +2117,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "drilling_fluids" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -2144,7 +2179,8 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "well_workover_and_intervention" },
-      { "group": "drilling" }
+      { "group": "drilling" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -2186,7 +2222,8 @@ export default [
     "term": "multilateral",
     "letter": "m",
     "disciplines": [
-      { "group": "drilling" }
+      { "group": "drilling" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -2224,6 +2261,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "reservoir_characterization" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -2266,6 +2304,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "oil_and_gas_business" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -2296,6 +2335,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "production_testing" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -2326,6 +2366,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "well_completions" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -2353,6 +2394,7 @@ export default [
     "letter": "m",
     "disciplines": [
       { "group": "formation_evaluation" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
@@ -2390,7 +2432,8 @@ export default [
     "term": "mud motor",
     "letter": "m",
     "disciplines": [
-      { "group": "drilling" }
+      { "group": "drilling" },
+      { "group": "geology" }
     ],
     "definitions": [
         {
