@@ -399,3 +399,13 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
   margin-top: 10px;
   margin-bottom: 5px;
 }
+
+.alpha-grid {
+  display: flex;
+}
+
+.alpha-item {
+  min-width: 175px;
+  max-width: 175px;
+  padding: 8px;
+}

@@ -1,3 +1,6 @@
 <p class="text-blue-darkest text-xxl mb-10">{{titleize model.disciplines}}{{titleize phrase}}</p>
 
-{{alpha-grid terms=model.terms}}
+{{#each letterGroups as |group|}}
+  <h2>{{group.letter}}</h2>
+  {{alpha-grid @terms=group.terms}}
+{{/each}}

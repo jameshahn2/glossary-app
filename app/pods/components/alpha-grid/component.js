@@ -2,10 +2,12 @@ import Component from "@ember/component";
 import { computed } from "@ember/object";
 
 export default Component.extend({
+
   rows: computed("terms.[]", function() {
     let terms = this.terms;
-    let columns = Math.floor(window.innerWidth / 100);
+    let columns = Math.floor(this.element.getBoundingClientRect().width / 175 );
     let itemsPerColumn = Math.ceil(terms.length / columns);
+
     let rows = [];
     for (let rowNumber = 0; rowNumber < itemsPerColumn; rowNumber++) {
       let row = [];
@@ -16,6 +18,7 @@ export default Component.extend({
     }
     return rows;
   }),
+
   handleResize() {
     this.notifyPropertyChange("rows");
   },

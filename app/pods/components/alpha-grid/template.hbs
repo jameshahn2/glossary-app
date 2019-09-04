@@ -1,20 +1,7 @@
-<div class="flex flex-wrap">
-	{{#each rows as |row|}}
-		<div class="w-full sm:w-1/2 md:w-1/3 lg:w-1/4 xl:w-1/4 xxl:w-1/4 txl:w-1/4 txl:w-1/4 fxl:w-1/4">
-			{{#each row as |item|}}
-				<a class="text-blue-light text-sm no-underline" href="{{href-to "terms.letter.term_id" item.letter item.id}}">
-					{{item.term}}</a><br>
-			{{/each}}
-		</div>
-	{{/each}}
-</div>
-
-
-{{#each-in (group-by "letter" (sort-by "letter" terms)) as |letter terms|}}
-	<h3>{{letter}}</h3>
-	<ul>
-		{{#each (sort-by "term" terms) as |term|}}
-			<li>{{term.term}}</li>
+{{#each rows as |row|}}
+	<div class="alpha-grid">
+		{{#each row as |item|}}
+			<div class="alpha-item"><a class="text-blue-light text-sm no-underline" href="{{href-to "terms.letter.term_id" item.letter item.id}}">{{item.term}}</a></div>
 		{{/each}}
-	</ul>
-{{/each-in}}
+	</div>
+{{/each}}

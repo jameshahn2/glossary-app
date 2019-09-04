@@ -16,7 +16,20 @@ export default function() {
       return term.disciplines.some(discipline => discipline.group === disciplines);
       });
     }
-    return results;
+
+    return results.sort(function(a, b) {
+      var termA = a.term.toUpperCase(); // ignore upper and lowercase
+      var termB = b.term.toUpperCase(); // ignore upper and lowercase
+      if (termA < termB) {
+        return -1;
+      }
+      if (termA > termB) {
+        return 1;
+      }
+
+      // terms must be equal
+      return 0;
+    });
   });
 this.get("/terms/:id");
 }
