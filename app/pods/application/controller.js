@@ -26,5 +26,5 @@ getJSON: task(function * (url) {
   } finally {
     xhr.abort();
   }
-}),
+})
 });

@@ -1,6 +1,9 @@
 <p class="text-blue-darkest text-xxl mb-10">{{titleize model.disciplines}}{{titleize phrase}}</p>
 
-{{#each letterGroups as |group|}}
-  <h2>{{group.letter}}</h2>
-  {{alpha-grid @terms=group.terms}}
+
+{{alpha-grid terms=model.terms}}
+
+{{#each letterBatches as |batches|}}
+  <h2>{{batches.letter}}</h2>
+  {{alpha-grid terms=batches.terms}}
 {{/each}}
