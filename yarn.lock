@@ -6153,6 +6153,18 @@ ember-modifier-manager-polyfill@^1.0.3:
     ember-cli-version-checker "^2.1.2"
     ember-compatibility-helpers "^1.2.0"
 
+ember-print-this@^1.0.0:
+  version "1.0.0"
+  resolved "https://registry.yarnpkg.com/ember-print-this/-/ember-print-this-1.0.0.tgz#7268fae01acd75af2842235017e365e4157f6319"
+  integrity sha512-npfdk45Lg3mwsBysnMF3cNBjsem07j/0F7FJ3O+gkZOA4SEtPkG4oDLdXYHgy16nYvtjQZsuzHhsa4u+FGimTQ==
+  dependencies:
+    broccoli-funnel "^2.0.1"
+    broccoli-merge-trees "^2.0.0"
+    broccoli-stew "^1.5.0"
+    ember-cli-babel "^6.6.0"
+    ember-cli-htmlbars "^2.0.1"
+    print-this "^1.12.0"
+
 ember-qunit@^3.5.0:
   version "3.5.3"
   resolved "https://registry.yarnpkg.com/ember-qunit/-/ember-qunit-3.5.3.tgz#bfd0bff8298c78c77e870cca43fe0826e78a0d09"
@@ -8557,7 +8569,7 @@ jquery-deferred@^0.3.0:
   resolved "https://registry.yarnpkg.com/jquery-deferred/-/jquery-deferred-0.3.1.tgz#596eca1caaff54f61b110962b23cafea74c35355"
   integrity sha1-WW7KHKr/VPYbEQlisjyv6nTDU1U=
 
-jquery@^3.3.1, jquery@^3.4.1:
+jquery@>=1.11, jquery@^3.3.1, jquery@^3.4.1:
   version "3.4.1"
   resolved "https://registry.yarnpkg.com/jquery/-/jquery-3.4.1.tgz#714f1f8d9dde4bdfa55764ba37ef214630d80ef2"
   integrity sha512-36+AdBzCL+y6qjw5Tx7HgzeGCzC81MDDgaUP8ld2zhx58HdqXGoBd+tHdrBMiyjGQs0Hxs/MLZTu/eHNJJuWPw==
@@ -10210,6 +10222,11 @@ onetime@^2.0.0:
   dependencies:
     mimic-fn "^1.0.0"
 
+opencollective-postinstall@^2.0.2:
+  version "2.0.2"
+  resolved "https://registry.yarnpkg.com/opencollective-postinstall/-/opencollective-postinstall-2.0.2.tgz#5657f1bede69b6e33a45939b061eb53d3c6c3a89"
+  integrity sha512-pVOEP16TrAO2/fjej1IdOyupJY8KDUM1CvsaScRbw6oddvpQoOfGk4ywha0HKKVAD6RkW4x6Q+tNBwhf3Bgpuw==
+
 optimist@^0.6.1:
   version "0.6.1"
   resolved "https://registry.yarnpkg.com/optimist/-/optimist-0.6.1.tgz#da3ea74686fa21a19a111c326e90eb15a0196686"
@@ -10829,6 +10846,14 @@ pretty-ms@^3.1.0:
   integrity sha512-ZypexbfVUGTFxb0v+m1bUyy92DHe5SyYlnyY0msyms5zd3RwyvNgyxZZsXXgoyzlxjx5MiqtXUdhUfvQbe0A2Q==
   dependencies:
     parse-ms "^1.0.0"
+
+print-this@^1.12.0:
+  version "1.15.1"
+  resolved "https://registry.yarnpkg.com/print-this/-/print-this-1.15.1.tgz#0aa849b9710c0c897a30fa2f27b3bcd6738300c2"
+  integrity sha512-1YJDETnJDudAPZxudPuaRHmzfzC+wE2YTW/ubFxUAofy1NQaH8bZv/Mt2L8VKu6FeJxKoTV6GWCtFr/xwPCUWg==
+  dependencies:
+    jquery ">=1.11"
+    opencollective-postinstall "^2.0.2"
 
 printf@^0.5.1:
   version "0.5.1"
@@ -11726,10 +11751,10 @@ sane@^4.0.0, sane@^4.1.0:
     minimist "^1.1.1"
     walker "~1.0.5"
 
-sass@^1.22.9:
-  version "1.22.9"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.22.9.tgz#41a2ed6038027f58be2bd5041293452a29c2cb84"
-  integrity sha512-FzU1X2V8DlnqabrL4u7OBwD2vcOzNMongEJEx3xMEhWY/v26FFR3aG0hyeu2T965sfR0E9ufJwmG+Qjz78vFPQ==
+sass@^1.23.0-module.beta.1:
+  version "1.23.0-module.beta.1"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.23.0-module.beta.1.tgz#9d0f823dcdcd58fc1c1345993ff0306289320963"
+  integrity sha512-Cb6l+z/z5mIpOe8lPp+DttHhHyb6J8SsscSIhLUzqDH2Ta2+9mpz8TRvYezD1n+Ey1TWi3EKz8VUPg42Zc1vmA==
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 

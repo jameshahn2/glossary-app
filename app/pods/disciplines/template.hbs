@@ -1,9 +1,3 @@
-<p class="text-blue-darkest text-xxl mb-10">{{titleize model.disciplines}}{{titleize phrase}}</p>
+<p class="text-blue-darkest text-xxl mb-10">{{title-case this.model.disciplines}}</p>
 
-
-{{alpha-grid terms=model.terms}}
-
-{{#each letterBatches as |batches|}}
-  <h2>{{batches.letter}}</h2>
-  {{alpha-grid terms=batches.terms}}
-{{/each}}
+{{letter-groups terms=model.terms}}

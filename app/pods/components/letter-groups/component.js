@@ -1,6 +1,4 @@
-/* eslint-disable */
-
-import Component from '@ember/component';
+import Component from "@ember/component";
 import { computed } from "@ember/object";
 
 export default Component.extend({
@@ -11,19 +9,18 @@ export default Component.extend({
 //    { letter: "b", terms: ["banana", "byte"] },
 //    ... and so on
 //  ]
-
-letterBatches: computed(`terms.[]`, function() {
-
-  let batches = [];
+letterGroups: computed("terms.[]", function() {
+  let groups = [];
 
   // "a" is ascii code 97. "z" is 122.
   for (let letterIndex = 97; letterIndex < 123; letterIndex++) {
     let letter = String.fromCharCode(letterIndex);
-    batches.push({
+    const match = letter.toLowerCase();
+    groups.push({
       letter,
-      terms: this.terms.filter(term => term[0].toLowerCase() === letter)
+      terms: this.terms.filter(t => t.term.toLowerCase()[0] === match)
     });
   }
-  return batches;
-}),
+  return groups;
+})
 });

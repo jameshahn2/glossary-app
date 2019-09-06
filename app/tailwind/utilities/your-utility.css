@@ -409,3 +409,16 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
   max-width: 175px;
   padding: 8px;
 }
+
+.select {
+  text-align-last: center;
+  text-decoration: none;
+  width: 175px;
+  font-size: 14px;
+  padding: 2px 2px;
+  margin-bottom: 5px;
+  border-width: 1px;
+  border-color: #22292f;
+  background-color: #fefefe;
+  text-transform: none;
+}

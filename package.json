@@ -64,6 +64,7 @@
     "ember-load-initializers": "^1.1.0",
     "ember-maybe-import-regenerator": "^0.1.6",
     "ember-modal-dialog": "^3.0.0-beta.0",
+    "ember-print-this": "^1.0.0",
     "ember-resolver": "^5.2.1",
     "ember-responsive": "^3.0.5",
     "ember-router-helpers": "^0.2.0",
@@ -76,7 +77,7 @@
     "liquid-wormhole": "^2.1.5",
     "loader.js": "^4.7.0",
     "qunit-dom": "^0.8.0",
-    "sass": "^1.22.9"
+    "sass": "^1.23.0-module.beta.1"
   },
   "engines": {
     "node": "6.* || 8.* || >= 10.*"

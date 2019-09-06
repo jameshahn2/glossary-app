@@ -12,12 +12,13 @@
   <div class="flex">
     <div class="xxs:w-95p md:mx-auto lg:w-240">
       <div class="xxs:vlx p-10 vl">
-        <p class="text-blue-light text-sm leading-normal pt-4">
+        <p class="text-blue-light text-sm leading-normal pt-4 mb-5">
           Browse by Discipline
         </p>
         <div class="xxs:w-95p w-220">
-          <select onchange={{action "setSelection" value="target.value"}} class="w-136 border border-black pt-2 pb-1 font-normal text-sm bg-grey-lightly no-underline">
-            <option selected value="all_disciplines">All Disciplines</option>
+          <select onchange={{action "setSelection" value="target.value"}} class="select">
+            <option selected value="all_disciplines">-- Select Discipline --</option>
+            <option value="all_disciplines">All Disciplines</option>
             <option value="drilling">Drilling</option>
             <option value="enhanced_oil_recovery">Enhanced Oil Recovery</option>
             <option value="formation_evaluation">Formation Evaluation</option>
@@ -36,7 +37,7 @@
             <option value="shale_gas">Shale Gas</option>
             <option value="well_completions">Well Completions</option>
             <option value="well_testing">Well Testing</option>
-            <option value="well_workover-and-intervention">Well Workover-and-Intervention</option>
+            <option value="well_workover_and_intervention">Well Workover and Intervention</option>
           </select>
 
 
