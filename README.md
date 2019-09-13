@@ -1,3 +1,5 @@
+[![Netlify Status](https://api.netlify.com/api/v1/badges/47b117e6-48f6-45bb-861e-f1fa5d07045f/deploy-status)](https://app.netlify.com/sites/slb-oilfield-glossary/deploys)
+
 # glossary-app
 
 This README outlines the details of collaborating on this Ember application.
