@@ -1,7 +1,11 @@
 {{#each rows as |row|}}
-	<div class="alpha-grid">
-		{{#each row as |item|}}
-			<div class="alpha-item"><a class="text-blue-light text-sm no-underline" href="{{href-to "terms.letter.term_id" item.letter item.id}}">{{item.term}}</a></div>
-		{{/each}}
-	</div>
+		<div class="alpha-grid">
+				{{#each row as |item|}}
+						<div class="alpha-item">
+								<a class="text-blue-light text-sm no-underline" href={{href-to "terms.letter.term_id" item.letter item.id}}>
+										{{item.term}}
+								</a>
+						</div>
+				{{/each}}
+		</div>
 {{/each}}

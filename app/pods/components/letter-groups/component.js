@@ -2,13 +2,7 @@ import Component from "@ember/component";
 import { computed } from "@ember/object";
 
 export default Component.extend({
-  // this will return a list structured like:
-//
-//  [
-//    {letter: "a", terms: [] },
-//    { letter: "b", terms: ["banana", "byte"] },
-//    ... and so on
-//  ]
+
 letterGroups: computed("terms.[]", function() {
   let groups = [];
 

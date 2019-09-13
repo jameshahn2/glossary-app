@@ -15,7 +15,7 @@
         Search for Term:
       </p>
     </div>
-    <input type="text" oninput={{perform searchGlossary value="target.value"}} class="border ml-10">
+    <input type="text" placeholder="Enter term" oninput={{perform searchGlossary value="target.value"}} class="border ml-10">
 
     {{#if searchGlossary.isRunning}}
       {{loading-spinner}}

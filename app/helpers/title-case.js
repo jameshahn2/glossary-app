@@ -1,15 +1,23 @@
-import Helper from '@ember/component/helper';
+import { helper } from '@ember/component/helper';
+import { capitalize } from '@ember/string';
 
-export default Helper.extend({
-  compute: function([ title ]) {
-    return title.replace('_', ' ')
-    .split(' ')
-.map((s) => s.charAt(0).toUpperCase() + s.substring(1))
-.join(' ');
-  },
-  computed: function toTitleCase(str) {
-    return str.replace(/\w\S*/g, function(txt){
-        return txt.charAt(0).toUpperCase() + txt.substr(1).toLowerCase();
-    });
-}
+const wordsNotToCapitalize = [
+    'a',
+    'an',
+    'and',
+    'is',
+    'the',
+];
+
+export default helper(function titleCase([title]) {
+    return title
+        .split(/_+/g)
+        .map((word, index) => {
+            if (index > 0 && wordsNotToCapitalize.includes(word)) {
+                return word;
+            }
+
+            return capitalize(word);
+        })
+        .join(' ');
 });

@@ -76,6 +76,7 @@ export default {
   "blue-darkest": "#003366",
   "blue-darker": "#1c3d5a",
   "blue-dark": "#2779bd",
+  "blue-print": "#0A81D5",
   blue: "#3490dc",
   "blue-light": "#4F89BF",
   "blue-lighter": "#6ba9d7",

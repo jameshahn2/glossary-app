@@ -1,26 +1,39 @@
-import Component from "@ember/component";
-import { task, timeout } from "ember-concurrency";
-import { isEmpty } from "@ember/utils";
+import Component from '@ember/component';
+import { task, timeout } from 'ember-concurrency';
+import { isEmpty } from '@ember/utils';
 
 export default Component.extend({
+  tagName: '',
+
   init() {
     this._super(...arguments);
-    this.set("activeItems", []);
+
+    this.activeItems = this.activeItems || [];
   },
 
-  setActiveItems(...path) {
-    this.updateActiveItems.perform(path);
-  },
-
-  clearActiveItems() {
-    this.updateActiveItems.perform([]);
-  },
-
-  updateActiveItems: task(function*(path) {
-    if (isEmpty(path)) {
-      yield timeout(500);
+  updateActiveItems: task(function*(items, duration = 500) {
+    if (isEmpty(items)) {
+      yield timeout(duration);
     }
 
-    this.set("activeItems", path);
-  }).restartable()
+    this.set('activeItems', items);
+  }).restartable(),
+
+  setActiveItems(...items) {
+    this.updateActiveItems.perform(items);
+  },
+
+  clearActiveItems(duration) {
+    this.updateActiveItems.perform([], duration);
+  },
+
+  actions: {
+    setActiveItems(...items) {
+      this.setActiveItems(...items);
+    },
+
+    clearActiveItems(duration) {
+      this.clearActiveItems(duration);
+    }
+  }
 });

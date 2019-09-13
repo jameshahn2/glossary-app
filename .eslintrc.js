@@ -8,14 +8,10 @@ module.exports = {
     ecmaVersion: 2017,
     sourceType: 'module'
   },
-  plugins: ["babel", "ember", "react"],
+  plugins: ["babel", "ember"],
   extends: ["eslint:recommended", "plugin:ember/recommended"],
   env: {
     browser: true
-  },
-  rules: {
-    "react/jsx-uses-react": "error",
-    "react/jsx-uses-vars": "error"
   },
   overrides: [
     // node files

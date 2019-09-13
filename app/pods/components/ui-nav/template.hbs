@@ -21,30 +21,34 @@
     </a>
   </div>
 
-  <nav class="lg:flex justify-between bg-blacker">
-    {{#modal-dialog
-      tetherTarget="[data-tether-id='slb']"
-      attachment="top left"
-      targetAttachment="bottom left"
-    }}
-      <DropdownList as |List|>
+  <DropdownList as |List|>
+
+    <nav class="lg:flex justify-between bg-blacker">
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='slb']"
+        attachment="top left"
+        targetAttachment="bottom left"
+      }}
+
         <ul class="bg-blacker block list-reset lg:flex h-33 leading-loose md:hidden sm:hidden xs:hidden xxs:hidden xxs:w-320 xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:w-768 lg:w-980">
+
           <List.item as |Item|>
             <li class={{if Item.isActive "active"}}>
-              <a href="https://www.slb.com/services.aspx" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white hover:bg-blacker" data-tether-id="srvprod">
+              <a href="https://www.slb.com/services.aspx" class="block lg:inline-flex pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white hover:bg-blacker" data-tether-id="srvprod">
                 Services & Products
               </a>
               {{#if Item.isActive}}
                 <Item.sublist as |List|>
                   {{#modal-dialog
                     tetherTarget="[data-tether-id='srvprod']"
-                    attachment="top left"
+                    attachment="top right"
                     targetAttachment="bottom left"
+                    targetOffset="0 0"
                   }}
-                    <div class="flatmenuLevelOne flatmenuLevelOneLeft">
-                      <ul class="block absolute font-bold cursor-pointer w-200 z-10 text-white text-sm bg-blacker list-reset" data-tether-id="seismic_full">
+                    <div class="flatmenuLevelOne w-200">
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/services/seismic.aspx">
                               Seismic
                             </a>
@@ -52,12 +56,12 @@
                           {{#if Item.isActive}}
                             {{#modal-dialog
                               tetherTarget="[data-tether-id='seismic_full']"
-                              attachment="top left"
-                              targetAttachment="top right"
+                              attachment="bottom left"
+                              targetAttachment="top left"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-265 z-10 text-white text-sm bg-black-lighter list-reset">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/services/seismic/seismic-reservoir-characterization.aspx">
@@ -120,8 +124,10 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/services/drilling.aspx">
                               Drilling Services
                             </a>
@@ -133,8 +139,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-300 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/services/drilling/wellhead-systems.aspx">
@@ -232,6 +238,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} border-b border-solid border-black hover:bg-blue-light">
                             <a class="text-white no-underline" href="https://www.slb.com/services/characterization.aspx">
@@ -245,8 +253,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-245 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/services/characterization/petrophysics.aspx">
@@ -316,6 +324,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} border-b border-solid border-black hover:bg-blue-light">
                             <a class="text-white no-underline" href="https://www.slb.com/services/completions.aspx">
@@ -329,8 +339,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-250 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/services/completions/15k-psi-completion-systems.aspx">
@@ -442,6 +452,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} border-b border-solid border-black hover:bg-blue-light">
                             <a class="text-white no-underline" href="https://www.slb.com/services/subsea.aspx">
@@ -455,8 +467,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-242 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/services/subsea/subsea_landing_string.aspx">
@@ -484,6 +496,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} border-b border-solid border-black hover:bg-blue-light">
                             <a class="text-white no-underline" href="https://www.slb.com/services/production.aspx">
@@ -497,8 +511,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-330 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/services/production/artificial_lift.aspx">
@@ -575,6 +589,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} border-b border-solid border-black hover:bg-blue-light">
                             <a class="text-white no-underline" href="https://www.slb.com/services/processing-separation.aspx">
@@ -588,8 +604,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-320 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/services/processing-separation/integrated-facilities.aspx">
@@ -645,6 +661,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} border-b border-solid border-black hover:bg-blue-light">
                             <a class="text-white no-underline" href="https://www.slb.com/services/well_intervention.aspx">
@@ -658,8 +676,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-325 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/services/well_intervention/coiled_tubing.aspx">
@@ -736,6 +754,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} extended-menu first-extended">
                             <a class="text-white no-underline" href="https://www.slb.com/services/technical_challenges.aspx">
@@ -749,8 +769,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-245 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/services/technical_challenges/deepwater_operations.aspx">
@@ -827,6 +847,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} extended-menu first-extended">
                             <a class="text-white no-underline" href="https://www.slb.com/services/additional.aspx">
@@ -840,8 +862,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-370 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/services/additional/carbon.aspx">
@@ -911,6 +933,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} extended-menu">
                             <a class="text-white no-underline" href="https://www.software.slb.com/">
@@ -924,8 +948,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-242 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.software.slb.com/products/disciplines/drilling-software">
@@ -1009,6 +1033,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} extended-menu">
                             <a class="text-white no-underline" href="https://www.slb.com/services/links.aspx">
@@ -1025,56 +1051,59 @@
           </List.item>
           <List.item as |Item|>
             <li class={{if Item.isActive "active"}}>
-              <a href="https://www.slb.com/about.aspx" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white" data-tether-id="about-us">
+              <a href="https://www.slb.com/about.aspx" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white hover:bg-blacker" data-tether-id="about-us">
                 About Us
               </a>
               {{#if Item.isActive}}
                 <Item.sublist as |List|>
                   {{#modal-dialog
                     tetherTarget="[data-tether-id='about-us']"
-                    attachment="top left"
+                    attachment="top right"
                     targetAttachment="bottom left"
                   }}
-                    <div class="flatmenuLevelOne flatmenuLevelOneLeft">
-                      <ul class="block absolute font-bold cursor-pointer w-200 z-10 text-white text-sm bg-blacker list-reset" data-tether-id="corporate-profile">
+                    <div class="flatmenuLevelOne w-200">
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/about/who.aspx">
                               Corporate Profile
                             </a>
+                            {{#if Item.isActive}}
+                              {{#modal-dialog
+                                tetherTarget="[data-tether-id='corporate-profile']"
+                                attachment="top right"
+                                targetAttachment="bottom left"
+                              }}
+                                <Item.sublist as |List|>
+                                  <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                    <ul>
+                                      <List.item as |Item|>
+                                        <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
+                                          <a class="text-white no-underline" href="https://www.slb.com/about/who/backgrounder.aspx">
+                                            Backgrounder
+                                          </a>
+                                        </li>
+                                      </List.item>
+                                    </ul>
+                                  </div>
+                                </Item.sublist>
+                              {{/modal-dialog}}
+                            {{/if}}
                           </li>
-
-                          {{#if Item.isActive}}
-                            {{#modal-dialog
-                              tetherTarget="[data-tether-id='corporate-profile']"
-                              attachment="top left"
-                              targetAttachment="top right"
-                            }}
-                              <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-265 z-10 text-white text-sm bg-black-lighter list-reset">
-                                    <List.item as |Item|>
-                                      <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
-                                        <a class="text-white no-underline" href="https://www.slb.com/about/who/backgrounder.aspx">
-                                          Backgrounder
-                                        </a>
-                                      </li>
-                                    </List.item>
-                                  </ul>
-                                </div>
-                              </Item.sublist>
-                            {{/modal-dialog}}
-                          {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/about/execmanagement.aspx">
                               Executive Management
                             </a>
                           </li>
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/about/guiding_principles.aspx">
                               Guiding Principles
                             </a>
@@ -1082,12 +1111,12 @@
                           {{#if Item.isActive}}
                             {{#modal-dialog
                               tetherTarget="[data-tether-id='corporate-profile']"
-                              attachment="top left"
-                              targetAttachment="top right"
+                              attachment="top right"
+                              targetAttachment="bottom left"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-300 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/about/guiding_principles/corpgovernance.aspx">
@@ -1108,6 +1137,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} NoChildren border-b border-solid border-black hover:bg-blue-light">
                             <a class="text-white no-underline" href="https://www.slb.com/about/global_stewardship.aspx">
@@ -1115,6 +1146,8 @@
                             </a>
                           </li>
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} border-b border-solid border-black hover:bg-blue-light">
                             <a class="text-white no-underline" href="https://www.slb.com/about/accountability.aspx">
@@ -1128,8 +1161,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-300 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/about/accountability/human-rights.aspx">
@@ -1157,6 +1190,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} NoChildren border-b border-solid border-black hover:bg-blue-light">
                             <a class="text-white no-underline" href="https://www.slb.com/about/codeofconduct.aspx">
@@ -1164,6 +1199,8 @@
                             </a>
                           </li>
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} border-b border-solid border-black hover:bg-blue-light">
                             <a class="text-white no-underline" href="https://www.slb.com/about/foundation.aspx">
@@ -1177,8 +1214,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-330 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/about/foundation/about_foundation.aspx">
@@ -1199,6 +1236,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} border-b border-solid border-black hover:bg-blue-light">
                             <a class="text-white no-underline" href="https://www.slb.com/about/rd.aspx">
@@ -1212,8 +1251,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-330 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/about/rd/research.aspx">
@@ -1234,6 +1273,8 @@
                             {{/modal-dialog}}
                           {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/about/history.aspx">
@@ -1247,8 +1288,8 @@
                               targetAttachment="top right"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block absolute font-bold cursor-pointer w-330 z-10 text-white text-sm bg-black-lighter list-rese">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/about/history/1920s.aspx">
@@ -1334,41 +1375,45 @@
           </List.item>
           <List.item as |Item|>
             <li class={{if Item.isActive "active"}}>
-              <a href="http://investorcenter.slb.com/phoenix.zhtml?c=97513&p=irol-irhome" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white">
+              <a href="http://investorcenter.slb.com/phoenix.zhtml?c=97513&p=irol-irhome" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white hover:bg-blacker">
                 Investors
               </a>
             </li>
           </List.item>
           <List.item as |Item|>
             <li class={{if Item.isActive "active"}}>
-              <a href="https://www.slb.com/news.aspx" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white" data-tether-id="newsroom">
+              <a href="https://www.slb.com/news.aspx" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white hover:bg-blacker" data-tether-id="newsroom">
                 Newsroom
               </a>
               {{#if Item.isActive}}
                 <Item.sublist as |List|>
                   {{#modal-dialog
                     tetherTarget="[data-tether-id='newsroom']"
-                    attachment="top left"
+                    attachment="top right"
                     targetAttachment="bottom left"
                   }}
-                    <div class="flatmenuLevelOne flatmenuLevelOneLeft">
-                      <ul class="block absolute font-bold cursor-pointer w-200 z-10 text-white text-sm bg-blacker list-reset" data-tether-id="seismic_full">
+                    <div class="flatmenuLevelOne w-200" data-tether-id="seismic_full">
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/news/press_releases.aspx">
                               Press Releases
                             </a>
                           </li>
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/news/presentations.aspx">
                               Executive Presentations
                             </a>
                           </li>
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/news/inside_news.aspx">
                               Inside Schlumberger
                             </a>
@@ -1383,7 +1428,7 @@
           </List.item>
           <List.item as |Item|>
             <li class={{if Item.isActive "active"}}>
-              <a href="https://www.slb.com/hse.aspx" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white" data-tether-id="hse">
+              <a href="https://www.slb.com/hse.aspx" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white hover:bg-blacker" data-tether-id="hse">
                 HSE
               </a>
               {{#if Item.isActive}}
@@ -1393,17 +1438,17 @@
                     attachment="top left"
                     targetAttachment="bottom left"
                   }}
-                    <div class="flatmenuLevelOne flatmenuLevelOneLeft">
-                      <ul class="block absolute font-bold cursor-pointer w-200 z-10 text-white text-sm bg-blacker list-reset">
+                    <div class="flatmenuLevelOne w-200">
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/hse/hse_mngt_sys.aspx">
                               HSE Management System
                             </a>
                           </li>
                         </List.item>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/hse/hse_policy.aspx">
                               HSE Policy Statement
                             </a>
@@ -1418,7 +1463,7 @@
           </List.item>
           <List.item as |Item|>
             <li class={{if Item.isActive "active"}}>
-              <a href="https://careers.slb.com/" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white" data-tether-id="careers">
+              <a href="https://careers.slb.com/" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white hover:bg-blacker" data-tether-id="careers">
                 Careers
               </a>
               {{#if Item.isActive}}
@@ -1428,31 +1473,31 @@
                     attachment="top left"
                     targetAttachment="bottom left"
                   }}
-                    <div class="flatmenuLevelOne flatmenuLevelOneLeft">
-                      <ul class="block absolute font-bold cursor-pointer w-230 z-10 text-white text-sm bg-blacker list-reset">
+                    <div class="flatmenuLevelOne w-225">
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://careers.slb.com/whoweare.aspx">
                               Who We Are
                             </a>
                           </li>
                         </List.item>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://careers.slb.com/recruit_train.aspx">
                               Recruiting and Training
                             </a>
                           </li>
                         </List.item>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://careers.slb.com/recentgraduates.aspx">
                               Students and Recent Graduates
                             </a>
                           </li>
                         </List.item>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://careers.slb.com/experiencedprofessionals.aspx">
                               Experienced Professionals
                             </a>
@@ -1467,62 +1512,66 @@
           </List.item>
           <List.item as |Item|>
             <li class={{if Item.isActive "active"}}>
-              <a href="https://www.slb.com/alumni.aspx" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white" data-tether-id="alumni">
+              <a href="https://www.slb.com/alumni.aspx" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white hover:bg-blacker" data-tether-id="alumni">
                 Alumni
               </a>
               {{#if Item.isActive}}
                 <Item.sublist as |List|>
                   {{#modal-dialog
                     tetherTarget="[data-tether-id='alumni']"
-                    attachment="top left"
+                    attachment="top right"
                     targetAttachment="bottom left"
                   }}
-                    <div class="flatmenuLevelOne flatmenuLevelOneLeft">
-                      <ul class="block absolute font-bold cursor-pointer w-110 z-10 text-white text-sm bg-blacker list-reset" data-tether-id="benefits">
+                    <div class="flatmenuLevelOne w-200">
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/alumni/benefits.aspx">
                               Benefits
                             </a>
-                            {{#if Item.isActive}}
-                              {{#modal-dialog
-                                tetherTarget="[data-tether-id='benefits']"
-                                attachment="top left"
-                                targetAttachment="top right"
-                              }}
-                                <Item.sublist as |List|>
-                                  <div class="flatmenuLevelTwo">
-                                    <ul class="block absolute font-bold cursor-pointer w-158 z-10 text-white text-sm bg-black-lighter list-rese">
-                                      <List.item as |Item|>
-                                        <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
-                                          <a class="text-white no-underline" href="https://www.slb.com/alumni/benefits/human_resources.aspx">
-                                            Human Resources
-                                          </a>
-                                        </li>
-                                      </List.item>
-                                      <List.item as |Item|>
-                                        <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
-                                          <a class="text-white no-underline" href="https://www.slb.com/alumni/benefits/medical_plan.aspx">
-                                            Retiree Medical Plan
-                                          </a>
-                                        </li>
-                                      </List.item>
-                                    </ul>
-                                  </div>
-                                </Item.sublist>
-                              {{/modal-dialog}}
-                            {{/if}}
                           </li>
+                          {{#if Item.isActive}}
+                            {{#modal-dialog
+                              tetherTarget="[data-tether-id='benefits']"
+                              attachment="bottom left"
+                              targetAttachment="top left"
+                            }}
+                              <Item.sublist as |List|>
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
+                                    <List.item as |Item|>
+                                      <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
+                                        <a class="text-white no-underline" href="https://www.slb.com/alumni/benefits/human_resources.aspx">
+                                          Human Resources
+                                        </a>
+                                      </li>
+                                    </List.item>
+                                    <List.item as |Item|>
+                                      <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
+                                        <a class="text-white no-underline" href="https://www.slb.com/alumni/benefits/medical_plan.aspx">
+                                          Retiree Medical Plan
+                                        </a>
+                                      </li>
+                                    </List.item>
+                                  </ul>
+                                </div>
+                              </Item.sublist>
+                            {{/modal-dialog}}
+                          {{/if}}
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/alumni/network.aspx">
                               Network
                             </a>
                           </li>
                         </List.item>
+                      </ul>
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/news.aspx">
                               News
                             </a>
@@ -1537,7 +1586,7 @@
           </List.item>
           <List.item as |Item|>
             <li class={{if Item.isActive "active"}}>
-              <a href="https://www.slb.com/resources.aspx" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white" data-tether-id="resources">
+              <a href="https://www.slb.com/resources.aspx" class="block lg:inline-block pl-20 pr-20 lg:mt-0 text-sm text-white font-bold no-underline hover:text-white hover:bg-blacker" data-tether-id="resources">
                 Resources
               </a>
               {{#if Item.isActive}}
@@ -1547,17 +1596,17 @@
                     attachment="top right"
                     targetAttachment="bottom left"
                   }}
-                    <div class="flatmenuLevelOne flatmenuLevelOneLeft">
-                      <ul class="block absolute font-bold cursor-pointer w-200 z-10 text-white text-sm bg-blacker list-reset" data-tether-id="case-studies">
+                    <div class="flatmenuLevelOne w-200">
+                      <ul>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/resources/case_studies.aspx">
                               Case Studies
                             </a>
                           </li>
                         </List.item>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.apps.slb.com/cmd/">
                               Curve Mnemonic Dictionary
                             </a>
@@ -1586,27 +1635,22 @@
                         </List.item>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} NoChildren border-b border-solid border-black hover:bg-blue-light">
-                            <a class="text-white no-underline" href="https://www.slb.com/resources/videolistingpage.aspx">
-                              Videos
-                            </a>
+                            <a class="text-white no-underline" href="https://www.slb.com/resources/videolistingpage.aspx">Videos</a>
                           </li>
                         </List.item>
                         <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} border-b border-solid border-black hover:bg-blue-light">
-                            <a class="text-white no-underline" href="https://www.slb.com/resources/webinars.aspx">
-                              Webinars
-                            </a>
+                            <a class="text-white no-underline" href="https://www.slb.com/resources/webinars.aspx">Webinars</a>
                           </li>
                           {{#if Item.isActive}}
                             {{#modal-dialog
                               tetherTarget="[data-tether-id='case-studies']"
-                              attachment="top right"
-                              targetAttachment="top left"
-                              offset="0 275px"
+                              attachment="bottom right"
+                              targetAttachment="bottom left"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block font-bold cursor-pointer w-275 z-10 text-white text-sm bg-black-lighter list-reset">
+                                <div class="flatmenuLevelTwo ml-292m mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/about/accountability/human-rights.aspx">
@@ -1642,14 +1686,14 @@
                           </li>
                         </List.item>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/resources/events.aspx">
                               Trade Shows & Events
                             </a>
                           </li>
                         </List.item>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} border-t border-b border-solid border-black hover:bg-blue-light">
+                          <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                             <a class="text-white no-underline" href="https://www.slb.com/resources/software.aspx">
                               Free Software Utilities
                             </a>
@@ -1658,12 +1702,11 @@
                             {{#modal-dialog
                               tetherTarget="[data-tether-id='case-studies']"
                               attachment="top right"
-                              targetAttachment="top left"
-                              offset="0 425px"
+                              targetAttachment="bottom left"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block font-bold cursor-pointer w-425 z-10 text-white text-sm bg-black-lighter list-reset">
+                                <div class="flatmenuLevelTwo ml-435m mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/resources/software/ihandbook.aspx">
@@ -1729,12 +1772,12 @@
                             {{#modal-dialog
                               tetherTarget="[data-tether-id='case-studies']"
                               attachment="top right"
-                              targetAttachment="top left"
+                              targetAttachment="bottom left"
                               offset="0 275px"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block font-bold cursor-pointer w-275 z-10 text-white text-sm bg-black-lighter list-reset">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/resources/oilfield_review.aspx">
@@ -1779,12 +1822,12 @@
                             {{#modal-dialog
                               tetherTarget="[data-tether-id='case-studies']"
                               attachment="top right"
-                              targetAttachment="top left"
+                              targetAttachment="bottom left"
                               offset="0 275px"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block font-bold cursor-pointer w-275 z-10 text-white text-sm bg-black-lighter list-reset">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/resources/publications/mearr.aspx">
@@ -1827,22 +1870,21 @@
                           </li>
                         </List.item>
                         <List.item as |Item|>
-                          <li class="{{if Item.isActive "active"}} NoChildren border-b border-solid border-black hover:bg-blue-light">
-                          </li>
-                        </List.item>
-                        <List.item as |Item|>
                           <li class="{{if Item.isActive "active"}} border-b border-solid border-black hover:bg-blue-light">
+                            <a class="text-white no-underline" href="https://www.slb.com/resource-library">
+                              Other Resources
+                            </a>
                           </li>
                           {{#if Item.isActive}}
                             {{#modal-dialog
                               tetherTarget="[data-tether-id='case-studies']"
                               attachment="top right"
-                              targetAttachment="top left"
+                              targetAttachment="bottom left"
                               offset="0 275px"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo">
-                                  <ul class="block font-bold cursor-pointer w-275 z-10 text-white text-sm bg-black-lighter list-reset">
+                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                  <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
                                         <a class="text-white no-underline" href="https://www.slb.com/resources/other_resources/brochures.aspx">
@@ -1878,9 +1920,10 @@
             </li>
           </List.item>
         </ul>
-      </DropdownList>
-    {{/modal-dialog}}
-
+      {{/modal-dialog}}
+    </nav>
+  </DropdownList>
+</div>
     {{!-- Responsive Menu --}}
 
     <div class="block lg:hidden pt-8 pb-10 pl-10">
@@ -1893,12 +1936,12 @@
 
     {{#if isShowingMenu}}
       {{#modal-dialog
-        onClose=(action (mut isShowingMenu) false)
-        clickOutsideToClose=true
         tetherTarget="[data-tether-id='menu']"
         attachment="top left"
         targetAttachment="bottom left"
         targetModifier="visible"
+        onClose=(action (mut isShowingMenu) false)
+        clickOutsideToClose=true
       }}
         <ul class="bg-blacker list-reset min-w-178">
           <li>
@@ -1944,15 +1987,14 @@
         </ul>
       {{/modal-dialog}}
     {{/if}}
-
     {{!-- Responsive Services --}}
     {{#if showServices}}
       {{#modal-dialog
-        onClose=(action (mut showServices) false)
-        clickOutsideToClose=true
         tetherTarget="[data-tether-id='services']"
         attachment="top left"
         targetAttachment="top right"
+        onClose=(action (mut showServices) false)
+        clickOutsideToClose=true
       }}
         <ul class="bg-blacker list-reset">
           <li>
@@ -2067,9 +2109,7 @@
         </ul>
       {{/modal-dialog}}
     {{/if}}
-  </nav>
 
   <div class="lg:mt-33">
     <img src="https://www.glossary.oilfield.slb.com/~/media/Images/ofg_banner_201020918.ashx?h=111&w=980" alt="">
   </div>
-</div>
