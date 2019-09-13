@@ -8,7 +8,13 @@ module.exports = function(defaults) {
       bootstrapVersion: 4,
       importBootstrapFont: false,
       importBootstrapCSS: false
-    }
+    },
+    'ember-cli-netlify': {
+  redirects: [
+    'https://slb-oilfield-glossary.netlify.com/* https://slb-oilfield-glossary.netlify.com/:splat 301!',
+    'https://slb-oilfield-glossary.netlify.com/* https://slb-oilfield-glossary.netlify.com/:splat 301!'
+  ]
+}
   });
 
   // Use `app.import` to add additional libraries to the generated

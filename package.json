@@ -3,6 +3,9 @@
   "version": "0.0.0",
   "private": true,
   "description": "Small description for glossary-app goes here",
+  "keywords": [
+    "ember-cli-netlify-plugin"
+  ],
   "repository": "",
   "license": "MIT",
   "author": "",
