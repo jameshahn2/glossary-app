@@ -359,3 +359,7 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
   background-color: #fefefe;
   text-transform: none;
 }
+
+.sidebar {
+  border-right: none;
+}

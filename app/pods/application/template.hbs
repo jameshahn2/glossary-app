@@ -8,8 +8,8 @@
 
 <div class="container lg:mx-auto sm:flex sm:flex-col-reverse smm:flex smm:flex-col-reverse xsm:flex xsm:flex-col-reverse xsml:flex xsml:flex-col-reverse xxs:flex xxs:flex-col-reverse xxs:ml-15 xsml:mt-10 max-w-xl bg-grey-white md:flex md:flex-col-reverse lg:flex-row lg:w-980 md:shadow">
 
-  <div>
-    <div class="xxs:vlx xsml:vlx xsm:vlx smm:vlx sm:vlx p-10 vl">
+  <div class="vl">
+    <div class="xxs:vlx xsml:vlx xsm:vlx smm:vlx sm:vlx p-10">
       <span class="text-base font-bold pb-12">Oilfield Glossary</span>
       <p class="text-blue-light text-sm leading-normal pt-4">
         Search for Term:
@@ -22,14 +22,14 @@
     {{/if}}
 
     <ul class="md:ml-30m my-5">
-      {{#each (take 10 (sort-by "term" searchGlossary.lastSuccessful.value)) as |term|}}
+      {{#each (take 20 (sort-by "term" searchGlossary.lastSuccessful.value)) as |term|}}
         {{#link-to "terms.letter.term_id" term.letter term.id class="text-blue-light text-sm no-underline"}}{{term.term}}{{/link-to}}<br>
       {{/each}}
     </ul>
     {{ui-sidebar}}
   </div>
 
-  <div class="xxs:w-95p mx-auto xxs:mr md:w-700 md:ml-20 md:mt-10">
+  <div class="mb-20 xxs:w-95p mx-auto xxs:mr md:w-700 md:ml-20 md:mt-10">
     {{outlet}}
     {{glossaryData.data.url}}
   </div>

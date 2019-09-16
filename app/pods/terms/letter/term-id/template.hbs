@@ -112,7 +112,7 @@
     </div>
 
     <div class="flex">
-      {{#each (drop 1 model.definitions) as |definition|}}
+      {{#each (take 1 (drop 1 model.definitions)) as |definition|}}
         <div class="w-full pt-10 pr-0 pb-8 pl-8">
           <div class="w-61.2 md:w-full">
             <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
@@ -133,6 +133,168 @@
         </div>
       {{/each}}
     </div>
+
+    <div class="flex bg-grey-lighter">
+      {{#each (take 1 (drop 2 model.definitions)) as |definition|}}
+        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+          <div class="w-61.2 md:w-full">
+            <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
+            <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
+
+            {{#if definition.alternate_forms}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">Alternate Form:</span> <span class="text-sm">{{definition.alternate_forms}}</span>
+              </div>
+            {{/if}}
+
+            {{#if definition.see.length}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">See:</span> {{#each definition.see as |see|}} {{#if see.title}} <a class="text-sm text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}{{/if}}{{/each}}
+              </div>
+            {{/if}}
+          </div>
+        </div>
+      {{/each}}
+    </div>
+
+    <div class="flex">
+      {{#each (take 1 (drop 3 model.definitions)) as |definition|}}
+        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+          <div class="w-61.2 md:w-full">
+            <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
+            <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
+
+            {{#if definition.alternate_forms}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">Alternate Form:</span> <span class="text-sm">{{definition.alternate_forms}}</span>
+              </div>
+            {{/if}}
+
+            {{#if definition.see.length}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">See:</span> {{#each definition.see as |see|}} {{#if see.title}} <a class="text-sm text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}{{/if}}{{/each}}
+              </div>
+            {{/if}}
+          </div>
+        </div>
+      {{/each}}
+    </div>
+
+    <div class="flex bg-grey-lighter">
+      {{#each (take 1 (drop 4 model.definitions)) as |definition|}}
+        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+          <div class="w-61.2 md:w-full">
+            <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
+            <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
+
+            {{#if definition.alternate_forms}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">Alternate Form:</span> <span class="text-sm">{{definition.alternate_forms}}</span>
+              </div>
+            {{/if}}
+
+            {{#if definition.see.length}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">See:</span> {{#each definition.see as |see|}} {{#if see.title}} <a class="text-sm text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}{{/if}}{{/each}}
+              </div>
+            {{/if}}
+          </div>
+        </div>
+      {{/each}}
+    </div>
+
+    <div class="flex">
+      {{#each (take 1 (drop 5 model.definitions)) as |definition|}}
+        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+          <div class="w-61.2 md:w-full">
+            <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
+            <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
+
+            {{#if definition.alternate_forms}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">Alternate Form:</span> <span class="text-sm">{{definition.alternate_forms}}</span>
+              </div>
+            {{/if}}
+
+            {{#if definition.see.length}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">See:</span> {{#each definition.see as |see|}} {{#if see.title}} <a class="text-sm text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}{{/if}}{{/each}}
+              </div>
+            {{/if}}
+          </div>
+        </div>
+      {{/each}}
+    </div>
+
+    <div class="flex bg-grey-lighter">
+      {{#each (take 1 (drop 6 model.definitions)) as |definition|}}
+        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+          <div class="w-61.2 md:w-full">
+            <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
+            <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
+
+            {{#if definition.alternate_forms}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">Alternate Form:</span> <span class="text-sm">{{definition.alternate_forms}}</span>
+              </div>
+            {{/if}}
+
+            {{#if definition.see.length}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">See:</span> {{#each definition.see as |see|}} {{#if see.title}} <a class="text-sm text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}{{/if}}{{/each}}
+              </div>
+            {{/if}}
+          </div>
+        </div>
+      {{/each}}
+    </div>
+
+    <div class="flex">
+      {{#each (take 1 (drop 7 model.definitions)) as |definition|}}
+        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+          <div class="w-61.2 md:w-full">
+            <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
+            <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
+
+            {{#if definition.alternate_forms}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">Alternate Form:</span> <span class="text-sm">{{definition.alternate_forms}}</span>
+              </div>
+            {{/if}}
+
+            {{#if definition.see.length}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">See:</span> {{#each definition.see as |see|}} {{#if see.title}} <a class="text-sm text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}{{/if}}{{/each}}
+              </div>
+            {{/if}}
+          </div>
+        </div>
+      {{/each}}
+    </div>
+
+    <div class="flex bg-grey-lighter">
+      {{#each (take 1 (drop 8 model.definitions)) as |definition|}}
+        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+          <div class="w-61.2 md:w-full">
+            <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
+            <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
+
+            {{#if definition.alternate_forms}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">Alternate Form:</span> <span class="text-sm">{{definition.alternate_forms}}</span>
+              </div>
+            {{/if}}
+
+            {{#if definition.see.length}}
+              <div class="pb-10">
+                <span class="text-sm font-bold">See:</span> {{#each definition.see as |see|}} {{#if see.title}} <a class="text-sm text-blue-light leading-normal no-underline" href={{see.link}}>{{see.title}}</a>{{#unless (eq see definition.see.lastObject)}},{{/unless}}{{/if}}{{/each}}
+              </div>
+            {{/if}}
+          </div>
+        </div>
+      {{/each}}
+    </div>
+
   </div>
   <button class="bg-blue-print hover:bg-blue text-white font-bold ml-5 mt-20 pt-5 pr-10 pb-5 pl-10 rounded" onclick={{doPrint}}>Print</button>
 {{/print-this}}
