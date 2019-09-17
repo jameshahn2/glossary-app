@@ -1,6 +1,9 @@
-export default function() {
-  this.transition(
-    this.hasClass("ember-modal-dialog"),
-    this.use("crossFade", { duration: 100 })
-  );
+export default function(){
+  // Add your transitions here, like:
+  //   this.transition(
+  //     this.fromRoute('people.index'),
+  //     this.toRoute('people.detail'),
+  //     this.use('toLeft'),
+  //     this.reverse('toRight')
+  //   );
 }
