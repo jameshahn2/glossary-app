@@ -1,6 +1,6 @@
 {{#print-this printSelector=".customContent" as |doPrint|}}
   <div class="customContent">
-    <div class="w-700 mx-auto lg:ml-0 ml-5 mr-20">
+    <div class="w-700 mx-auto lg:ml-0 pl-15 mr-20">
       <p class="text-blue-darkest text-xxl mb-21">{{model.term}}</p>
       {{!-- definition flex --}}
       <div class="flex flex-col xs:max-w-xsml sm:max-w-sm md:max-w-md lg:max-w-lg">
@@ -110,7 +110,7 @@
 
     <div class="flex">
       {{#each (take 1 (drop 1 model.definitions)) as |definition|}}
-        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+        <div class="w-full pt-10 pr-0 pb-8 pl-8 ml-15">
           <div class="w-61.2 md:w-full">
             <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
             <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
@@ -133,7 +133,7 @@
 
     <div class="flex bg-grey-lightest">
       {{#each (take 1 (drop 2 model.definitions)) as |definition|}}
-        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+        <div class="w-full pt-10 pr-0 pb-8 pl-8 ml-15">
           <div class="w-61.2 md:w-full">
             <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
             <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
@@ -156,7 +156,7 @@
 
     <div class="flex">
       {{#each (take 1 (drop 3 model.definitions)) as |definition|}}
-        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+        <div class="w-full pt-10 pr-0 pb-8 pl-8 ml-15">
           <div class="w-61.2 md:w-full">
             <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
             <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
@@ -179,7 +179,7 @@
 
     <div class="flex bg-grey-lightest">
       {{#each (take 1 (drop 4 model.definitions)) as |definition|}}
-        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+        <div class="w-full pt-10 pr-0 pb-8 pl-8 ml-15">
           <div class="w-61.2 md:w-full">
             <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
             <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
@@ -202,7 +202,7 @@
 
     <div class="flex">
       {{#each (take 1 (drop 5 model.definitions)) as |definition|}}
-        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+        <div class="w-full pt-10 pr-0 pb-8 pl-8 ml-15">
           <div class="w-61.2 md:w-full">
             <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
             <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
@@ -225,7 +225,7 @@
 
     <div class="flex bg-grey-lightest">
       {{#each (take 1 (drop 6 model.definitions)) as |definition|}}
-        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+        <div class="w-full pt-10 pr-0 pb-8 pl-8 ml-15">
           <div class="w-61.2 md:w-full">
             <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
             <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
@@ -248,7 +248,7 @@
 
     <div class="flex">
       {{#each (take 1 (drop 7 model.definitions)) as |definition|}}
-        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+        <div class="w-full pt-10 pr-0 pb-8 pl-8 ml-15">
           <div class="w-61.2 md:w-full">
             <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
             <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
@@ -271,7 +271,7 @@
 
     <div class="flex bg-grey-lightest">
       {{#each (take 1 (drop 8 model.definitions)) as |definition|}}
-        <div class="w-full pt-10 pr-0 pb-8 pl-8">
+        <div class="w-full pt-10 pr-0 pb-8 pl-8 ml-15">
           <div class="w-61.2 md:w-full">
             <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
             <p class="text-sm leading-normal pt-24 pr-6 pb-10">{{{definition.definition}}}</p>
@@ -293,7 +293,7 @@
     </div>
 
   </div>
-  <button class="bg-blue-print hover:bg-blue text-white font-bold ml-5 mt-20 pt-5 pr-10 pb-5 pl-10 rounded" onclick={{doPrint}}>Print</button>
+  <button class="bg-blue-print hover:bg-blue text-white font-bold ml-15 mt-20 pt-5 pr-10 pb-5 pl-10 rounded" onclick={{doPrint}}>Print</button>
 {{/print-this}}
 
 <div class="xs:w-320 sm:w-600 md:w-240 pt-10 border-b lg:hidden xl:hidden xxl:hidden txl:hidden threexl:hidden fourxl:hidden fivexl:hidden">
