@@ -18,15 +18,16 @@
 */
 
 export default {
-  xxs: "320px",
-  xsml: "375px",
-  xsm: "425px",
-  smm: "480px",
-  sm: "600px",
-  md: "765px",
-  lg: "1022px",
-  xl: "1280px",
-  xxl: "1440px",
-  txl: "1920px",
-  fxl: "2560px"
+  xxs: "178px",
+  xs: "320px",
+  sm: "480px",
+  md: "640px",
+  lg: "800px",
+  xl: "980px",
+  xxl: "1120px",
+  txl: "1280px",
+  threexl: "1440px",
+  fourxl: "1600px",
+  fivexl: "1760px",
+  full: "100%"
 };

@@ -15,6 +15,7 @@
 
 export default {
   xxs: "178px",
+  xsml: "250px",
   xs: "320px",
   sm: "480px",
   md: "640px",
@@ -25,5 +26,6 @@ export default {
   "3xl": "1440px",
   "4xl": "1600px",
   "5xl": "1760px",
+  fifty: "50%",
   full: "100%"
 };

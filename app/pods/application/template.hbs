@@ -1,15 +1,16 @@
 {{!-- The look ahead search begins at line 18 and ends at line 28 --}}
 
-<div class="container mx-auto max-w-xl bg-grey-white xxs:w-95p xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:w-768 lg:w-980 md:shadow">
+<div class="flex mx-auto bg-grey-white xl:w-980 md:shadow md:overflow-hidden">
 
   {{ui-nav}}
 
 </div>
 
-<div class="container lg:mx-auto sm:flex sm:flex-col-reverse smm:flex smm:flex-col-reverse xsm:flex xsm:flex-col-reverse xsml:flex xsml:flex-col-reverse xxs:flex xxs:flex-col-reverse xxs:ml-15 xsml:mt-10 max-w-xl bg-grey-white md:flex md:flex-col-reverse lg:flex-row lg:w-980 md:shadow">
+<div
+  class="flex mx-auto max-w-xl bg-grey-white md:shadow md:flex-col md:flex md:flex-col xs:flex xs:flex-col md:w-auto xs:ml-15 md:w-700 lg:w-auto md:flex md:flex-col lg:flex-row lg:mx-auto">
 
-  <div class="vl">
-    <div class="xxs:vlx xsml:vlx xsm:vlx smm:vlx sm:vlx p-10">
+  <div class="vl lg:max-w-xsml w-295 overflow-hidden">
+    <div class="xs:vlx md:vlx md:vlx p-10">
       <span class="text-base font-bold pb-12">Oilfield Glossary</span>
       <p class="text-blue-light text-sm leading-normal pt-4">
         Search for Term:
@@ -21,7 +22,7 @@
       {{loading-spinner}}
     {{/if}}
 
-    <ul class="md:ml-30m my-5">
+    <ul class="md:w-414 md:ml-30m mt-5 mb-15m">
       {{#each (take 20 (sort-by "term" searchGlossary.lastSuccessful.value)) as |term|}}
         {{#link-to "terms.letter.term_id" term.letter term.id class="text-blue-light text-sm no-underline"}}{{term.term}}{{/link-to}}<br>
       {{/each}}
@@ -29,7 +30,7 @@
     {{ui-sidebar}}
   </div>
 
-  <div class="mb-20 xxs:w-95p mx-auto xxs:mr md:w-700 md:ml-20 md:mt-10">
+  <div class="mb-20 md:w-700 md:ml-20 md:mt-10">
     {{outlet}}
     {{glossaryData.data.url}}
   </div>

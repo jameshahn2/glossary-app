@@ -16,7 +16,7 @@
 
 export default {
   none: "0",
-  sm: ".125rem",
+  md: ".125rem",
   default: ".25rem",
   lg: ".5rem",
   xl: "5px",

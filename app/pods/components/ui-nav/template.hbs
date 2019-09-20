@@ -1,12 +1,11 @@
-<div class="xxs:w-320 xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:w-768 lg:w-980 max-h-235">
-  <div class="static xxs:pl-0 xxs:pr-0 xxs:bg-blackest xsml:bg-blackest smm:bg-blackest sm:bg-blackest md:pl-30 md:pr-30 md:pt-12 md:pb-8 md:bg-blackest h-88" data-tether-id="slb">
+<div class="max-w-xl xl:w-980 max-h-235">
+  <div class="flex xxs:bg-blackest xs:pl-0 xs:pr-0 xs:bg-blackest md:bg-blackest md:pt-12 md:pb-8 md:bg-blackest md:pl-30 h-88" data-tether-id="slb">
     <a href="/">
-      <p class="xxs:pt-9 xxs:ml-65 xxs:pt-15 xsml:ml-93 xsm:ml-118 smm:ml-145 sm:ml-204 md:ml-0 w-190">
+      <p class="xs:pt-9 xs:ml-65 xs:pt-15 md:ml-0 w-190">
         {{svg-jar "Schlumberger_Logo"}}
       </p>
     </a>
-  </div>
-  <div class="absolute block pin-r pin-t pt-13 pb-7px xxs:pt-19p xxs:w-271 xsml:w-80p xsml:pt-16p xsml:pt-17p xsm:w-76p xsm:pt-14p smm:w-352 smm:pt-60 sm:w-412 md:w-230 md:mr-10 md:pt-20 lg:mr-25 lg:w-240 xl:mr-152 xl:w-320 xl:mr-175 xxl:w-500 txl:w-420 txl:mr-300 fxl:w-880 fxl:mr-155 h-10 tracking-normal">
+  <div class="block md:ml-150 lg:ml-300 xl:ml-425 mt-5 h-10 tracking-normal">
     <a href="#" class="text-grey text-sm font-normal no-underline">
       Login |
     </a>
@@ -20,17 +19,18 @@
       Contact
     </a>
   </div>
+  </div>
 
   <DropdownList as |List|>
 
-    <nav class="lg:flex justify-between bg-blacker">
+    <nav class="lg:flex justify-between bg-blacker xs:hidden md:hidden md:hidden md:hidden">
       {{#modal-dialog
         tetherTarget="[data-tether-id='slb']"
         attachment="top left"
         targetAttachment="bottom left"
       }}
 
-        <ul class="bg-blacker block list-reset lg:flex h-33 leading-loose md:hidden sm:hidden xs:hidden xxs:hidden xxs:w-320 xsml:w-375 xsm:w-425 smm:w-480 sm:w-600 md:w-768 lg:w-980">
+        <ul class="bg-blacker block list-reset lg:flex h-33 leading-loose xl:w-980">
 
           <List.item as |Item|>
             <li class={{if Item.isActive "active"}}>
@@ -1924,9 +1924,10 @@
     </nav>
   </DropdownList>
 </div>
-    {{!-- Responsive Menu --}}
 
-    <div class="block lg:hidden pt-8 pb-10 pl-10">
+    {{!-- Responsive Menu --}}
+<nav class="flex p-5 bg-blacker xs:w-auto md:w-auto lg:hidden items-center justify-between flex-wrap">
+    <div class="flex items-center flex-shrink-0 text-white mr-6">
       <button onclick={{action (mut isShowingMenu) true}} data-tether-id="menu" class="px-10 py-5 border rounded text-white border-white hover:text-white hover:border-white">
         <svg class="fill-current h-10 w-10" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
@@ -1939,9 +1940,9 @@
         tetherTarget="[data-tether-id='menu']"
         attachment="top left"
         targetAttachment="bottom left"
-        targetModifier="visible"
         onClose=(action (mut isShowingMenu) false)
         clickOutsideToClose=true
+        animatable=true
       }}
         <ul class="bg-blacker list-reset min-w-178">
           <li>
@@ -2109,7 +2110,7 @@
         </ul>
       {{/modal-dialog}}
     {{/if}}
-
-  <div class="lg:mt-33">
+</nav>
+  <div class="md:w-auto lg:mt-33">
     <img src="https://www.glossary.oilfield.slb.com/~/media/Images/ofg_banner_201020918.ashx?h=111&w=980" alt="">
   </div>

@@ -51,7 +51,7 @@
   position: absolute;
   height: 37px;
   width: auto;
-  z-index: 600;
+  z-index: 640;
   min-width: 200px;
   background: url(https://www.slb.com/images/menu-active-indicator-full.gif);
   background-image: none;
@@ -120,7 +120,7 @@
   /*	width: 200px;*/
   /*display: none;*/
   position: absolute;
-  z-index: 600;
+  z-index: 640;
   background: url(https://www.slb.com/images/menu-active-indicator-full.gif)
     #004483 no-repeat top center;
 }
@@ -362,4 +362,8 @@ a, a:link, a:visited, a:focus, a:hover, a:active {
 
 .sidebar {
   border-right: none;
+}
+
+.tablet {
+    display: -webkit-box;
 }

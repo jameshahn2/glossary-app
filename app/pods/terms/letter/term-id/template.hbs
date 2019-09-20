@@ -1,18 +1,18 @@
 {{#print-this printSelector=".customContent" as |doPrint|}}
   <div class="customContent">
-    <div class="w-700 ml-5 mr-20">
+    <div class="w-700 mx-auto lg:ml-0 ml-5 mr-20">
       <p class="text-blue-darkest text-xxl mb-21">{{model.term}}</p>
       {{!-- definition flex --}}
-      <div class="flex">
+      <div class="flex flex-col xs:max-w-xsml sm:max-w-sm md:max-w-md lg:max-w-lg">
 
         {{!-- definition --}}
         {{#each (take 1 model.definitions) as |definition|}}
 
           {{!-- definition div: includes image --}}
-          <div class="inline-flex bg-grey-lighter w-full pt-10 pr-0 pb-8 pl-8">
+          <div class="lg:inline-flex bg-grey-lighter pt-10 pr-0 pb-8 pl-8">
 
             {{!-- definition flex-1 --}}
-            <div class="w-61.2 md:w-full">
+            <div class="md:w-full">
               <p class="text-sm font-bold">{{definition.speech_type}} [{{definition.category}}]</p>
               <p class="text-sm leading-normal pt-24 pr-6 pb-10">
                 {{{definition.definition}}}
@@ -64,11 +64,10 @@
             {{!-- definition image: part of defintion div --}}
             {{!-- image flex-1 --}}
             {{#if definition.image}}
-            {{log model}}
-              <div class="w-38.8 md:w-full">
+              <div class="lg:max-w-fifty">
                 <div class="bg-white border p-10 mt--1 mr-8 ml-2">
                   <img class="p-10" src={{definition.image.src}} alt="">
-                  <a {{action (mut showImage) true}} href="" class="no-underline mx-auto">
+                  <a {{action (mut showImage) true}} href="" class="no-underline md:w-800">
                     <p class="pl-10 bg-grey-light text-center rounded text-sm">
                       {{svg-jar "search-plus" class="w-10 h-10"}} view full-size
                     </p>
@@ -92,11 +91,8 @@
               targetAttachment="middle center"
               constraints=constraints
             }}
-              <div class="p-8 bg-white w-full max-w-md m-auto flex-col flex">
+              <div class="p-8 bg-white w-full max-w-md m-auto flex-row flex">
                 <img class="p-10" src={{definition.image.src}} alt="">
-                <figcaption class="p-15">
-                  <span class="text-sm leading-normal">{{definition.image.caption}}</span>
-                </figcaption>
                 <a {{action (mut showImage) false}} href="">
                   <span class="absolute pin-t pin-b pin-r p-4">
                     <svg class="h-28 w-28 text-grey hover:text-grey-darkest" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 20 20">
@@ -299,3 +295,60 @@
   </div>
   <button class="bg-blue-print hover:bg-blue text-white font-bold ml-5 mt-20 pt-5 pr-10 pb-5 pl-10 rounded" onclick={{doPrint}}>Print</button>
 {{/print-this}}
+
+<div class="xs:w-320 sm:w-600 md:w-240 pt-10 border-b lg:hidden xl:hidden xxl:hidden txl:hidden threexl:hidden fourxl:hidden fivexl:hidden">
+</div>
+
+<div class="flex xxs:w-240 xs:w-240 sm:w-240 md:w-240 lg:hidden xl:hidden xxl:hidden txl:hidden threexl:hidden fourxl:hidden fivexl:hidden">
+  <div class="xxs:w-95p md:mx-auto lg:w-240">
+    <div class="xxs:vlx p-10 vl sidebar">
+      <span class="text-md font-bold pb-3">Resource Links</span>
+      <ul class="list-reset">
+        <li class="mt-6 leading-normal">
+          <a class="text-blue-light text-sm no-underline mt-4 mb-4" href="http://www.slb.com/services.aspx">
+            Schlumberger Oilfield Services
+          </a>
+        </li>
+        <li class="leading-normal">
+          <a class="text-blue-light text-sm no-underline mt-4 mb-4" href="http://www.slb.com/resources/publications/oilfield_review.aspx">
+            Oilfield Review
+          </a>
+        </li>
+        <li class="leading-normal">
+          <a class="text-blue-light text-sm no-underline mt-4 mb-4" href="http://www.apps.slb.com/cmd/">
+            Curve Mnemonic Dictionary
+          </a>
+        </li>
+        <li class="leading-normal">
+          <a class="text-blue-light text-sm no-underline mt-4 mb-4" href="http://www.slb.com/seed/">
+            Schlumberger Excellence in Education Development (SEED)
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="xs:w-320 sm:w-600 md:w-240 border-b">
+    </div>
+  </div>
+</div>
+
+<div class="flex xxs:w-240 xs:w-240 sm:w-240 md:w-240 lg:hidden xl:hidden xl:hidden xxl:hidden txl:hidden threexl:hidden fourxl:hidden fivexl:hidden">
+  <div class="xxs:w-95p md:mx-auto lg:w-240">
+    <div class="xxs:vlx p-10 vl sidebar">
+      <span class="text-md font-bold pb-3">Credits and Administration</span>
+      <ul class="list-reset pb-175">
+        <li class="mt-6 leading-normal">
+          <a class="text-blue-light text-sm leading-normal pt-4 no-underline mt-4 mb-4" href="https://www.glossary.oilfield.slb.com/en/maincredits.aspx">
+            Schlumberger Oilfield Glossary Credits
+          </a>
+        </li>
+        <li class="leading-normal">
+          <a class="text-blue-light text-sm leading-normal pt-4 no-underline mt-4 mb-4" href="https://www.glossary.oilfield.slb.com/en/glossary_administration.aspx">
+            Glossary Administration
+          </a>
+        </li>
+      </ul>
+    </div>
+    <div class="xs:w-320 sm:w-600 md:w-240">
+    </div>
+  </div>
+</div>
