@@ -1788,7 +1788,7 @@
                               offset="0 275px"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                <div class="flatmenuLevelTwo ml-155m mt-38m">
                                   <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
@@ -1838,7 +1838,7 @@
                               offset="0 275px"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo ml-292m mt-38m">
+                                <div class="flatmenuLevelTwo ml-283m mt-38m">
                                   <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
@@ -1895,7 +1895,7 @@
                               offset="0 275px"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                <div class="flatmenuLevelTwo ml-128m mt-38m">
                                   <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
@@ -1939,7 +1939,7 @@
 
     {{!-- Responsive Menu --}}
 <nav class="flex p-5 bg-blacker xs:w-auto md:w-auto lg:w-auto xl:hidden items-center justify-between flex-wrap">
-    <div class="flex items-center flex-shrink-0 text-white mr-6">
+    <div class="flex items-center flex-shrink-0 text-white mr-6" data-tether-id="button">
       <button onclick={{action (mut isShowingMenu) true}} data-tether-id="menu" class="px-10 py-5 border rounded text-white border-white hover:text-white hover:border-white">
         <svg class="fill-current h-10 w-10" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
           <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
@@ -1988,7 +1988,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showAlumni) true}}>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light" data-tether-id="alumni" onclick={{action (mut showAlumni) true}}>
               Alumni
             </a>
           </li>
@@ -2011,57 +2011,57 @@
       }}
         <ul class="bg-blacker list-reset">
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showSeismictwo) true}}>
               Seismic
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showDrillingtwo) true}}>
               Drilling Services
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showCharacterizationtwo) true}}>
               Characterization
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showCompletionstwo) true}}>
               Completions
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showSubseatwo) true}}>
               Subsea Production
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showProductiontwo) true}}>
               Production
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showProcessingtwo) true}}>
               Processing & Separation
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showWelltwo) true}}>
               Well Intervention
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showTechnicaltwo) true}}>
               Technical Challenges
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showBusinesstwo) true}}>
               Business Solutions
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showSoftwaretwo) true}}>
               Software
             </a>
           </li>
@@ -2085,7 +2085,7 @@
       }}
         <ul class="bg-blacker list-reset">
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showCorporatetwo) true}}>
               Corporate Profile
             </a>
           </li>
@@ -2095,12 +2095,12 @@
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showGuidingtwo) true}}>
               Guiding Principles
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showAccountabilitytwo) true}}>
               Accountability
             </a>
           </li>
@@ -2110,17 +2110,17 @@
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showFoundationtwo) true}}>
               Schlumberger Foundation
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showResearchtwo) true}}>
               Research & Engineering
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showHistorytwo) true}}>
               History
             </a>
           </li>
@@ -2217,16 +2217,16 @@
 
     {{#if showAlumni}}
       {{#modal-dialog
-        tetherTarget="[data-tether-id='services']"
+        tetherTarget="[data-tether-id='button']"
         attachment="top left"
-        targetAttachment="top left"
+        targetAttachment="bottom left"
         onClose=(action (mut showAlumni) false)
         clickOutsideToClose=true
 
       }}
         <ul class="bg-blacker list-reset">
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showBenefitstwo) true}}>
               Benefits
             </a>
           </li>
@@ -2285,7 +2285,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showWebinarstwo) true}}>
               Webinars
             </a>
           </li>
@@ -2300,7 +2300,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showFreetwo) true}}>
               Free Software Utilities
             </a>
           </li>
@@ -2320,7 +2320,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showReviewtwo) true}}>
               Oilfield Review
             </a>
           </li>
@@ -2335,8 +2335,1055 @@
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showOthertwo) true}}>
               Other Resources
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showSeismictwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showSeismictwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Seismic Reservoir Characterization
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Geophysical Processing & Imaging
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Survey Design & Modeling
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Seismic for Unconventional Resources
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Borehole Seismic
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Seismic Drilling Support
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Multiclient Data Library
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Geophysics Software
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showDrillingtwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showDrillingtwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Wellhead Systems
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Engineering & Real-Time Analysis
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Drilling Services & Systems
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              LWD & MWD
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Contract Drilling
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Drilling Equipment Sales & Rentals
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Drill Bits
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Drilling Tools & Products
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Drilling Fluid Solutions, Systems & Products
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Surface Logging Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Fluids Processing
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Drilling Applications
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Cementing Services
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showCharacterizationtwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showCharacterizationtwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Petrophysics
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Geology
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Geomechanics
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Geophysics
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Reservoir Engineering
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Reservoir Testing
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Wireline Conveyance
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Petrotechnical Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Real-Time Operations Support
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showCompletionstwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showCompletionstwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              15,000-psi Completions Systems
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Multistage Stimulation Systems
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Multilateral Completion Systems
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Permanent Monitoring
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Intelligent Completions
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Packers
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Liner Hanger Systems
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Isolation Valves
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Safety Valves
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Sand Control Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Completion Accessories
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Completion Systems, Fluids & Tools
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Perforating
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Stimulation
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Subsea Landing String Services
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showSubseatwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showSubseatwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Subsea Landing String Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Subsea Artificial Lift Systems
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              OneSubsea
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showProductiontwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showProductiontwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Artificial Lift
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Production Logging
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Production Testing
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Cameron Life-of-Field Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Safety Systems
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              DryAccess Deepwater Production Systems
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Production Monitoring
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Production Optimization Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Corrosion Evaluation and Monitoring
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Production Technologies: Chemicals & Treatments
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showProcessingtwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showProcessingtwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Reservoir-Integrated Production System
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Oilfield Water Treatment Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Surface Facility Life Cycle Management Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Oil Treatment
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Water Treatment
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Gas Processing & Treatment
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Solids Management
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showWelltwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showWelltwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Coiled Tubing
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Slickline
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Thru-Tubing Intervention
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Wireline Cased Hole Intervention Service
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Casing Reconnect
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Expandable Steel Patches
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Subsea Landing String Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Fishing Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Sidetracking Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Comprehensive Plug and Abandonment Systems
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showTechnicaltwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showTechnicaltwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Deepwater Operations
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Flow Assurance
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Geothermal Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Unconventional Resources
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Heavy Oil
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Enhanced Oil Recovery
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Exploration
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Geomechanics
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              High Pressure, High Temperature
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Carbonate Reservoirs
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showBusinesstwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showBusinesstwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Carbon Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Geothermal Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Integrated Oilfield Projects
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Schlumberger Production Management
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              3Q Flow and Measurement Technical Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Oil and Gas Consulting, ADIL
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              NExT Oil and Gas Training and Competency Development
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Water Services
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Sensa Fiber-Optic Monitoring Systems
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showSoftwaretwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showSoftwaretwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Drilling Software
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Geology Software
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Geomechanics Software
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Geophysics Software
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Data & Analysis
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Petroleum Economics Software
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Petrotechnical IT
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Production Software
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Reservoir Engineering Software
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Software Training
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Software Support
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showCorporatetwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showCorporatetwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Backgrounder
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showGuidingtwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showGuidingtwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Corporate Governance
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Workforce Diversity
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showAccountabilitytwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showAccountabilitytwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Human Rights
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Conflict Minerals
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Political Contributions
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showFoundationtwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showFoundationtwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              About the Foundation
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Board and Staff
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showResearchtwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showResearchtwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Research Centers
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Technology & Product Centers
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showHistorytwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showHistorytwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              1920s: The First Well Log
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              1930s: Technology in Demand
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              1940s: New Frontiers
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              1950s: New Technology, Strategic Acquisitions
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              1960s: From the Ocean Depths to the Moon
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              1970s: The Exploration Boom
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              1980s: A Global Research Drive
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              1990s: Revolutionary Products
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              2000s: Building on Core Strengths
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              2010-Today: The Integration of Technology
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showBenefitstwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showBenefitstwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Human Resources
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Retiree Medical Plan
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showWebinarstwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showWebinarstwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Upstream Technology Leadership Series
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              M-I SWACO Webinar Series
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              WesternGeco Webinar Series
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showFreetwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showFreetwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              i-Handbook
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              PDSView Software Package for Viewing Oilfield Graphics Data Files
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              WellSync+ Application
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              WellEye 3D Borehole Data Viewer
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showReviewtwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showReviewtwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Oilfield Review
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Past Editions
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              E&P Defining Series
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Apps
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showPublicationstwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showPublicationstwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Middle East and Asia Reservoir Review
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Industry Articles
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Reference Books
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Reservoir Optimization Conferences
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showOthertwo}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='button']"
+        attachment="top left"
+        targetAttachment="bottom left"
+        onClose=(action (mut showOthertwo) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Brochures
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Product Sheets
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Catalogs
             </a>
           </li>
         </ul>
