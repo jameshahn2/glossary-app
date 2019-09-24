@@ -1717,7 +1717,7 @@
                               targetAttachment="bottom left"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo ml-435m mt-38m">
+                                <div class="flatmenuLevelTwo ml-425m mt-38m">
                                   <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
@@ -1838,7 +1838,7 @@
                               offset="0 275px"
                             }}
                               <Item.sublist as |List|>
-                                <div class="flatmenuLevelTwo ml-200 mt-38m">
+                                <div class="flatmenuLevelTwo ml-292m mt-38m">
                                   <ul>
                                     <List.item as |Item|>
                                       <li class="{{if Item.isActive "active"}} hover:bg-blue-lighter">
@@ -1963,37 +1963,37 @@
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light" data-tether-id="about">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showAbout) true}}>
               About Us
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light">
+            <a href="http://investorcenter.slb.com/" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light">
               Investors
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showNewsroom) true}}>
               Newsroom
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showHSE) true}}>
               HSE
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showCareers) true}}>
               Careers
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showAlumni) true}}>
               Alumni
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light">
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-15 pb-11 pl-20 hover:bg-blue-light" onclick={{action (mut showResources) true}}>
               Resources
             </a>
           </li>
@@ -2005,7 +2005,7 @@
       {{#modal-dialog
         tetherTarget="[data-tether-id='services']"
         attachment="top left"
-        targetAttachment="top right"
+        targetAttachment="top left"
         onClose=(action (mut showServices) false)
         clickOutsideToClose=true
       }}
@@ -2066,7 +2066,7 @@
             </a>
           </li>
           <li>
-            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+            <a href="https://www.slb.com/services/links.aspx" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
               Companies
             </a>
           </li>
@@ -2076,7 +2076,12 @@
 
     {{#if showAbout}}
       {{#modal-dialog
-        tetherTarget=(concat "[data-tether-id="" showAbout ""]")
+        tetherTarget="[data-tether-id='services']"
+        attachment="top left"
+        targetAttachment="top left"
+        onClose=(action (mut showAbout) false)
+        clickOutsideToClose=true
+
       }}
         <ul class="bg-blacker list-reset">
           <li>
@@ -2122,6 +2127,222 @@
         </ul>
       {{/modal-dialog}}
     {{/if}}
+
+    {{#if showNewsroom}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='services']"
+        attachment="top left"
+        targetAttachment="top left"
+        onClose=(action (mut showNewsroom) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Press Releases
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Executive Presentations
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Inside Schlumberger
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showHSE}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='services']"
+        attachment="top left"
+        targetAttachment="top left"
+        onClose=(action (mut showHSE) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              HSE Management System
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              HSE Policy Statement
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showCareers}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='services']"
+        attachment="top left"
+        targetAttachment="top left"
+        onClose=(action (mut showCareers) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Who We Are
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Recruiting and Training
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Students and Recent Graduates
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Experienced Professionals
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showAlumni}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='services']"
+        attachment="top left"
+        targetAttachment="top left"
+        onClose=(action (mut showAlumni) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Benefits
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Network
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              News
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
+    {{#if showResources}}
+      {{#modal-dialog
+        tetherTarget="[data-tether-id='services']"
+        attachment="top left"
+        targetAttachment="top left"
+        onClose=(action (mut showResources) false)
+        clickOutsideToClose=true
+
+      }}
+        <ul class="bg-blacker list-reset">
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Case Studies
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Curve Mnemonic Dictionary
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Mobile Applications
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              MSDS or SDS Sheets
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Tech Reports
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Videos
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Webinars
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Email Subscriptions
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Tradeshows & Events
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Free Software Utilities
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Industry Articles
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Training
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Oilfield Glossary
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Oilfield Review
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Publications
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              For Suppliers
+            </a>
+          </li>
+          <li>
+            <a href="#" class="block text-sm text-white font-bold no-underline hover:text-white pt-12 pr-40 pb-11 pl-20 hover:bg-blue-light">
+              Other Resources
+            </a>
+          </li>
+        </ul>
+      {{/modal-dialog}}
+    {{/if}}
+
 </nav>
   <div class="md:w-auto">
     <img src="https://www.glossary.oilfield.slb.com/~/media/Images/ofg_banner_201020918.ashx?h=111&w=980" alt="">
